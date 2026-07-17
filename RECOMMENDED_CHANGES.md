@@ -31,6 +31,9 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 - [x] Replace certification vendor marks with earned badges in one row beneath the Certifications title.
 - [x] Add employer logos to each business entry in the webpage experience section.
 - [x] Add the specified U.S. Army logo to the Army experience entry.
+- [x] Present certification badges in circular frames, include Security+ CE, AWS CCP, and Dell VxRail Deploy v2, and omit the CCNA badge.
+- [x] Place college favicons to the right of school names on transparent backgrounds.
+- [x] Use transparent backgrounds for business logos.
 - [x] Add print styles that hide website controls and prevent awkward page breaks.
 - [x] Keep the site lightweight and avoid a JavaScript framework unless the scope grows.
 
