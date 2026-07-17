@@ -3,12 +3,12 @@
 # Configure durable PDF backups for the Tim-Fox-Resume repository.
 #
 # Creates:
-#   pdf/Archive
+#   pdf/zArchive
 #   pdf/zArchive
 #   scripts/bash/archive-current-pdfs.sh
 #
 # Before a PDF generator overwrites any top-level pdf/*.pdf file, the helper
-# copies the current file to pdf/Archive with -YYYYMMDD appended. If another
+# copies the current file to pdf/zArchive with -YYYYMMDD appended. If another
 # different backup already exists for that date, a numeric suffix is added.
 #
 
@@ -23,7 +23,7 @@ readonly SCRIPTS_REL="scripts/bash"
 readonly SELF_REL="$SCRIPTS_REL/$SCRIPT_NAME"
 readonly HELPER_REL="$SCRIPTS_REL/$HELPER_NAME"
 readonly PDF_REL="pdf"
-readonly ARCHIVE_REL="pdf/Archive"
+readonly ARCHIVE_REL="pdf/zArchive"
 readonly ZARCHIVE_REL="pdf/zArchive"
 
 REPO_ROOT="$DEFAULT_REPO"
@@ -69,8 +69,8 @@ Options:
   -h, --help        Display this help text.
 
 Behavior:
-  - Creates pdf/Archive and pdf/zArchive.
-  - Archives each current top-level pdf/*.pdf file to pdf/Archive.
+  - Creates pdf/zArchive and pdf/zArchive.
+  - Archives each current top-level pdf/*.pdf file to pdf/zArchive.
   - Uses filename-YYYYMMDD.pdf for the first backup of the day.
   - Uses filename-YYYYMMDD-2.pdf, -3.pdf, etc. only when needed to avoid
     overwriting a different same-day backup.
@@ -200,7 +200,7 @@ Archive current top-level PDF files.
 Usage:
   archive-current-pdfs.sh [--repo PATH]
 
-Backups are stored in pdf/Archive as filename-YYYYMMDD.pdf. When a different
+Backups are stored in pdf/zArchive as filename-YYYYMMDD.pdf. When a different
 same-day backup already exists, -2, -3, and so on are appended to avoid loss.
 USAGE
 }
@@ -320,7 +320,7 @@ for filename, function_name in target_functions.items():
         old = 'git -C "$REPO_ROOT" add -- "$MASTER_REL" "$PDF_REL" "$SCRIPT_REL"'
         new = (
             'git -C "$REPO_ROOT" add -- "$MASTER_REL" "$PDF_REL" "$SCRIPT_REL" '
-            '"pdf/Archive" "pdf/zArchive" "scripts/bash/archive-current-pdfs.sh"'
+            '"pdf/zArchive" "pdf/zArchive" "scripts/bash/archive-current-pdfs.sh"'
         )
         if new not in text:
             if old not in text:
@@ -341,7 +341,7 @@ for filename, function_name in target_functions.items():
             new_block = '''  local -a publish_paths=(
     "$OUTPUT_RELATIVE_PATH"
     "$SCRIPT_RELATIVE_PATH"
-    "pdf/Archive"
+    "pdf/zArchive"
     "pdf/zArchive"
     "scripts/bash/archive-current-pdfs.sh"
   )
@@ -366,11 +366,11 @@ if standardizer.exists():
     text = standardizer.read_text(encoding="utf-8")
     anchor = '  "$PDF_REL"\n)'
     replacement = '  "$PDF_REL"\n  "$ARCHIVE_REL"\n  "$ZARCHIVE_REL"\n)'
-    if 'readonly ARCHIVE_REL="pdf/Archive"' not in text:
+    if 'readonly ARCHIVE_REL="pdf/zArchive"' not in text:
         text = text.replace(
             'readonly PDF_REL="pdf/Tim-Fox-Resume.pdf"\n',
             'readonly PDF_REL="pdf/Tim-Fox-Resume.pdf"\n'
-            'readonly ARCHIVE_REL="pdf/Archive"\n'
+            'readonly ARCHIVE_REL="pdf/zArchive"\n'
             'readonly ZARCHIVE_REL="pdf/zArchive"\n',
             1,
         )

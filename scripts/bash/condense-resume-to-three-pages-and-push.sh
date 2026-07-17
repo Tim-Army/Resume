@@ -625,7 +625,7 @@ commit_and_push() {
     return
   fi
 
-  git -C "$REPO_ROOT" add -- "$MASTER_REL" "$PDF_REL" "$SCRIPT_REL" "pdf/Archive" "pdf/zArchive" "scripts/bash/archive-current-pdfs.sh"
+  git -C "$REPO_ROOT" add -- "$MASTER_REL" "$PDF_REL" "$SCRIPT_REL" "pdf/zArchive" "pdf/zArchive" "scripts/bash/archive-current-pdfs.sh"
 
   if git -C "$REPO_ROOT" diff --cached --quiet; then
     log "No resume changes to commit."

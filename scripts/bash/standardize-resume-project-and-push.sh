@@ -1,3 +1,10 @@
+
+# PDF_ZARCHIVE_HOOK_V1
+if [[ -x "${REPO_DIR}/scripts/bash/archive-current-pdfs.sh" ]]; then
+  "${REPO_DIR}/scripts/bash/archive-current-pdfs.sh" "${REPO_DIR}"
+fi
+# PDF_ZARCHIVE_HOOK_V1_END
+
 #!/usr/bin/env bash
 #
 # Standardize the Tim-Fox-Resume project workflow:
@@ -25,7 +32,7 @@ readonly SCRIPTS_REL="scripts/bash"
 readonly GENERATOR_REL="$SCRIPTS_REL/condense-resume-to-three-pages-and-push.sh"
 readonly MASTER_REL="resume/master/Tim-Fox-Resume.md"
 readonly PDF_REL="pdf/Tim-Fox-Resume.pdf"
-readonly ARCHIVE_REL="pdf/Archive"
+readonly ARCHIVE_REL="pdf/zArchive"
 readonly ZARCHIVE_REL="pdf/zArchive"
 readonly SCRIPT_REL="$SCRIPTS_REL/$SCRIPT_NAME"
 

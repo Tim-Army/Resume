@@ -712,7 +712,7 @@ commit_and_push() {
   local -a publish_paths=(
     "$OUTPUT_RELATIVE_PATH"
     "$SCRIPT_RELATIVE_PATH"
-    "pdf/Archive"
+    "pdf/zArchive"
     "pdf/zArchive"
     "scripts/bash/archive-current-pdfs.sh"
   )
