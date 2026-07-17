@@ -36,6 +36,7 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 - [x] Use transparent backgrounds for business logos.
 - [x] Place business logos to the right of each business name, matching the education heading layout.
 - [x] Treat the U.S. Army as a business/employer and place its borderless logo in the same right-side layout.
+- [x] Right-align every employer logo as the final heading element and remove all framing from the Army mark.
 - [x] Add print styles that hide website controls and prevent awkward page breaks.
 - [x] Keep the site lightweight and avoid a JavaScript framework unless the scope grows.
 

@@ -307,16 +307,13 @@ h3 {
   margin-bottom: 0.65rem;
 }
 
-.role-employer {
-  display: flex;
+.role-heading--business > :first-child {
   min-width: 0;
-  align-items: center;
-  gap: 0.8rem;
 }
 
-.role-employer--business {
-  flex: 1 1 auto;
-  justify-content: space-between;
+.role-heading--business .role-date {
+  margin-top: 0.28rem;
+  text-align: left;
 }
 
 .business-logo-frame,
@@ -324,10 +321,10 @@ h3 {
   display: flex;
   flex: 0 0 6.5rem;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   min-height: 3.15rem;
-  padding: 0.45rem 0.55rem;
-  border: 1px solid transparent;
+  padding: 0;
+  border: 0;
   background: transparent;
 }
 
@@ -346,11 +343,13 @@ h3 {
   width: 100%;
   height: 2.15rem;
   object-fit: contain;
+  object-position: right center;
 }
 
 .service-logo-frame {
-  padding: 0.2rem;
-  border-color: transparent;
+  min-height: 0;
+  padding: 0;
+  border: 0;
   background: transparent;
 }
 
@@ -650,6 +649,10 @@ li + li {
   .role-heading,
   .site-footer {
     display: block;
+  }
+
+  .role-heading--business {
+    display: flex;
   }
 
   .role-date {
