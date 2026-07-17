@@ -1,32 +1,34 @@
 #!/usr/bin/env bash
 #
-# Create or reuse a GitHub repository named "Tim-Fox-Resume" and scaffold a
-# maintainable resume workspace.
+# Create, reuse, or repair a GitHub repository named "Tim-Fox-Resume" and
+# scaffold a maintainable resume workspace.
 #
-# The script is safe to rerun:
-#   - It reuses an existing GitHub repository.
-#   - It does not overwrite scaffold files unless --force is supplied.
-#   - It commits and pushes only when local changes exist.
+# Safe rerun behavior:
+#   - Reuses an existing GitHub repository.
+#   - Uses the current directory when it is already named Tim-Fox-Resume.
+#   - Avoids creating Tim-Fox-Resume/Tim-Fox-Resume accidentally.
+#   - Does not overwrite scaffold files unless --force is supplied.
+#   - Commits and pushes only when changes exist.
+#   - Can repair the accidental nested-directory layout with --repair-nested.
 #
 # Requirements:
 #   - git
-#   - GitHub CLI (gh), authenticated with permission to create repositories.
+#   - GitHub CLI (gh), authenticated with repository permissions.
 #
 # Typical usage:
-#   ./scripts/bash/create-tim-fox-resume-repo.sh
-#   ./scripts/bash/create-tim-fox-resume-repo.sh --owner USERNAME --open
-#   ./scripts/bash/create-tim-fox-resume-repo.sh --directory ~/Projects/Tim-Fox-Resume
-#   ./scripts/bash/create-tim-fox-resume-repo.sh --visibility public
-#
-# Optional rename workflow:
+#   ./scripts/bash/create-tim-fox-resume-repo.sh --open
+#   ./scripts/bash/create-tim-fox-resume-repo.sh --owner derg20 --open
 #   ./scripts/bash/create-tim-fox-resume-repo.sh \
-#     --rename-from OWNER/Old-Resume-Repo \
-#     --open
+#     --directory "$HOME/Documents/github/Tim-Fox-Resume" --open
+#
+# Repair an accidental Tim-Fox-Resume/Tim-Fox-Resume layout:
+#   ./scripts/bash/create-tim-fox-resume-repo.sh --repair-nested --open
 #
 
 set -Eeuo pipefail
 IFS=$'\n\t'
 
+readonly SCRIPT_VERSION="2026.07.16.2"
 readonly DEFAULT_REPO_NAME="Tim-Fox-Resume"
 readonly DEFAULT_VISIBILITY="private"
 readonly DEFAULT_DESCRIPTION="Version-controlled source files, targeted variants, and publishing workflow for Tim Fox's professional resume."
@@ -42,6 +44,10 @@ RENAME_FROM=""
 OPEN_REPO=false
 FORCE=false
 NO_PUSH=false
+REPAIR_NESTED=false
+LOCAL_DIR_EXPLICIT=false
+SCRIPT_COPY_SOURCE=""
+TEMP_SCRIPT_COPY=""
 
 log() {
   printf '[Tim-Fox-Resume] %s\n' "$*" >&2
@@ -56,46 +62,74 @@ fatal() {
   exit 1
 }
 
+cleanup() {
+  if [[ -n "$TEMP_SCRIPT_COPY" && -f "$TEMP_SCRIPT_COPY" ]]; then
+    rm -f "$TEMP_SCRIPT_COPY"
+  fi
+}
+trap cleanup EXIT
+
 usage() {
   cat <<'USAGE'
-Create or reuse the GitHub repository "Tim-Fox-Resume" and scaffold it locally.
+Create, reuse, or repair the GitHub repository "Tim-Fox-Resume".
 
 Usage:
   create-tim-fox-resume-repo.sh [options]
 
 Options:
-  --owner LOGIN             GitHub user or organization that will own the repo.
+  --owner LOGIN             GitHub user or organization that owns the repo.
                             Default: authenticated GitHub user.
   --directory PATH          Local repository directory.
-                            Default: ./Tim-Fox-Resume
-  --visibility VALUE        private, public, or internal for a newly created
-                            repository. Existing visibility is preserved.
-                            Default for new repositories: private
+                            Default behavior:
+                              * Use the current directory when it is already
+                                named Tim-Fox-Resume.
+                              * Otherwise use ./Tim-Fox-Resume.
+  --visibility VALUE        private, public, or internal for a new repository.
+                            Existing repository visibility is preserved.
+                            Default: private.
   --description TEXT        GitHub repository description.
   --homepage URL            GitHub repository homepage.
-                            Default: https://tim.army
-  --rename-from OWNER/REPO  Rename an existing repository to Tim-Fox-Resume
-                            before configuring the local workspace.
+                            Default: https://tim.army.
+  --rename-from OWNER/REPO  Rename an existing repository to Tim-Fox-Resume.
+  --repair-nested           Repair an accidental directory layout of:
+                              Tim-Fox-Resume/Tim-Fox-Resume/.git
+                            The outer wrapper is retained as a timestamped
+                            backup; it is not deleted.
   --force                   Replace scaffold files created by this script.
-  --no-push                 Create/configure locally without committing or pushing.
-  --open                    Open the finished repository in a browser.
+  --no-push                 Configure locally without committing or pushing.
+  --open                    Open the repository in a browser when complete.
+  --version                 Show the script version.
   -h, --help                Show this help text.
 
 Examples:
   ./scripts/bash/create-tim-fox-resume-repo.sh --open
 
   ./scripts/bash/create-tim-fox-resume-repo.sh \
-    --owner timfox2025 \
-    --directory "$HOME/Projects/Tim-Fox-Resume"
+    --owner derg20 \
+    --directory "$HOME/Documents/github/Tim-Fox-Resume" \
+    --open
 
   ./scripts/bash/create-tim-fox-resume-repo.sh \
-    --rename-from timfox2025/Tim-Fox-Resume-Old \
+    --directory "$HOME/Documents/github/Tim-Fox-Resume" \
+    --repair-nested \
     --open
 USAGE
 }
 
 require_command() {
   command -v "$1" >/dev/null 2>&1 || fatal "Required command not found: $1"
+}
+
+capture_script_copy() {
+  local source_path source_abs
+
+  source_path="${BASH_SOURCE[0]}"
+  source_abs=$(cd "$(dirname "$source_path")" && pwd)/$(basename "$source_path")
+
+  TEMP_SCRIPT_COPY=$(mktemp "${TMPDIR:-/tmp}/create-tim-fox-resume-repo.XXXXXX")
+  cp "$source_abs" "$TEMP_SCRIPT_COPY"
+  chmod 0755 "$TEMP_SCRIPT_COPY"
+  SCRIPT_COPY_SOURCE="$TEMP_SCRIPT_COPY"
 }
 
 parse_args() {
@@ -109,6 +143,7 @@ parse_args() {
       --directory)
         [[ $# -ge 2 ]] || fatal "--directory requires a path."
         LOCAL_DIR="$2"
+        LOCAL_DIR_EXPLICIT=true
         shift 2
         ;;
       --visibility)
@@ -131,6 +166,10 @@ parse_args() {
         RENAME_FROM="$2"
         shift 2
         ;;
+      --repair-nested)
+        REPAIR_NESTED=true
+        shift
+        ;;
       --force)
         FORCE=true
         shift
@@ -142,6 +181,10 @@ parse_args() {
       --open)
         OPEN_REPO=true
         shift
+        ;;
+      --version)
+        printf "%s\n" "$SCRIPT_VERSION"
+        exit 0
         ;;
       -h|--help)
         usage
@@ -181,19 +224,37 @@ detect_owner() {
   [[ -n "$OWNER" ]] || fatal "GitHub owner could not be determined."
 }
 
+absolute_path() {
+  local input="$1"
+
+  if [[ "$input" == "~/"* ]]; then
+    input="$HOME/${input#~/}"
+  fi
+
+  if [[ "$input" != /* ]]; then
+    input="$PWD/$input"
+  fi
+
+  # Normalize the parent directory without requiring the final path to exist.
+  local parent base
+  parent=$(dirname "$input")
+  base=$(basename "$input")
+  mkdir -p "$parent"
+  parent=$(cd "$parent" && pwd -P)
+  printf '%s/%s\n' "$parent" "$base"
+}
+
 set_local_directory() {
-  if [[ -z "$LOCAL_DIR" ]]; then
-    LOCAL_DIR="$PWD/$REPO_NAME"
+  if [[ "$LOCAL_DIR_EXPLICIT" == false ]]; then
+    if [[ "$(basename "$PWD")" == "$REPO_NAME" ]]; then
+      LOCAL_DIR="$PWD"
+      log "Current directory is already named '$REPO_NAME'; using it as the repository root."
+    else
+      LOCAL_DIR="$PWD/$REPO_NAME"
+    fi
   fi
 
-  # Expand a leading ~/ without using eval.
-  if [[ "$LOCAL_DIR" == "~/"* ]]; then
-    LOCAL_DIR="$HOME/${LOCAL_DIR#~/}"
-  fi
-
-  if [[ "$LOCAL_DIR" != /* ]]; then
-    LOCAL_DIR="$PWD/$LOCAL_DIR"
-  fi
+  LOCAL_DIR=$(absolute_path "$LOCAL_DIR")
 }
 
 repo_exists() {
@@ -213,10 +274,62 @@ rename_repository_if_requested() {
 
   local source_owner="${RENAME_FROM%%/*}"
   [[ "$source_owner" == "$OWNER" ]] || fatal \
-    "--rename-from owner '$source_owner' must match target owner '$OWNER'. GitHub CLI rename does not transfer ownership."
+    "--rename-from owner '$source_owner' must match target owner '$OWNER'."
 
   log "Renaming '$RENAME_FROM' to '$target'."
   gh repo rename "$REPO_NAME" --repo "$RENAME_FROM" --yes
+}
+
+nested_repo_path() {
+  printf '%s/%s\n' "$LOCAL_DIR" "$REPO_NAME"
+}
+
+has_accidental_nested_repo() {
+  local nested
+  nested=$(nested_repo_path)
+  [[ ! -d "$LOCAL_DIR/.git" && -d "$nested/.git" ]]
+}
+
+repair_nested_repository() {
+  [[ "$REPAIR_NESTED" == true ]] || return 0
+
+  if ! has_accidental_nested_repo; then
+    if [[ -d "$LOCAL_DIR/.git" ]]; then
+      log "Repository root is already correct; no nested repair is required."
+      return 0
+    fi
+
+    fatal "No accidental nested repository was found at '$LOCAL_DIR/$REPO_NAME/.git'."
+  fi
+
+  local wrapper nested backup timestamp
+  wrapper="$LOCAL_DIR"
+  nested=$(nested_repo_path)
+  timestamp=$(date '+%Y%m%d-%H%M%S')
+  backup="${wrapper}.wrapper-backup-${timestamp}"
+
+  [[ ! -e "$backup" ]] || fatal "Backup path already exists: '$backup'."
+
+  log "Repairing accidental nested repository layout."
+  log "Moving wrapper directory to '$backup'."
+  mv "$wrapper" "$backup"
+
+  [[ -d "$backup/$REPO_NAME/.git" ]] || fatal \
+    "Nested repository was not found after creating backup '$backup'."
+
+  log "Moving the nested Git repository into the intended path '$wrapper'."
+  mv "$backup/$REPO_NAME" "$wrapper"
+
+  [[ -d "$wrapper/.git" ]] || fatal "Nested repository repair did not produce '$wrapper/.git'."
+
+  log "Nested repository repair completed."
+  warn "The former outer wrapper was retained at '$backup'. Review it before deleting it."
+}
+
+refuse_unrepaired_nested_layout() {
+  if has_accidental_nested_repo; then
+    fatal "Detected an accidental nested repository at '$LOCAL_DIR/$REPO_NAME'. Rerun with --repair-nested. The outer wrapper will be retained as a backup."
+  fi
 }
 
 prepare_local_workspace() {
@@ -423,32 +536,30 @@ Describe the requested resume change.
 - [ ] No sensitive or restricted information is exposed.
 ISSUE_TEMPLATE
 
-  # Preserve empty export and archive directories in Git.
   : >"$LOCAL_DIR/exports/docx/.gitkeep"
   : >"$LOCAL_DIR/exports/pdf/.gitkeep"
   : >"$LOCAL_DIR/archive/.gitkeep"
 }
 
 install_script_copy() {
-  local source_path target_path source_abs target_abs
+  local target_path
 
-  source_path="${BASH_SOURCE[0]}"
-  source_abs=$(cd "$(dirname "$source_path")" && pwd)/$(basename "$source_path")
   target_path="$LOCAL_DIR/scripts/bash/create-tim-fox-resume-repo.sh"
-  target_abs=$(cd "$(dirname "$target_path")" && pwd)/$(basename "$target_path")
-
-  if [[ "$source_abs" == "$target_abs" ]]; then
-    return 0
-  fi
 
   if [[ -e "$target_path" && "$FORCE" != true ]]; then
-    log "Keeping existing file: scripts/bash/create-tim-fox-resume-repo.sh"
-    return 0
+    if cmp -s "$SCRIPT_COPY_SOURCE" "$target_path"; then
+      log "Keeping existing file: scripts/bash/create-tim-fox-resume-repo.sh"
+      return 0
+    fi
+
+    # The setup script is infrastructure, so update it even without --force.
+    log "Updating setup script: scripts/bash/create-tim-fox-resume-repo.sh"
+  else
+    log "Installing setup script: scripts/bash/create-tim-fox-resume-repo.sh"
   fi
 
-  cp "$source_abs" "$target_path"
+  cp "$SCRIPT_COPY_SOURCE" "$target_path"
   chmod 0755 "$target_path"
-  log "Installed script: scripts/bash/create-tim-fox-resume-repo.sh"
 }
 
 initialize_git_repository() {
@@ -556,6 +667,23 @@ configure_remote_repository() {
     >/dev/null
 }
 
+synchronize_before_push() {
+  if ! git -C "$LOCAL_DIR" remote get-url origin >/dev/null 2>&1; then
+    return 0
+  fi
+
+  if git -C "$LOCAL_DIR" rev-parse --verify HEAD >/dev/null 2>&1; then
+    git -C "$LOCAL_DIR" fetch origin --prune
+
+    if git -C "$LOCAL_DIR" show-ref --verify --quiet refs/remotes/origin/main; then
+      if ! git -C "$LOCAL_DIR" merge-base --is-ancestor origin/main HEAD; then
+        log "Fast-forwarding or rebasing local changes onto origin/main."
+        git -C "$LOCAL_DIR" rebase origin/main
+      fi
+    fi
+  fi
+}
+
 commit_and_push_changes() {
   if [[ "$NO_PUSH" == true ]]; then
     warn "--no-push supplied; leaving changes uncommitted and unpushed."
@@ -563,6 +691,7 @@ commit_and_push_changes() {
   fi
 
   configure_git_identity_if_missing
+  synchronize_before_push
   git -C "$LOCAL_DIR" add --all
 
   if git -C "$LOCAL_DIR" diff --cached --quiet; then
@@ -611,14 +740,18 @@ EOF
 }
 
 main() {
+  capture_script_copy
   parse_args "$@"
   validate_inputs
+  log "Script version: $SCRIPT_VERSION"
   require_command gh
   require_command git
   check_authentication
   detect_owner
   set_local_directory
   rename_repository_if_requested
+  repair_nested_repository
+  refuse_unrepaired_nested_layout
 
   local full_repo="$OWNER/$REPO_NAME"
 
