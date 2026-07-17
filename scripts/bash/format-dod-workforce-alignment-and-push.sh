@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #
-# Restore the DoD workforce qualification alignment statement to the condensed
-# Tim Fox resume, regenerate the three-page PDF, commit the affected files,
-# and push the current branch to GitHub.
+# Format the DoD workforce qualification alignment as a certification-style
+# bullet with a bold label, regenerate the three-page PDF, commit the affected
+# files, and push the current branch to GitHub.
 #
 # Default repository:
 #   $HOME/Documents/github/Tim-Fox-Resume
@@ -12,19 +12,22 @@ set -Eeuo pipefail
 IFS=$'\n\t'
 
 readonly SCRIPT_VERSION="2026.07.17.1"
-readonly SCRIPT_NAME="add-dod-workforce-alignment-and-push.sh"
+readonly SCRIPT_NAME="format-dod-workforce-alignment-and-push.sh"
 readonly DEFAULT_REPO="$HOME/Documents/github/Tim-Fox-Resume"
 readonly MASTER_REL="resume/master/Tim-Fox-Resume.md"
 readonly PDF_REL="pdf/Tim-Fox-Resume.pdf"
 readonly CONDENSE_REL="scripts/bash/condense-resume-to-three-pages-and-push.sh"
+readonly LEGACY_REL="scripts/bash/add-dod-workforce-alignment-and-push.sh"
 readonly SCRIPT_REL="scripts/bash/$SCRIPT_NAME"
-readonly ALIGNMENT="- **DoD Workforce Qualification Alignment:** DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications."
+readonly ALIGNMENT_LABEL="DoD Workforce Qualification Alignment:"
+readonly ALIGNMENT_TEXT="DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications."
+readonly ALIGNMENT_BULLET="- **${ALIGNMENT_LABEL}** ${ALIGNMENT_TEXT}"
 
 REPO_ROOT="$DEFAULT_REPO"
 COMMIT_CHANGES=true
 PUSH_CHANGES=true
 OPEN_PDF=false
-COMMIT_MESSAGE="docs: restore DoD workforce qualification alignment"
+COMMIT_MESSAGE="docs: format DoD workforce alignment as certification bullet"
 SOURCE_SCRIPT=""
 TEMP_SELF=""
 
@@ -49,29 +52,30 @@ trap cleanup EXIT
 
 usage() {
   cat <<'USAGE'
-Restore the DoD workforce qualification alignment statement and publish it.
+Format and publish the DoD workforce qualification alignment bullet.
 
 Usage:
-  add-dod-workforce-alignment-and-push.sh [options]
+  format-dod-workforce-alignment-and-push.sh [options]
 
 Options:
   --repo PATH       Tim-Fox-Resume repository root.
                     Default: ~/Documents/github/Tim-Fox-Resume
-  --no-commit       Update the files without creating a Git commit.
+  --no-commit       Update files without creating a Git commit.
   --no-push         Commit locally without pushing to GitHub.
   --message TEXT    Git commit message.
   --open            Open the regenerated PDF on macOS.
   --version         Display the script version.
   -h, --help        Display this help text.
 
+The resulting resume line is:
+  - **DoD Workforce Qualification Alignment:** DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications.
+
 Files created or updated:
   resume/master/Tim-Fox-Resume.md
   pdf/Tim-Fox-Resume.pdf
   scripts/bash/condense-resume-to-three-pages-and-push.sh
-  scripts/bash/add-dod-workforce-alignment-and-push.sh
-
-The statement is inserted beneath the certification groups as a bold,
-certification-style bullet.
+  scripts/bash/add-dod-workforce-alignment-and-push.sh (when present)
+  scripts/bash/format-dod-workforce-alignment-and-push.sh
 USAGE
 }
 
@@ -100,7 +104,7 @@ absolute_path() {
 
 capture_self() {
   SOURCE_SCRIPT=$(absolute_path "${BASH_SOURCE[0]}")
-  TEMP_SELF=$(mktemp "${TMPDIR:-/tmp}/dod-workforce-alignment.XXXXXX")
+  TEMP_SELF=$(mktemp "${TMPDIR:-/tmp}/format-dod-alignment.XXXXXX")
   cp "$SOURCE_SCRIPT" "$TEMP_SELF"
   chmod 0755 "$TEMP_SELF"
 }
@@ -172,27 +176,40 @@ install_script() {
   fi
 }
 
-patch_generator() {
+patch_three_page_generator() {
   local generator="$REPO_ROOT/$CONDENSE_REL"
 
-  python3 - "$generator" "$ALIGNMENT" <<'PY'
+  python3 - "$generator" "$ALIGNMENT_BULLET" "$ALIGNMENT_LABEL" <<'PY'
+import re
 import sys
 from pathlib import Path
 
 path = Path(sys.argv[1])
-alignment = sys.argv[2]
+desired = sys.argv[2]
+label = sys.argv[3]
 text = path.read_text(encoding="utf-8")
 
-if alignment not in text:
-    anchor = (
-        "- **Cloud, Virtualization, and Data Center:** AWS Certified Cloud Practitioner; "
-        "Dell VxRail Deploy Version 2; VMware VCA-DCV.\n"
-    )
-    if anchor not in text:
-        raise SystemExit(
-            "Unable to find the certifications anchor in the three-page generator."
-        )
-    text = text.replace(anchor, anchor + "\n" + alignment + "\n", 1)
+# Remove any previous unbulleted, unbolded, or differently bolded version.
+patterns = [
+    rf"(?m)^DoD Workforce Qualification Alignment:\s*DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications\.\s*$",
+    rf"(?m)^-\s*DoD Workforce Qualification Alignment:\s*DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications\.\s*$",
+    rf"(?m)^\*\*DoD Workforce Qualification Alignment:\*\*\s*DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications\.\s*$",
+    rf"(?m)^-\s*\*\*DoD Workforce Qualification Alignment:\*\*\s*DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications\.\s*$",
+]
+for pattern in patterns:
+    text = re.sub(pattern, "", text)
+
+# Normalize excessive blank lines created by replacement.
+text = re.sub(r"\n{3,}", "\n\n", text)
+
+anchor = (
+    "- **Cloud, Virtualization, and Data Center:** AWS Certified Cloud Practitioner; "
+    "Dell VxRail Deploy Version 2; VMware VCA-DCV.\n"
+)
+if anchor not in text:
+    raise SystemExit("Unable to find the Cloud, Virtualization, and Data Center certification bullet.")
+
+text = text.replace(anchor, anchor + desired + "\n", 1)
 
 cleanup_old = """cleanup() {
   [[ -n "$TEMP_SELF" && -f "$TEMP_SELF" ]] && rm -f "$TEMP_SELF"
@@ -206,18 +223,53 @@ cleanup_new = """cleanup() {
 if cleanup_old in text:
     text = text.replace(cleanup_old, cleanup_new, 1)
 
-path.write_text(text, encoding="utf-8")
-
-count = text.count(alignment)
-if count != 1:
+if text.count(desired) != 1:
     raise SystemExit(
-        f"Expected the qualification statement once in the generator; found {count}."
+        f"Expected the formatted qualification bullet once in the generator; found {text.count(desired)}."
     )
+
+path.write_text(text, encoding="utf-8")
 PY
 
   chmod 0755 "$generator"
   bash -n "$generator" || fatal "Bash syntax validation failed for $CONDENSE_REL."
-  log "Updated the three-page resume generator."
+  log "Formatted the DoD qualification bullet in the three-page generator."
+}
+
+patch_legacy_update_script() {
+  local legacy="$REPO_ROOT/$LEGACY_REL"
+  [[ -f "$legacy" ]] || return 0
+
+  python3 - "$legacy" "$ALIGNMENT_BULLET" <<'PY'
+import re
+import sys
+from pathlib import Path
+
+path = Path(sys.argv[1])
+desired = sys.argv[2]
+text = path.read_text(encoding="utf-8")
+
+# Make future runs of the older helper preserve the new bullet formatting.
+text, count = re.subn(
+    r'(?m)^readonly ALIGNMENT=".*"$',
+    'readonly ALIGNMENT="' + desired.replace('"', '\\"') + '"',
+    text,
+    count=1,
+)
+if count != 1:
+    raise SystemExit("Unable to update the ALIGNMENT constant in the legacy helper.")
+
+text = text.replace(
+    "The statement is inserted beneath the certification groups as a separate\nqualification-alignment line, not as a professional certification.",
+    "The statement is inserted beneath the certification groups as a bold,\ncertification-style bullet.",
+)
+
+path.write_text(text, encoding="utf-8")
+PY
+
+  chmod 0755 "$legacy"
+  bash -n "$legacy" || fatal "Bash syntax validation failed for $LEGACY_REL."
+  log "Updated the legacy DoD alignment helper to preserve the bullet format."
 }
 
 regenerate_resume_and_pdf() {
@@ -240,18 +292,27 @@ validate_output() {
   [[ -x "$installed" ]] || fatal "Update script is not executable: $SCRIPT_REL"
 
   local master_count generator_count
-  master_count=$(grep -Fxc "$ALIGNMENT" "$master" || true)
-  generator_count=$(grep -Fxc "$ALIGNMENT" "$generator" || true)
+  master_count=$(grep -Fxc -- "$ALIGNMENT_BULLET" "$master" || true)
+  generator_count=$(grep -Fxc -- "$ALIGNMENT_BULLET" "$generator" || true)
 
   [[ "$master_count" -eq 1 ]] \
-    || fatal "Expected the qualification statement once in $MASTER_REL; found $master_count."
+    || fatal "Expected the formatted qualification bullet once in $MASTER_REL; found $master_count."
   [[ "$generator_count" -eq 1 ]] \
-    || fatal "Expected the qualification statement once in $CONDENSE_REL; found $generator_count."
+    || fatal "Expected the formatted qualification bullet once in $CONDENSE_REL; found $generator_count."
+
+  if grep -Fqx -- "${ALIGNMENT_LABEL} ${ALIGNMENT_TEXT}" "$master"; then
+    fatal "The old unformatted qualification line is still present in $MASTER_REL."
+  fi
 
   bash -n "$generator" || fatal "Bash syntax validation failed for $CONDENSE_REL."
   bash -n "$installed" || fatal "Bash syntax validation failed for $SCRIPT_REL."
 
-  log "PASS: qualification statement, PDF, and Bash syntax validation."
+  if [[ -f "$REPO_ROOT/$LEGACY_REL" ]]; then
+    bash -n "$REPO_ROOT/$LEGACY_REL" \
+      || fatal "Bash syntax validation failed for $LEGACY_REL."
+  fi
+
+  log "PASS: bold bullet, three-page PDF, and Bash syntax validation."
 }
 
 commit_and_push() {
@@ -260,14 +321,18 @@ commit_and_push() {
     return
   fi
 
-  git -C "$REPO_ROOT" add -- \
-    "$MASTER_REL" \
-    "$PDF_REL" \
-    "$CONDENSE_REL" \
+  local files=(
+    "$MASTER_REL"
+    "$PDF_REL"
+    "$CONDENSE_REL"
     "$SCRIPT_REL"
+  )
+  [[ -f "$REPO_ROOT/$LEGACY_REL" ]] && files+=("$LEGACY_REL")
+
+  git -C "$REPO_ROOT" add -- "${files[@]}"
 
   if git -C "$REPO_ROOT" diff --cached --quiet; then
-    log "No qualification-alignment changes to commit."
+    log "No DoD alignment formatting changes to commit."
   else
     git -C "$REPO_ROOT" commit -m "$COMMIT_MESSAGE"
     log "Created Git commit: $COMMIT_MESSAGE"
@@ -317,7 +382,8 @@ main() {
 
   log "Repository root: $REPO_ROOT"
   install_script
-  patch_generator
+  patch_three_page_generator
+  patch_legacy_update_script
   regenerate_resume_and_pdf
   validate_output
   commit_and_push
