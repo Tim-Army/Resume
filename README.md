@@ -2,12 +2,13 @@
 
 A lightweight static website for presenting Tim Fox's full professional experience, technical expertise, education, and contact information. The site provides both a concise one-page PDF and an expanded four-page PDF resume.
 
-The header presents exactly three title bullets. Contact, profile, and resume resource links open in a new tab, while the accessibility skip link and footer's back-to-top link navigate within the current page.
+The site defaults to a dark theme with `#090` text. An upper-right theme link switches between dark and light modes and remembers the visitor's choice. The header presents exactly three title bullets. Contact, profile, and resume resource links open in a new tab, while the theme control, accessibility skip link, and footer's back-to-top link remain within the current page.
 
 ## Site files
 
 - `index.html` — Resume website content and metadata.
 - `styles.css` — Responsive screen and print styles.
+- `theme.js` — Dark/light theme switching and saved visitor preference.
 - `.nojekyll` — Tells GitHub Pages to serve the static files without Jekyll processing.
 - `assets/flag-of-the-united-states.svg` — Public-domain American flag used in the site header.
 - `assets/favicon/` — Browser and device icons.

@@ -9,7 +9,7 @@
       content="Tim Fox is a lead and principal network engineer, infrastructure leader, inventor, lifelong learner, and tech coach with more than 20 years of enterprise, data center, healthcare, and federal networking experience."
     >
     <link rel="canonical" href="https://tim.army/doku/doku.php?id=aboutme">
-    <meta name="theme-color" content="#0a3161">
+    <meta id="theme-color" name="theme-color" content="#000000">
 
     <meta property="og:type" content="profile">
     <meta property="og:site_name" content="Tim Fox Resume">
@@ -47,6 +47,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
     <link rel="stylesheet" href="styles.css">
+    <script src="theme.js"></script>
 
     <script type="application/ld+json">
       {
@@ -68,6 +69,7 @@
 
     <header class="site-header">
       <div class="page-width hero">
+        <a class="theme-toggle" id="theme-toggle" href="#light-mode" role="button" aria-pressed="false" aria-label="Switch to light mode">Light mode</a>
         <ul class="eyebrow hero-titles" aria-label="Professional titles">
           <li>Network Infrastructure Leader</li>
           <li>Principal Network Engineer</li>
