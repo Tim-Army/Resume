@@ -22,6 +22,8 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 - **Cybersecurity:** GIAC GCED; CompTIA Security+ CE; Fortinet Certified Associate in Cybersecurity.
 - **Cloud, Virtualization, and Data Center:** AWS Certified Cloud Practitioner; Dell VxRail Deploy Version 2; VMware VCA-DCV.
 
+DoD Workforce Qualification Alignment: DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications.
+
 ## PROFESSIONAL EXPERIENCE
 
 ### LEIDOS INC.
