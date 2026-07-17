@@ -56,7 +56,36 @@ Principal Network Engineer and people leader with more than 20 years of experien
 
 - Managed 2 Internet cafes with 100% availability, supported approximately 800 users, and earned recognition for deploying the Defense Messaging System in Germany.
 
-## EDUCATION AND DEVELOPMENT
+## EDUCATION
 
-**Master of Business Administration**, Webster University, March 2025 | **BS, Computer Networking and Systems Administration**, Michigan Technological University, 2014 | **AAS, Computer Information Systems**, Jefferson Community College, 2010.  
-Full-time education and technical development, 2006-2016 | CCIE Enterprise Infrastructure Advanced Training, 2025 | Multi-vendor Cisco, Dell VxRail, VMware, Linux, and security lab.
+### WEBSTER UNIVERSITY
+
+**Master of Business Administration | March 2025**
+
+Coursework included business and financial analysis, accounting, business strategy, and Securities and Exchange Commission filings.
+
+### MICHIGAN TECHNOLOGICAL UNIVERSITY - Houghton, Michigan
+
+**Bachelor of Science, Computer Networking and Systems Administration | 2011-2014**
+
+Coursework included project management, Cisco enterprise networking, network security engineering, Linux administration, and Windows Server administration.
+
+### JEFFERSON COMMUNITY COLLEGE - Watertown, New York
+
+**Associate of Applied Science, Computer Information Systems | 2007-2010**
+
+Foundational studies included information systems, computer networking, systems administration, and technical support.
+
+## PROFESSIONAL DEVELOPMENT
+
+- CCIE Enterprise Infrastructure Advanced Training, Micronics Training | December 2025.
+- AWS Certified Cloud Practitioner Essentials, Amazon Web Services | May 2025.
+- Dell VxRail Installation and Implementation Training | October 2024.
+- CCIE Routing and Switching Advanced Training, Micronics Training | February 2017.
+- Developing the Leader Within Workshop, Atlanta, Georgia | August 2006.
+- Studied the five levels of leadership as a framework for leadership development and organizational success.
+
+## TECHNICAL LAB
+
+- Maintain a multi-vendor infrastructure lab incorporating Cisco routing and switching, Dell VxRail, virtualization technologies, servers, and network-security appliances.
+- Use the lab for engineering, configuration, troubleshooting, integration, testing, and continuous technical development.
