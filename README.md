@@ -2,15 +2,17 @@
 
 A lightweight static website for presenting Tim Fox's full professional experience, technical expertise, education, and contact information. The site provides both a concise one-page PDF and an expanded four-page PDF resume.
 
-The site defaults to a dark theme with `#090` text. An upper-right theme link switches between dark and light modes and remembers the visitor's choice. The header presents the professional title as one bullet. Contact, profile, and resume resource links open in a new tab, while the theme control, accessibility skip link, and footer's back-to-top link remain within the current page.
+The site defaults to a dark theme with `#090` text. An upper-right theme link switches between dark and light modes and remembers the visitor's choice. The header presents the professional title as one bullet. Contact, profile, and resume resource links open in a new tab, while the theme control, accessibility skip link, and footer's back-to-top link remain within the current page. Email links are masked in the static HTML and restored in the browser for visitors with JavaScript enabled.
 
 ## Site files
 
 - `index.html` — Resume website content and metadata.
 - `styles.css` — Responsive screen and print styles.
 - `theme.js` — Dark/light theme switching and saved visitor preference.
+- `email.js` — Restores masked email links in the visitor's browser.
 - `.nojekyll` — Tells GitHub Pages to serve the static files without Jekyll processing.
 - `assets/flag-of-the-united-states.svg` — Public-domain American flag used in the site header.
+- `assets/college-logos/` — College logos displayed only in the webpage education section.
 - `assets/favicon/` — Browser and device icons.
 - `pdf/Tim-Fox-Resume-one-page.pdf` — Concise one-page resume.
 - `pdf/Tim-Fox-Resume.pdf` — Full four-page resume.
@@ -40,6 +42,8 @@ The canonical professional profile is [tim.army](https://tim.army/doku/doku.php?
 To use another static host, publish `index.html`, `styles.css`, `assets/`, and `pdf/` together while preserving their directory structure.
 
 The header uses the public-domain [Flag of the United States](https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg) from Wikimedia Commons.
+
+The webpage education section uses the [Webster University text logo](https://commons.wikimedia.org/wiki/File:Webster_University_Logo.svg), an official [Michigan Tech full-name logo](https://www.mtu.edu/umc/resources/download/), and Jefferson Community College's [current brand identity](https://sunyjefferson.edu/news/brand_revealed.php). These institutional marks remain the property of their respective owners and are used only to identify Tim's alma maters.
 
 ## Updating the resume
 

@@ -25,6 +25,8 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 - [x] Add a bottom-right back-to-top link.
 - [x] Make dark mode the default with `#090` text.
 - [x] Add an upper-right light-mode link with a saved visitor preference.
+- [x] Mask email links in the static webpage source.
+- [x] Add college logos to the webpage education section only.
 - [x] Add print styles that hide website controls and prevent awkward page breaks.
 - [x] Keep the site lightweight and avoid a JavaScript framework unless the scope grows.
 
