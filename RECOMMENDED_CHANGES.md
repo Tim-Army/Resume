@@ -20,7 +20,7 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 - [x] Expand the webpage and full PDF to the reviewed four-page resume content.
 - [x] Add an American flag header while preserving readable text contrast.
 - [x] Reduce the professional summary body font by 10%.
-- [x] Present the combined professional headline as exactly three title bullets.
+- [x] Present the professional headline as one title bullet.
 - [x] Open contact, profile, and resume resource links in new tabs.
 - [x] Add a bottom-right back-to-top link.
 - [x] Make dark mode the default with `#090` text.
