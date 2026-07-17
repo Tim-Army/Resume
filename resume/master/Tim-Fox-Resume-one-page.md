@@ -58,7 +58,7 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 
 ## EDUCATION
 
-### WEBSTER UNIVERSITY
+### WEBSTER UNIVERSITY - St. Louis, MO
 
 **Master of Business Administration | March 2025**
 
