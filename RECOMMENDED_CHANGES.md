@@ -34,6 +34,8 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 - [x] Present certification badges in circular frames, include Security+ CE, AWS CCP, and Dell VxRail Deploy v2, and omit the CCNA badge.
 - [x] Place college favicons to the right of school names on transparent backgrounds.
 - [x] Use transparent backgrounds for business logos.
+- [x] Place business logos to the right of each business name, matching the education heading layout.
+- [x] Treat the U.S. Army as a business/employer and place its borderless logo in the same right-side layout.
 - [x] Add print styles that hide website controls and prevent awkward page breaks.
 - [x] Keep the site lightweight and avoid a JavaScript framework unless the scope grows.
 

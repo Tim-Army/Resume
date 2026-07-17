@@ -314,6 +314,11 @@ h3 {
   gap: 0.8rem;
 }
 
+.role-employer--business {
+  flex: 1 1 auto;
+  justify-content: space-between;
+}
+
 .business-logo-frame,
 .service-logo-frame {
   display: flex;
@@ -345,8 +350,8 @@ h3 {
 
 .service-logo-frame {
   padding: 0.2rem;
-  border-color: #d7e0e7;
-  background: #ffffff;
+  border-color: transparent;
+  background: transparent;
 }
 
 .service-logo {
