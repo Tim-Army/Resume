@@ -6,7 +6,7 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 
 - [x] Add the current resume content to the site from `resume/master/Tim-Fox-Resume-one-page.md`.
 - [x] Put name, target role, contact links, experience, skills, and education in a clear scanning order.
-- [ ] Review all wording for concise, achievement-focused bullet points with measurable outcomes where possible.
+- [x] Review all wording for concise, achievement-focused bullet points with measurable outcomes where possible.
 - [ ] Remove unnecessary personal information such as a full street address.
 - [ ] Check spelling, grammar, dates, job titles, and contact links.
 

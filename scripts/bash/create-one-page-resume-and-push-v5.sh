@@ -13,7 +13,7 @@
 set -Eeuo pipefail
 IFS=$'\n\t'
 
-readonly SCRIPT_VERSION="2026.07.17.5"
+readonly SCRIPT_VERSION="2026.07.17.6"
 readonly SCRIPT_NAME="create-one-page-resume-and-push-v5.sh"
 readonly DEFAULT_REPO="$HOME/Documents/github/Tim-Fox-Resume"
 readonly MARKDOWN_REL="resume/master/Tim-Fox-Resume-one-page.md"
@@ -25,7 +25,7 @@ REPO_ROOT="$DEFAULT_REPO"
 COMMIT_CHANGES=true
 PUSH_CHANGES=true
 OPEN_PDF=false
-COMMIT_MESSAGE="docs: add GitHub technical lab achievements to one-page resume"
+COMMIT_MESSAGE="docs: sharpen one-page resume achievements"
 SOURCE_SCRIPT=""
 TEMP_SELF=""
 VENV_DIR=""
@@ -248,7 +248,7 @@ United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://
 
 ## PROFESSIONAL SUMMARY
 
-Principal Network Engineer and technical leader with more than 20 years of experience designing, deploying, securing, and supporting mission-critical enterprise, data center, healthcare, and federal networks. Combines hands-on multi-vendor engineering expertise with people leadership, an MBA, and a record of mentoring teams through complex infrastructure deployments and operational challenges.
+Principal Network Engineer and people leader with more than 20 years of experience designing, deploying, securing, and restoring mission-critical networks across enterprise, data center, healthcare, and federal environments. Brings hands-on multi-vendor expertise, an MBA, and a record of developing engineers through complex deployments and high-stakes operational challenges.
 
 ## CORE EXPERTISE
 
@@ -266,37 +266,37 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 
 ### LEIDOS INC. | Supervisor / Principal Network Engineer | March 2026-Present
 
-- Lead 2 direct reports within an approximately 12-person infrastructure engineering team; remove operational blockers and provide technical development across Cisco, Juniper, Dell, and Red Hat technologies.
-- Provide senior technical direction for complex multi-vendor network and infrastructure escalations.
+- Lead and develop 2 direct reports on an approximately 12-person infrastructure engineering team, removing operational blockers and strengthening capability across Cisco, Juniper, Dell, and Red Hat technologies.
+- Direct complex multi-vendor network and infrastructure escalations through resolution.
 
 ### FEDITC | Senior Network Engineer | July 2025-March 2026
 
-- Co-designed classified and unclassified Air Force aircraft networks, evaluated pre-release TACLANE equipment, and delivered Tier 3 support for executive aircraft communications.
-- Resolved Cisco IOS-XE, Palo Alto, routing, switching, firewall, and virtual-network issues in mission-critical environments.
+- Co-designed classified and unclassified networks for Air Force executive aircraft, evaluated pre-release TACLANE equipment, and delivered Tier 3 communications support.
+- Restored mission-critical connectivity by resolving Cisco IOS-XE, Palo Alto, routing, switching, firewall, and virtual-network issues.
 
 ### AKIMA / TUNDRA LLC | Senior Deployment Network Engineer | April 2024-July 2025
 
-- Authored designs, implementation plans, test procedures, and technical documentation while deploying Cisco, Dell, and VMware infrastructure and mentoring engineering teams.
+- Reduced deployment risk by authoring designs, implementation plans, test procedures, and technical documentation; deploying Cisco, Dell, and VMware infrastructure; and mentoring engineering teams.
 
 ### MSM TECHNOLOGY INC. | Senior Data Center Network Engineer | November 2022-March 2024
 
-- Engineered Cisco ACI, Juniper, F5, Gigamon, routing, switching, security, and IPv6 access-control solutions across enterprise data center environments.
+- Strengthened data-center security and IPv6 adoption by engineering Cisco ACI, Juniper, F5, Gigamon, routing, switching, and access-control solutions.
 
 ### LEIDOS INC. | Lead Infrastructure Network Engineer | November 2019-November 2022
 
-- Led multi-vendor engineering and Tier 3 escalation support for BGP, OSPF, MPLS, firewalls, load balancers, Linux, routers, switches, and servers.
+- Led Tier 3 escalations across BGP, OSPF, MPLS, firewalls, load balancers, Linux, routers, switches, and servers to restore complex multi-vendor services.
 
 ### BJC HEALTHCARE | Senior Cisco Network Engineer SME | July 2017-January 2019
 
-- Served in a lead engineering role for a $9.7 million hospital network modernization supporting 2 hospitals and more than 40 clinics.
+- Led engineering for a $9.7 million hospital network modernization serving 2 hospitals and more than 40 clinics.
 
 ### LEIDOS / LOCKHEED MARTIN | Senior Network Engineer SME | March 2016-July 2017
 
-- Supported DISA Joint Regional Security Stack engineering through a contract transition, troubleshooting Cisco, Juniper, Palo Alto, F5, Gigamon, Linux, BGP, OSPF, and MPLS environments.
+- Maintained engineering continuity through a contract transition while resolving Cisco, Juniper, Palo Alto, F5, Gigamon, Linux, BGP, OSPF, and MPLS issues supporting DISA Joint Regional Security Stack.
 
 ### UNITED STATES ARMY | Information Technology Specialist | April 1999-March 2006
 
-- Managed 2 Internet cafes with 100% availability, supported approximately 800 users, and earned recognition for deploying the Defense Messaging System in Germany.
+- Sustained 100% availability for 2 Internet cafes and 50 computers; supported approximately 800 users; and earned formal recognition for deploying the Defense Messaging System in Germany.
 
 ## EDUCATION
 
@@ -324,17 +324,16 @@ Foundational studies included information systems, computer networking, systems 
 - AWS Certified Cloud Practitioner Essentials, Amazon Web Services | May 2025.
 - Dell VxRail Installation and Implementation Training | October 2024.
 - CCIE Routing and Switching Advanced Training, Micronics Training | February 2017.
-- Developing the Leader Within Workshop, Atlanta, Georgia | August 2006.
-- Studied the five levels of leadership as a framework for leadership development and organizational success.
+- Developing the Leader Within Workshop, Atlanta, Georgia | August 2006; studied the five-level leadership framework for organizational development.
 
 ## TECHNICAL LAB
 
-- Maintain a multi-vendor infrastructure lab incorporating Cisco routing and switching, Dell VxRail, virtualization technologies, servers, and network-security appliances.
-- Develop and maintain the public Enterprise Infrastructure Handbook in Markdown, integrating architecture concepts, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
-- Organize a seven-chapter foundation volume covering developer workstation setup, repository architecture, automation architecture, GitHub workflows, documentation pipelines, enterprise infrastructure, and architecture fundamentals.
-- Build Bash tools for repository bootstrapping, project and status configuration, issues, labels, milestones, chapter creation and migration, synchronization, and validation.
-- Apply Git and GitHub workflows with branching, commits, pull requests, review, changelogs, contribution standards, and project-status tracking.
-- Design publication pipelines targeting GitHub Pages, PDF, DOCX, and print-ready editions, with GitHub Actions planned for validation and release automation.
+- Operate a multi-vendor lab spanning Cisco routing and switching, Dell VxRail, virtualization, servers, and network-security appliances.
+- Publish the Enterprise Infrastructure Handbook in Markdown, combining architecture, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
+- Structure a seven-chapter foundation volume covering developer workstations, repository and automation architecture, GitHub workflows, documentation pipelines, enterprise infrastructure, and architecture fundamentals.
+- Automate repository bootstrapping, project and status configuration, issues, labels, milestones, chapter creation and migration, synchronization, and validation with Bash tools.
+- Apply Git and GitHub workflows to manage branching, commits, pull requests, review, changelogs, contribution standards, and project-status tracking.
+- Design publishing pipelines for GitHub Pages, PDF, DOCX, and print-ready editions, with GitHub Actions validation and release automation planned.
 RESUME
 
   log "Created one-page Markdown resume: $MARKDOWN_REL"
