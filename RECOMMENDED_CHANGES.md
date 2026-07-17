@@ -16,6 +16,7 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 - [x] Add a responsive `styles.css` suitable for desktop and mobile screens.
 - [x] Add prominent links to download concise and full PDF resumes.
 - [x] Style both PDF download links as matching primary buttons.
+- [x] Label the downloads as One-Page Resume PDF and Multi-Page Resume PDF.
 - [x] Give both PDFs professional filenames.
 - [x] Expand the webpage and full PDF to the reviewed four-page resume content.
 - [x] Add an American flag header while preserving readable text contrast.
@@ -26,9 +27,10 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 - [x] Make dark mode the default with `#090` text.
 - [x] Add an upper-right light-mode link with a saved visitor preference.
 - [x] Mask email links in the static webpage source.
-- [x] Add college logos to the webpage education section only.
-- [x] Add certification issuer marks to the webpage credentials section only.
+- [x] Replace college logos with official favicons in the webpage education section.
+- [x] Replace certification vendor marks with earned badges in one row beneath the Certifications title.
 - [x] Add employer logos to each business entry in the webpage experience section.
+- [x] Add the specified U.S. Army logo to the Army experience entry.
 - [x] Add print styles that hide website controls and prevent awkward page breaks.
 - [x] Keep the site lightweight and avoid a JavaScript framework unless the scope grows.
 

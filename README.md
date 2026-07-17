@@ -13,8 +13,9 @@ The site defaults to a dark theme with `#090` text. An upper-right theme link sw
 - `.nojekyll` — Tells GitHub Pages to serve the static files without Jekyll processing.
 - `assets/flag-of-the-united-states.svg` — Public-domain American flag used in the site header.
 - `assets/business-logos/` — Employer logos displayed only in business entries in the webpage experience section.
-- `assets/certification-logos/` — Certification issuer marks displayed only in the webpage credentials section.
-- `assets/college-logos/` — College logos displayed only in the webpage education section.
+- `assets/certification-badges/` — Earned certification badge artwork displayed in one webpage-only row.
+- `assets/college-favicons/` — Official college favicons displayed only in the webpage education section.
+- `assets/service-logos/` — U.S. Army mark displayed only with Tim's Army experience entry.
 - `assets/favicon/` — Browser and device icons.
 - `pdf/Tim-Fox-Resume-one-page.pdf` — Concise one-page resume.
 - `pdf/Tim-Fox-Resume.pdf` — Full four-page resume.
@@ -45,9 +46,13 @@ To use another static host, publish `index.html`, `styles.css`, `assets/`, and `
 
 The header uses the public-domain [Flag of the United States](https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg) from Wikimedia Commons.
 
-The webpage education section uses the [Webster University text logo](https://commons.wikimedia.org/wiki/File:Webster_University_Logo.svg), an official [Michigan Tech full-name logo](https://www.mtu.edu/umc/resources/download/), and Jefferson Community College's [current brand identity](https://sunyjefferson.edu/news/brand_revealed.php). These institutional marks remain the property of their respective owners and are used only to identify Tim's alma maters.
+The webpage education section uses the official favicon or touch-icon artwork published by [Webster University](https://www.webster.edu/), [Michigan Technological University](https://www.mtu.edu/), and [Jefferson Community College](https://sunyjefferson.edu/). These institutional marks remain the property of their respective owners and are used only to identify Tim's alma maters.
 
-The webpage experience section uses employer marks from the official [FEDITC](https://feditc.com/), [Akima](https://www.akima.com/), [MSM Technology](https://www.msmtechinc.com/), and [BJC](https://www.bjc.org/) sites, plus the [Leidos](https://commons.wikimedia.org/wiki/File:Leidos_logo_2013.svg) and [Lockheed Martin](<https://commons.wikimedia.org/wiki/File:Lockheed_Martin_logo_(2).svg>) text logos published on Wikimedia Commons. The credentials section uses issuer marks from [Simple Icons](https://simpleicons.org/) and the current [AWS text logo](https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_2025.svg). GIAC and DoD workforce alignment use neutral text labels instead of restricted official logos or seals. All employer, certification, and college marks are excluded from print output and the downloadable PDFs. Trademarks remain the property of their respective owners and are used only for identification; no endorsement or affiliation is implied.
+The webpage experience section uses employer marks from the official [FEDITC](https://feditc.com/), [Akima](https://www.akima.com/), [MSM Technology](https://www.msmtechinc.com/), and [BJC](https://www.bjc.org/) sites, plus the [Leidos](https://commons.wikimedia.org/wiki/File:Leidos_logo_2013.svg) and [Lockheed Martin](<https://commons.wikimedia.org/wiki/File:Lockheed_Martin_logo_(2).svg>) text logos published on Wikimedia Commons. The Army experience entry uses the stacked [U.S. Army logo provided by MWR Brand Central](https://www.mwrbrandcentral.com/assets/26).
+
+The credentials section replaces generic vendor marks with the actual badge artwork for the nine named certifications. Badge sources are the corresponding Credly listings for [CCNP Enterprise](https://www.credly.com/org/cisco/badge/cisco-certified-network-professional-enterprise-ccnp-enterprise), [CCNA](https://www.credly.com/org/cisco/badge/ccna), [JNCIA-Junos](https://www.credly.com/embedded_badge/02b57c68-b80b-4dcc-be70-a4f12721750d), [GIAC GCED](https://www.credly.com/org/global-information-assurance-certification-giac/badge/giac-certified-enterprise-defender-gced), [CompTIA Security+ CE](https://www.credly.com/org/comptia/badge/comptia-security-ce-certification), [Fortinet Certified Associate Cybersecurity](https://www.credly.com/org/fortinet/badge/fortinet-certified-associate-cybersecurity.1), [AWS Certified Cloud Practitioner](https://www.credly.com/org/amazon-web-services/badge/aws-certified-cloud-practitioner), [Dell VxRail Deploy Version 2](https://www.credly.com/org/delltechnologies/badge/dell-vxrail-deploy-version-2/), and VMware VCA-DCV. DoD workforce alignment remains text-only because it is an alignment rather than a separate certification.
+
+All employer, service, certification, and college marks are excluded from print output and the downloadable PDFs. Trademarks remain the property of their respective owners and are used only for identification; no endorsement or affiliation is implied.
 
 ## Updating the resume
 

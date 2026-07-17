@@ -314,7 +314,8 @@ h3 {
   gap: 0.8rem;
 }
 
-.business-logo-frame {
+.business-logo-frame,
+.service-logo-frame {
   display: flex;
   flex: 0 0 6.5rem;
   align-items: center;
@@ -330,11 +331,20 @@ h3 {
   background: #000000;
 }
 
-.business-logo {
+.business-logo,
+.service-logo {
   display: block;
   width: 100%;
   height: 2.15rem;
   object-fit: contain;
+}
+
+.service-logo-frame {
+  padding: 0.2rem;
+}
+
+.service-logo {
+  height: auto;
 }
 
 .role-title,
@@ -402,42 +412,48 @@ li + li {
   margin-top: 0.72rem;
 }
 
-.cert-logo-strip {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin: 0.15rem 0 0.5rem;
+.cert-badge-row {
+  display: grid;
+  grid-template-columns: repeat(9, minmax(5.5rem, 1fr));
+  gap: clamp(0.45rem, 1.2vw, 0.8rem);
+  margin-bottom: 1.35rem;
+  padding: 0.1rem 0 1.2rem;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--line);
+  scrollbar-width: thin;
 }
 
-.cert-logo-frame,
-.cert-text-mark {
-  display: inline-flex;
-  width: 4rem;
-  height: 2.35rem;
+.cert-badge-row:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+.cert-badge-frame {
+  display: flex;
+  min-width: 0;
+  aspect-ratio: 1;
   align-items: center;
   justify-content: center;
-  padding: 0.35rem 0.45rem;
+  padding: 0.25rem;
   border: 1px solid #d7e0e7;
   background: #ffffff;
 }
 
-.cert-logo {
+.cert-badge {
   display: block;
   width: 100%;
-  height: 1.55rem;
+  height: 100%;
   object-fit: contain;
 }
 
-.cert-text-mark {
-  color: #12333b;
-  font-size: 0.77rem;
-  font-weight: 850;
-  letter-spacing: 0.08em;
+.certification-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem clamp(1.5rem, 4vw, 3rem);
 }
 
-.cert-text-mark--wide {
-  width: auto;
-  min-width: 6.25rem;
+.certification-list li + li {
+  margin-top: 0;
 }
 
 .education-grid {
@@ -461,21 +477,21 @@ li + li {
   padding-right: 0;
 }
 
-.college-logo-frame {
+.college-favicon-frame {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 8rem;
+  min-height: 5.5rem;
   margin-bottom: 1.2rem;
   padding: 0.8rem;
   border: 1px solid var(--line);
   background: #ffffff;
 }
 
-.college-logo {
+.college-favicon {
   display: block;
-  width: 100%;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   object-fit: contain;
 }
 
@@ -542,7 +558,8 @@ li + li {
 
   .resume-grid,
   .education-grid,
-  .development-grid {
+  .development-grid,
+  .certification-list {
     grid-template-columns: 1fr;
   }
 
@@ -608,7 +625,8 @@ li + li {
     text-align: left;
   }
 
-  .business-logo-frame {
+  .business-logo-frame,
+  .service-logo-frame {
     flex-basis: 5.5rem;
   }
 
@@ -663,8 +681,9 @@ li + li {
 
   .contact-links,
   .business-logo-frame,
-  .cert-logo-strip,
-  .college-logo-frame,
+  .service-logo-frame,
+  .cert-badge-row,
+  .college-favicon-frame,
   .skip-link,
   .theme-toggle,
   .site-footer {
