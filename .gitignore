@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Editors and temporary files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Microsoft Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Local secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated scratch content
+.tmp/
+tmp/
