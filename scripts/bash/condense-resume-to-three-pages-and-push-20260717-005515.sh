@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Replace the Tim-Fox-Resume master resume with a concise naturally paginated version,
+# Replace the Tim-Fox-Resume master resume with a concise three-page version,
 # generate a matching three-page PDF, commit the changes, and push to GitHub.
 #
 # Default repository:
@@ -47,13 +47,12 @@ fatal() {
 cleanup() {
   [[ -n "$TEMP_SELF" && -f "$TEMP_SELF" ]] && rm -f "$TEMP_SELF"
   [[ -n "$VENV_DIR" && -d "$VENV_DIR" ]] && rm -rf "$VENV_DIR"
-  return 0
 }
 trap cleanup EXIT
 
 usage() {
   cat <<'USAGE'
-Create and publish Tim Fox's condensed resume with natural pagination.
+Create and publish Tim Fox's condensed three-page resume.
 
 Usage:
   condense-resume-to-three-pages-and-push.sh [options]
@@ -204,7 +203,6 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 - **Advanced Networking:** Cisco CCNP Enterprise; Cisco CCNA; Juniper JNCIA-Junos.
 - **Cybersecurity:** GIAC GCED; CompTIA Security+ CE; Fortinet Certified Associate in Cybersecurity.
 - **Cloud, Virtualization, and Data Center:** AWS Certified Cloud Practitioner; Dell VxRail Deploy Version 2; VMware VCA-DCV.
-- **DoD Workforce Qualification Alignment:** DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications.
 
 ## PROFESSIONAL EXPERIENCE
 
@@ -235,6 +233,9 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 - Improved team deployment capability through technical mentoring, demonstrations, and reusable engineering documentation.
 - Equipped team members with the knowledge needed to perform deployments and troubleshoot multi-vendor infrastructure.
 - Coordinated deployment activities across engineering teams, customer stakeholders, and onsite personnel.
+
+<!-- PAGE BREAK -->
+
 ## PROFESSIONAL EXPERIENCE - CONTINUED
 
 ### MSM TECHNOLOGY INC.
@@ -283,6 +284,9 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 - Supported Cisco IOS, IOS-XE, and IOS-XR routing and switching platforms in a complex defense environment.
 - Advised cross-functional teams on multi-vendor routing, security, traffic-management, and Linux technologies.
 - Served as a senior technical contributor and trainer for engineering and operations teams.
+
+<!-- PAGE BREAK -->
+
 ## EDUCATION AND TECHNICAL DEVELOPMENT
 
 **Full-Time Education and Career Development** | 2006-2016
@@ -377,6 +381,7 @@ from reportlab.pdfgen import canvas
 from reportlab.platypus import (
     BaseDocTemplate,
     Frame,
+    PageBreak,
     PageTemplate,
     Paragraph,
     Spacer,
@@ -410,6 +415,7 @@ class InvariantCanvas(canvas.Canvas):
         self.setFillColor(colors.HexColor("#555555"))
         self.drawCentredString(LETTER[0] / 2, 0.28 * inch, f"Tim Fox | Page {self._pageNumber} of {page_count}")
         self.restoreState()
+
 
 def inline_markup(value: str) -> str:
     parts = re.split(r"(\*\*.*?\*\*)", value)
@@ -545,6 +551,9 @@ for raw in lines:
     line = raw.strip()
     if not line:
         continue
+    if line == "<!-- PAGE BREAK -->":
+        story.append(PageBreak())
+        continue
     if line.startswith("# "):
         story.append(Paragraph(inline_markup(line[2:]), styles["ResumeTitle"]))
         continue
@@ -576,9 +585,8 @@ output.parent.mkdir(parents=True, exist_ok=True)
 doc.build(story, canvasmaker=InvariantCanvas)
 
 reader = PdfReader(str(output))
-page_count = len(reader.pages)
-if page_count not in (2, 3):
-    raise SystemExit(f"Expected a naturally paginated 2- or 3-page PDF, generated {page_count}.")
+if len(reader.pages) != 3:
+    raise SystemExit(f"Expected exactly 3 PDF pages, generated {len(reader.pages)}.")
 
 for required in [
     "United States | Open to Remote and Onsite Roles",
@@ -592,7 +600,7 @@ print(f"Generated {output} ({len(reader.pages)} pages)")
 PY
 
   [[ -s "$output" ]] || fatal "PDF generation failed: $output"
-  log "Generated naturally paginated PDF: $PDF_REL"
+  log "Generated three-page PDF: $PDF_REL"
 }
 
 validate_output() {
@@ -606,15 +614,14 @@ validate_output() {
 
   grep -Fqx "$HEADER" "$master" \
     || fatal "The requested header is missing from the master resume."
-  if grep -Eq '^[[:space:]]*<!-- PAGE BREAK -->[[:space:]]*$' "$master"; then
-    fatal "Forced page-break markers remain in the Markdown resume."
-  fi
-  if grep -Eq '^[[:space:]]*<!-- PAGE BREAK -->[[:space:]]*$' "$installed"; then
-    fatal "Forced page-break markers remain in the resume generator."
-  fi
+
+  local breaks
+  breaks=$(grep -c '^<!-- PAGE BREAK -->$' "$master" || true)
+  [[ "$breaks" -eq 2 ]] \
+    || fatal "Expected two explicit page breaks in the three-page Markdown resume; found $breaks."
 
   bash -n "$installed" || fatal "Bash syntax validation failed for $SCRIPT_REL."
-  log "PASS: header, natural page flow, PDF, and Bash syntax validation."
+  log "PASS: header, page structure, PDF, and Bash syntax validation."
 }
 
 commit_and_push() {

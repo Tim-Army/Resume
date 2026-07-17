@@ -52,9 +52,6 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 - Improved team deployment capability through technical mentoring, demonstrations, and reusable engineering documentation.
 - Equipped team members with the knowledge needed to perform deployments and troubleshoot multi-vendor infrastructure.
 - Coordinated deployment activities across engineering teams, customer stakeholders, and onsite personnel.
-
-<!-- PAGE BREAK -->
-
 ## PROFESSIONAL EXPERIENCE - CONTINUED
 
 ### MSM TECHNOLOGY INC.
@@ -103,9 +100,6 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 - Supported Cisco IOS, IOS-XE, and IOS-XR routing and switching platforms in a complex defense environment.
 - Advised cross-functional teams on multi-vendor routing, security, traffic-management, and Linux technologies.
 - Served as a senior technical contributor and trainer for engineering and operations teams.
-
-<!-- PAGE BREAK -->
-
 ## EDUCATION AND TECHNICAL DEVELOPMENT
 
 **Full-Time Education and Career Development** | 2006-2016
