@@ -1,33 +1,36 @@
-# Tim-Fox-Resume
+# Tim Fox Resume
 
-Version-controlled source files, targeted variants, and publishing workflow for Tim Fox's professional resume.
+A lightweight static website for presenting Tim Fox's professional experience, technical expertise, education, and contact information. The site also provides a downloadable one-page PDF resume.
 
-## Repository structure
+## Site files
 
-- `resume/master/` — Authoritative master resume source.
-- `resume/targeted/private-sector/` — Role-specific private-sector variants.
-- `resume/targeted/federal-defense/` — Federal and defense-oriented variants.
-- `exports/docx/` — Approved Microsoft Word exports.
-- `exports/pdf/` — Approved PDF exports.
-- `docs/` — Research, accomplishment metrics, and editorial notes.
-- `archive/` — Superseded versions retained for reference.
-- `scripts/bash/` — Repository automation scripts.
+- `index.html` — Resume website content and metadata.
+- `styles.css` — Responsive screen and print styles.
+- `assets/favicon/` — Browser and device icons.
+- `pdf/Tim-Fox-Resume-one-page.pdf` — Downloadable resume.
+- `resume/master/Tim-Fox-Resume-one-page.md` — Source resume content.
 
-## Resume workflow
+## Preview locally
 
-1. Backlog.
-2. Ready.
-3. Drafting.
-4. Technical Review.
-5. Editorial Review.
-6. Ready to Publish.
-7. Published.
-8. Complete.
+No build step or dependencies are required. Open `index.html` in a browser, or run a local web server from the repository root:
 
-## Working rules
+```sh
+python3 -m http.server 8000
+```
 
-- Treat `resume/master/` as the source of truth.
-- Create a targeted copy before tailoring for a vacancy.
-- End every resume bullet with a period.
-- Verify dates, certifications, security-clearance language, and metrics before publishing.
-- Do not commit passwords, tokens, private keys, or classified or controlled information.
+Then visit `http://localhost:8000`.
+
+## Deploy with GitHub Pages
+
+1. Open the repository on GitHub and select **Settings → Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select the `main` branch and `/(root)` folder, then save.
+4. Wait for GitHub to publish the site and display its public URL.
+
+Future pushes to `main` will republish the site. See GitHub's [publishing-source guide](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) for additional options.
+
+To use another static host, publish `index.html`, `styles.css`, `assets/`, and `pdf/` together while preserving their directory structure.
+
+## Updating the resume
+
+Treat `resume/master/Tim-Fox-Resume-one-page.md` as the source of truth. Keep the website content and downloadable PDF synchronized with it.
