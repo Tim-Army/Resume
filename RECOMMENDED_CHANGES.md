@@ -15,6 +15,7 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 - [x] Create a single semantic `index.html` page.
 - [x] Add a responsive `styles.css` suitable for desktop and mobile screens.
 - [x] Add prominent links to download concise and full PDF resumes.
+- [x] Style both PDF download links as matching primary buttons.
 - [x] Give both PDFs professional filenames.
 - [x] Expand the webpage and full PDF to the reviewed four-page resume content.
 - [x] Add an American flag header while preserving readable text contrast.
