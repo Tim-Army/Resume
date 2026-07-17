@@ -307,6 +307,36 @@ h3 {
   margin-bottom: 0.65rem;
 }
 
+.role-employer {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.business-logo-frame {
+  display: flex;
+  flex: 0 0 6.5rem;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.15rem;
+  padding: 0.45rem 0.55rem;
+  border: 1px solid #d7e0e7;
+  background: #ffffff;
+}
+
+.business-logo-frame--dark {
+  border-color: #252333;
+  background: #000000;
+}
+
+.business-logo {
+  display: block;
+  width: 100%;
+  height: 2.15rem;
+  object-fit: contain;
+}
+
 .role-title,
 .role-date,
 .education-location,
@@ -370,6 +400,44 @@ li + li {
 
 .compact-list li + li {
   margin-top: 0.72rem;
+}
+
+.cert-logo-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.15rem 0 0.5rem;
+}
+
+.cert-logo-frame,
+.cert-text-mark {
+  display: inline-flex;
+  width: 4rem;
+  height: 2.35rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35rem 0.45rem;
+  border: 1px solid #d7e0e7;
+  background: #ffffff;
+}
+
+.cert-logo {
+  display: block;
+  width: 100%;
+  height: 1.55rem;
+  object-fit: contain;
+}
+
+.cert-text-mark {
+  color: #12333b;
+  font-size: 0.77rem;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+}
+
+.cert-text-mark--wide {
+  width: auto;
+  min-width: 6.25rem;
 }
 
 .education-grid {
@@ -540,6 +608,10 @@ li + li {
     text-align: left;
   }
 
+  .business-logo-frame {
+    flex-basis: 5.5rem;
+  }
+
   .site-footer a {
     display: inline-block;
     margin-top: 0.45rem;
@@ -590,6 +662,8 @@ li + li {
   }
 
   .contact-links,
+  .business-logo-frame,
+  .cert-logo-strip,
   .college-logo-frame,
   .skip-link,
   .theme-toggle,

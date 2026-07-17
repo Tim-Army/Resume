@@ -12,6 +12,8 @@ The site defaults to a dark theme with `#090` text. An upper-right theme link sw
 - `email.js` — Restores masked email links in the visitor's browser.
 - `.nojekyll` — Tells GitHub Pages to serve the static files without Jekyll processing.
 - `assets/flag-of-the-united-states.svg` — Public-domain American flag used in the site header.
+- `assets/business-logos/` — Employer logos displayed only in business entries in the webpage experience section.
+- `assets/certification-logos/` — Certification issuer marks displayed only in the webpage credentials section.
 - `assets/college-logos/` — College logos displayed only in the webpage education section.
 - `assets/favicon/` — Browser and device icons.
 - `pdf/Tim-Fox-Resume-one-page.pdf` — Concise one-page resume.
@@ -44,6 +46,8 @@ To use another static host, publish `index.html`, `styles.css`, `assets/`, and `
 The header uses the public-domain [Flag of the United States](https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg) from Wikimedia Commons.
 
 The webpage education section uses the [Webster University text logo](https://commons.wikimedia.org/wiki/File:Webster_University_Logo.svg), an official [Michigan Tech full-name logo](https://www.mtu.edu/umc/resources/download/), and Jefferson Community College's [current brand identity](https://sunyjefferson.edu/news/brand_revealed.php). These institutional marks remain the property of their respective owners and are used only to identify Tim's alma maters.
+
+The webpage experience section uses employer marks from the official [FEDITC](https://feditc.com/), [Akima](https://www.akima.com/), [MSM Technology](https://www.msmtechinc.com/), and [BJC](https://www.bjc.org/) sites, plus the [Leidos](https://commons.wikimedia.org/wiki/File:Leidos_logo_2013.svg) and [Lockheed Martin](<https://commons.wikimedia.org/wiki/File:Lockheed_Martin_logo_(2).svg>) text logos published on Wikimedia Commons. The credentials section uses issuer marks from [Simple Icons](https://simpleicons.org/) and the current [AWS text logo](https://commons.wikimedia.org/wiki/File:Amazon_Web_Services_2025.svg). GIAC and DoD workforce alignment use neutral text labels instead of restricted official logos or seals. All employer, certification, and college marks are excluded from print output and the downloadable PDFs. Trademarks remain the property of their respective owners and are used only for identification; no endorsement or affiliation is implied.
 
 ## Updating the resume
 
