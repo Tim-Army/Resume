@@ -353,6 +353,8 @@ create_python_environment() {
 }
 
 generate_pdf() {
+  # PDF_ARCHIVE_HOOK_V1
+  "$REPO_ROOT/scripts/bash/archive-current-pdfs.sh" --repo "$REPO_ROOT"
   local source="$REPO_ROOT/$MASTER_REL"
   local output="$REPO_ROOT/$PDF_REL"
   mkdir -p "$(dirname "$output")"
@@ -623,7 +625,7 @@ commit_and_push() {
     return
   fi
 
-  git -C "$REPO_ROOT" add -- "$MASTER_REL" "$PDF_REL" "$SCRIPT_REL"
+  git -C "$REPO_ROOT" add -- "$MASTER_REL" "$PDF_REL" "$SCRIPT_REL" "pdf/Archive" "pdf/zArchive" "scripts/bash/archive-current-pdfs.sh"
 
   if git -C "$REPO_ROOT" diff --cached --quiet; then
     log "No resume changes to commit."

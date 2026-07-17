@@ -25,6 +25,8 @@ readonly SCRIPTS_REL="scripts/bash"
 readonly GENERATOR_REL="$SCRIPTS_REL/condense-resume-to-three-pages-and-push.sh"
 readonly MASTER_REL="resume/master/Tim-Fox-Resume.md"
 readonly PDF_REL="pdf/Tim-Fox-Resume.pdf"
+readonly ARCHIVE_REL="pdf/Archive"
+readonly ZARCHIVE_REL="pdf/zArchive"
 readonly SCRIPT_REL="$SCRIPTS_REL/$SCRIPT_NAME"
 
 REPO_ROOT="$DEFAULT_REPO"
@@ -42,6 +44,8 @@ declare -a STAGE_PATHS=(
   "$SCRIPTS_REL"
   "$MASTER_REL"
   "$PDF_REL"
+  "$ARCHIVE_REL"
+  "$ZARCHIVE_REL"
 )
 
 log() {

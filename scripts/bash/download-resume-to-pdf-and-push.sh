@@ -647,6 +647,8 @@ PY
 }
 
 convert_to_pdf() {
+  # PDF_ARCHIVE_HOOK_V1
+  "$REPO_ROOT/scripts/bash/archive-current-pdfs.sh" --repo "$REPO_ROOT"
   local markdown_file="$1"
   local output_file="$REPO_ROOT/$OUTPUT_RELATIVE_PATH"
   local temporary_pdf="$TEMP_DIR/Tim-Fox-Resume.pdf"
@@ -707,13 +709,20 @@ commit_and_push() {
   branch=$(git branch --show-current)
   [[ -n "$branch" ]] || fatal "Cannot commit from a detached HEAD."
 
-  git add -- "$OUTPUT_RELATIVE_PATH" "$SCRIPT_RELATIVE_PATH"
+  local -a publish_paths=(
+    "$OUTPUT_RELATIVE_PATH"
+    "$SCRIPT_RELATIVE_PATH"
+    "pdf/Archive"
+    "pdf/zArchive"
+    "scripts/bash/archive-current-pdfs.sh"
+  )
 
-  if git diff --cached --quiet -- "$OUTPUT_RELATIVE_PATH" "$SCRIPT_RELATIVE_PATH"; then
+  git add -- "${publish_paths[@]}"
+
+  if git diff --cached --quiet -- "${publish_paths[@]}"; then
     log "No PDF or script changes require a commit."
   else
-    git commit --only -m "$COMMIT_MESSAGE" -- \
-      "$OUTPUT_RELATIVE_PATH" "$SCRIPT_RELATIVE_PATH"
+    git commit --only -m "$COMMIT_MESSAGE" -- "${publish_paths[@]}"
     log "Committed PDF publication changes."
   fi
 
