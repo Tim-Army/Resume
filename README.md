@@ -21,16 +21,13 @@ python3 -m http.server 8000
 
 Then visit `http://localhost:8000`.
 
-## Deploy with GitHub Pages
+## Deployment
 
-1. Open the repository on GitHub and select **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select the `main` branch and `/(root)` folder, then save.
-4. Wait for GitHub to publish the site and display its public URL.
+The site is published at [derg20.github.io/Tim-Fox-Resume](https://derg20.github.io/Tim-Fox-Resume/) with HTTPS enforced.
 
-Future pushes to `main` will republish the site. See GitHub's [publishing-source guide](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) for additional options.
+GitHub Pages publishes the `main` branch from the repository root. The repository includes `.nojekyll`, so Pages serves the static files without applying Jekyll transformations. Future pushes to `main` automatically republish the site. See GitHub's [publishing-source guide](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) for configuration and troubleshooting details.
 
-The repository includes `.nojekyll`, so GitHub Pages publishes the static files without applying Jekyll transformations. The canonical professional profile is [tim.army](https://tim.army/doku/doku.php?id=aboutme).
+The canonical professional profile is [tim.army](https://tim.army/doku/doku.php?id=aboutme).
 
 To use another static host, publish `index.html`, `styles.css`, `assets/`, and `pdf/` together while preserving their directory structure.
 

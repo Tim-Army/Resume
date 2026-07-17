@@ -34,9 +34,9 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 - [x] Add a favicon, canonical URL, and social-sharing metadata.
 - [x] Add a short `README.md` with the site purpose and deployment instructions.
 - [x] Add `.nojekyll` if publishing with GitHub Pages without Jekyll.
-- [ ] Deploy through GitHub Pages or another static host.
+- [x] Deploy through GitHub Pages or another static host.
 - [x] Optionally connect a professional custom domain.
-- [ ] Verify that the deployed site uses HTTPS and has no broken links.
+- [x] Verify that the deployed site uses HTTPS and has no broken links.
 
 ## Suggested structure
 
