@@ -6,7 +6,7 @@ United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://
 
 ## PROFESSIONAL SUMMARY
 
-Principal Network Engineer and people leader with more than 20 years of experience designing, deploying, securing, and supporting mission-critical enterprise, data center, healthcare, and federal networks. Combines hands-on multi-vendor engineering, architecture, Tier 3 troubleshooting, technical mentoring, and an MBA.
+Principal Network Engineer and technical leader with more than 20 years of experience designing, deploying, securing, and supporting mission-critical enterprise, data center, healthcare, and federal networks. Combines hands-on multi-vendor engineering expertise with people leadership, an MBA, and a record of mentoring teams through complex infrastructure deployments and operational challenges.
 
 ## CORE EXPERTISE
 
