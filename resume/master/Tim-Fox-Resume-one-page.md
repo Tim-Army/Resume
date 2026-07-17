@@ -88,4 +88,8 @@ Foundational studies included information systems, computer networking, systems 
 ## TECHNICAL LAB
 
 - Maintain a multi-vendor infrastructure lab incorporating Cisco routing and switching, Dell VxRail, virtualization technologies, servers, and network-security appliances.
-- Use the lab for engineering, configuration, troubleshooting, integration, testing, and continuous technical development.
+- Develop and maintain the public Enterprise Infrastructure Handbook in Markdown, integrating architecture concepts, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
+- Organize a seven-chapter foundation volume covering developer workstation setup, repository architecture, automation architecture, GitHub workflows, documentation pipelines, enterprise infrastructure, and architecture fundamentals.
+- Build Bash tools for repository bootstrapping, project and status configuration, issues, labels, milestones, chapter creation and migration, synchronization, and validation.
+- Apply Git and GitHub workflows with branching, commits, pull requests, review, changelogs, contribution standards, and project-status tracking.
+- Design publication pipelines targeting GitHub Pages, PDF, DOCX, and print-ready editions, with GitHub Actions planned for validation and release automation.
