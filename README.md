@@ -1,15 +1,20 @@
 # Tim Fox Resume
 
-A lightweight static website for presenting Tim Fox's professional experience, technical expertise, education, and contact information. The site also provides a downloadable one-page PDF resume.
+A lightweight static website for presenting Tim Fox's full professional experience, technical expertise, education, and contact information. The site provides both a concise one-page PDF and an expanded four-page PDF resume.
 
 ## Site files
 
 - `index.html` — Resume website content and metadata.
 - `styles.css` — Responsive screen and print styles.
 - `.nojekyll` — Tells GitHub Pages to serve the static files without Jekyll processing.
+- `assets/flag-of-the-united-states.svg` — Public-domain American flag used in the site header.
 - `assets/favicon/` — Browser and device icons.
-- `pdf/Tim-Fox-Resume-one-page.pdf` — Downloadable resume.
-- `resume/master/Tim-Fox-Resume-one-page.md` — Source resume content.
+- `pdf/Tim-Fox-Resume-one-page.pdf` — Concise one-page resume.
+- `pdf/Tim-Fox-Resume.pdf` — Full four-page resume.
+- `resume/master/Tim-Fox-Resume.md` — Full resume source and webpage content reference.
+- `resume/master/Tim-Fox-Resume-one-page.md` — Concise resume source.
+- `scripts/python/create-full-resume-pdf.py` — Generates the four-page PDF from the full source.
+- `scripts/python/requirements.txt` — Pinned dependencies for generating the full PDF.
 
 ## Preview locally
 
@@ -31,6 +36,15 @@ The canonical professional profile is [tim.army](https://tim.army/doku/doku.php?
 
 To use another static host, publish `index.html`, `styles.css`, `assets/`, and `pdf/` together while preserving their directory structure.
 
+The header uses the public-domain [Flag of the United States](https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg) from Wikimedia Commons.
+
 ## Updating the resume
 
-Treat `resume/master/Tim-Fox-Resume-one-page.md` as the source of truth. Keep the website content and downloadable PDF synchronized with it.
+Treat `resume/master/Tim-Fox-Resume.md` as the source of truth for the webpage and full PDF. Regenerate the expanded PDF after editing it:
+
+```sh
+python3 -m pip install -r scripts/python/requirements.txt
+python3 scripts/python/create-full-resume-pdf.py
+```
+
+Keep `resume/master/Tim-Fox-Resume-one-page.md` and its concise PDF synchronized separately.

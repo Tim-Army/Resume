@@ -69,9 +69,13 @@ a:focus-visible {
 
 .site-header {
   padding: 4.6rem 0 6.2rem;
-  background:
-    radial-gradient(circle at 85% 15%, rgba(58, 143, 133, 0.32), transparent 32rem),
-    linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+  background-color: #0a3161;
+  background-image:
+    linear-gradient(90deg, rgba(5, 16, 29, 0.9) 0%, rgba(5, 16, 29, 0.7) 52%, rgba(5, 16, 29, 0.42) 100%),
+    url("assets/flag-of-the-united-states.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
 }
 
@@ -108,6 +112,7 @@ h1 {
   font-weight: 500;
   letter-spacing: -0.055em;
   line-height: 0.95;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.34);
 }
 
 .availability {
@@ -186,7 +191,7 @@ h3 {
   margin-bottom: 0;
   color: #26394b;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(1.15rem, 2.2vw, 1.4rem);
+  font-size: clamp(1.035rem, 1.98vw, 1.26rem);
   line-height: 1.65;
 }
 
@@ -377,6 +382,13 @@ li + li {
 }
 
 @media (max-width: 560px) {
+  .site-header {
+    background-image:
+      linear-gradient(rgba(5, 16, 29, 0.76), rgba(5, 16, 29, 0.76)),
+      url("assets/flag-of-the-united-states.svg");
+    background-position: 38% center;
+  }
+
   .page-width {
     width: min(calc(100% - 1.2rem), var(--max-width));
   }

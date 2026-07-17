@@ -4,7 +4,7 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 
 ## Content
 
-- [x] Add the current resume content to the site from `resume/master/Tim-Fox-Resume-one-page.md`.
+- [x] Add the current full resume content to the site from `resume/master/Tim-Fox-Resume.md`.
 - [x] Put name, target role, contact links, experience, skills, and education in a clear scanning order.
 - [x] Review all wording for concise, achievement-focused bullet points with measurable outcomes where possible.
 - [x] Remove unnecessary personal information such as a full street address.
@@ -14,8 +14,11 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 
 - [x] Create a single semantic `index.html` page.
 - [x] Add a responsive `styles.css` suitable for desktop and mobile screens.
-- [x] Add a prominent link to download the resume as a PDF.
-- [x] Give the PDF a professional filename, such as `Tim-Fox-Resume-one-page.pdf`.
+- [x] Add prominent links to download concise and full PDF resumes.
+- [x] Give both PDFs professional filenames.
+- [x] Expand the webpage and full PDF to the reviewed four-page resume content.
+- [x] Add an American flag header while preserving readable text contrast.
+- [x] Reduce the professional summary body font by 10%.
 - [x] Add print styles that hide website controls and prevent awkward page breaks.
 - [x] Keep the site lightweight and avoid a JavaScript framework unless the scope grows.
 
@@ -43,8 +46,11 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 ```text
 index.html
 styles.css
+assets/
+  flag-of-the-united-states.svg
 pdf/
   Tim-Fox-Resume-one-page.pdf
+  Tim-Fox-Resume.pdf
 README.md
 .nojekyll
 ```
