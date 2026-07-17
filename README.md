@@ -6,6 +6,7 @@ A lightweight static website for presenting Tim Fox's professional experience, t
 
 - `index.html` — Resume website content and metadata.
 - `styles.css` — Responsive screen and print styles.
+- `.nojekyll` — Tells GitHub Pages to serve the static files without Jekyll processing.
 - `assets/favicon/` — Browser and device icons.
 - `pdf/Tim-Fox-Resume-one-page.pdf` — Downloadable resume.
 - `resume/master/Tim-Fox-Resume-one-page.md` — Source resume content.
@@ -28,6 +29,8 @@ Then visit `http://localhost:8000`.
 4. Wait for GitHub to publish the site and display its public URL.
 
 Future pushes to `main` will republish the site. See GitHub's [publishing-source guide](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) for additional options.
+
+The repository includes `.nojekyll`, so GitHub Pages publishes the static files without applying Jekyll transformations. The canonical professional profile is [tim.army](https://tim.army/doku/doku.php?id=aboutme).
 
 To use another static host, publish `index.html`, `styles.css`, `assets/`, and `pdf/` together while preserving their directory structure.
 
