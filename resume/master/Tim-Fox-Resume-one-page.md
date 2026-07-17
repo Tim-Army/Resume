@@ -30,7 +30,7 @@ Principal Network Engineer and people leader with more than 20 years of experien
 ### FEDITC | Senior Network Engineer | July 2025-March 2026
 
 - Co-designed classified and unclassified networks for Air Force executive aircraft, evaluated pre-release TACLANE equipment, and delivered Tier 3 communications support.
-- Restored mission-critical connectivity by resolving Cisco IOS-XE, Palo Alto, routing, switching, firewall, and virtual-network issues.
+- Restored mission-critical connectivity by resolving Cisco IOS-XE, Palo Alto, routing, switching, firewall, and virtual networking issues.
 
 ### AKIMA / TUNDRA LLC | Senior Deployment Network Engineer | April 2024-July 2025
 
@@ -38,19 +38,19 @@ Principal Network Engineer and people leader with more than 20 years of experien
 
 ### MSM TECHNOLOGY INC. | Senior Data Center Network Engineer | November 2022-March 2024
 
-- Strengthened data-center security and IPv6 adoption by engineering Cisco ACI, Juniper, F5, Gigamon, routing, switching, and access-control solutions.
+- Strengthened data center security and IPv6 adoption by engineering Cisco ACI, Juniper, F5, Gigamon, routing, switching, and access control solutions.
 
 ### LEIDOS INC. | Lead Infrastructure Network Engineer | November 2019-November 2022
 
 - Led Tier 3 escalations across BGP, OSPF, MPLS, firewalls, load balancers, Linux, routers, switches, and servers to restore complex multi-vendor services.
 
-### BJC HEALTHCARE | Senior Cisco Network Engineer SME | July 2017-January 2019
+### BJC HEALTHCARE | Senior Cisco Network Engineer Subject-Matter Expert | July 2017-January 2019
 
 - Led engineering for a $9.7 million hospital network modernization serving 2 hospitals and more than 40 clinics.
 
-### LEIDOS / LOCKHEED MARTIN | Senior Network Engineer SME | March 2016-July 2017
+### LOCKHEED MARTIN / LEIDOS | Senior Network Engineer Subject-Matter Expert | March 2016-July 2017
 
-- Maintained engineering continuity through a contract transition while resolving Cisco, Juniper, Palo Alto, F5, Gigamon, Linux, BGP, OSPF, and MPLS issues supporting DISA Joint Regional Security Stack.
+- Maintained engineering continuity through a contract transition while resolving Cisco, Juniper, Palo Alto, F5, Gigamon, Linux, BGP, OSPF, and MPLS issues supporting the DISA Joint Regional Security Stack.
 
 ### UNITED STATES ARMY | Information Technology Specialist | April 1999-March 2006
 
@@ -82,13 +82,13 @@ Foundational studies included information systems, computer networking, systems 
 - AWS Certified Cloud Practitioner Essentials, Amazon Web Services | May 2025.
 - Dell VxRail Installation and Implementation Training | October 2024.
 - CCIE Routing and Switching Advanced Training, Micronics Training | February 2017.
-- Developing the Leader Within Workshop, Atlanta, Georgia | August 2006; studied the five-level leadership framework for organizational development.
+- Completed the Developing the Leader Within Workshop, Atlanta, Georgia | August 2006; studied the five-level leadership framework for organizational development.
 
 ## TECHNICAL LAB
 
-- Operate a multi-vendor lab spanning Cisco routing and switching, Dell VxRail, virtualization, servers, and network-security appliances.
+- Operate a multi-vendor lab spanning Cisco routing and switching, Dell VxRail, virtualization, servers, and network security appliances.
 - Publish the Enterprise Infrastructure Handbook in Markdown, combining architecture, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
 - Structure a seven-chapter foundation volume covering developer workstations, repository and automation architecture, GitHub workflows, documentation pipelines, enterprise infrastructure, and architecture fundamentals.
 - Automate repository bootstrapping, project and status configuration, issues, labels, milestones, chapter creation and migration, synchronization, and validation with Bash tools.
-- Apply Git and GitHub workflows to manage branching, commits, pull requests, review, changelogs, contribution standards, and project-status tracking.
+- Apply Git and GitHub workflows to manage branching, commits, pull requests, review, changelogs, contribution standards, and project status tracking.
 - Design publishing pipelines for GitHub Pages, PDF, DOCX, and print-ready editions, with GitHub Actions validation and release automation planned.
