@@ -2,6 +2,8 @@
 
 A lightweight static website for presenting Tim Fox's full professional experience, technical expertise, education, and contact information. The site provides both a concise one-page PDF and an expanded four-page PDF resume.
 
+The header presents exactly three title bullets. Contact, profile, and resume resource links open in a new tab, while the accessibility skip link and footer's back-to-top link navigate within the current page.
+
 ## Site files
 
 - `index.html` — Resume website content and metadata.
