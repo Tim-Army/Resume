@@ -324,7 +324,7 @@ write_master_resume() {
 
 **Principal Network Engineer | Network Infrastructure Leader**
 
-Remote, USA | timfox2025@tim.army | [tim.army](https://tim.army)
+United States | Open to Remote Roles | timfox2025@tim.army | tim.army
 
 ## PROFESSIONAL SUMMARY
 
@@ -505,7 +505,7 @@ write_private_sector_resume() {
 
 **Principal Network Engineer | Network Infrastructure Leader**
 
-Remote, USA | timfox2025@tim.army | [tim.army](https://tim.army)
+United States | Open to Remote Roles | timfox2025@tim.army | tim.army
 
 ## EXECUTIVE PROFILE
 
@@ -602,7 +602,7 @@ write_federal_resume() {
 
 **Principal Network Engineer | Federal and Defense Infrastructure Leader**
 
-Remote, USA | timfox2025@tim.army | [tim.army](https://tim.army)
+United States | Open to Remote Roles | timfox2025@tim.army | tim.army
 
 ## PROFESSIONAL SUMMARY
 

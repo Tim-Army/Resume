@@ -2,7 +2,7 @@
 
 **Principal Network Engineer | Network Infrastructure Leader**
 
-Remote, USA | timfox2025@tim.army | [tim.army](https://tim.army)
+United States | Open to Remote Roles | timfox2025@tim.army | tim.army
 
 ## EXECUTIVE PROFILE
 
