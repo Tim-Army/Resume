@@ -1,5 +1,7 @@
 # Tim Fox Resume
 
+[Resume webpage](https://derg20.github.io/Tim-Fox-Resume/) | [LinkedIn profile alignment checklist](docs/linkedin-profile-alignment-checklist.md)
+
 A lightweight static website for presenting Tim Fox's full professional experience, technical expertise, education, and contact information. The site provides both a concise one-page PDF and an expanded three-page PDF resume.
 
 The site defaults to a dark theme with `#090` text. An upper-right theme link switches between dark and light modes and remembers the visitor's choice. The header presents the professional title as one bullet. Contact, profile, and resume resource links open in a new tab, while the theme control, accessibility skip link, and footer's back-to-top link remain within the current page. Email links are masked in the static HTML and restored in the browser for visitors with JavaScript enabled.
