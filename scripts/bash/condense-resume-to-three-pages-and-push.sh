@@ -328,7 +328,7 @@ Foundational studies included information systems, computer networking, systems 
 - Developing the Leader Within Workshop, Atlanta, Georgia | August 2006.
 - Studied the five levels of leadership as a framework for leadership development and organizational success.
 
-## TECHNICAL LAB
+## HOMELAB
 
 - Maintain a multi-vendor infrastructure lab incorporating Cisco routing and switching, Dell VxRail, virtualization technologies, servers, and network-security appliances.
 - Use the lab for engineering, configuration, troubleshooting, integration, testing, and continuous technical development.

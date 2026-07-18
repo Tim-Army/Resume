@@ -492,7 +492,7 @@ Principal Network Engineer and technical leader with more than 20 years of milit
 - Developing the Leader Within Workshop, Atlanta, Georgia | August 2006.
 - Studied the five levels of leadership as a framework for leadership development and organizational success.
 
-## TECHNICAL LAB
+## HOMELAB
 
 - Maintain and continuously expand a multi-vendor infrastructure lab incorporating Cisco routers and switches, Dell VxRail servers, virtualization technologies, and network security appliances.
 - Use the lab to strengthen hands-on engineering, configuration, troubleshooting, integration, testing, and technical development skills.

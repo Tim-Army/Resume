@@ -326,7 +326,7 @@ Foundational studies included information systems, computer networking, systems 
 - CCIE Routing and Switching Advanced Training, Micronics Training | February 2017.
 - Completed the Developing the Leader Within Workshop, Atlanta, Georgia | August 2006; studied the five-level leadership framework for organizational development.
 
-## TECHNICAL LAB
+## HOMELAB
 
 - Operate a multi-vendor lab spanning Cisco routing and switching, Dell VxRail, virtualization, servers, and network security appliances.
 - Publish the Enterprise Infrastructure Handbook in Markdown, combining architecture, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
@@ -557,7 +557,7 @@ for required in [
     "UNITED STATES ARMY",
     "Master of Business Administration",
     "PROFESSIONAL DEVELOPMENT",
-    "TECHNICAL LAB",
+    "HOMELAB",
     "Securities and Exchange Commission filings",
     "Enterprise Infrastructure Handbook",
     "seven-chapter foundation volume",

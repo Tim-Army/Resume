@@ -258,7 +258,7 @@ def build_pdf(source: Path, destination: Path) -> None:
         "PROFESSIONAL EXPERIENCE",
         "UNITED STATES ARMY",
         "EDUCATION",
-        "TECHNICAL LAB",
+        "HOMELAB",
     )
     missing = [item for item in required if item not in extracted.upper()]
     if missing:
