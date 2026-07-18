@@ -160,7 +160,7 @@
 - [ ] Consider omitting entry-level or redundant credentials when space or focus matters.
 - [ ] Keep certifications requested by the target vacancy even when they are otherwise redundant.
 
-### Technical Lab and Portfolio
+### Homelab and Portfolio
 
 - [ ] Rename "Technical Lab" to "Selected Projects" when appropriate.
 - [ ] Reduce the section to 1-2 high-value projects.
@@ -168,22 +168,27 @@
 - [ ] Identify the technologies integrated.
 - [ ] Describe useful automation developed.
 - [ ] Explain who benefits from the project.
-- [ ] Add a direct link to the Enterprise Infrastructure Handbook or relevant repository.
-- [ ] Remove low-value detail about labels, milestones, contribution workflows, and publishing mechanics unless targeting a role that values those skills.
+- [x] Add a direct link to the Enterprise Infrastructure Encyclopedia repository.
+- [x] Identify where low-value implementation detail is concentrated:
+  - Concise resume, Homelab: the automation bullet enumerates issues, labels, milestones, chapter migration, status configuration, synchronization, and validation.
+  - Concise resume, Homelab: the Git/GitHub bullet enumerates branching, commits, pull requests, review, changelogs, contribution standards, and project tracking.
+  - Concise resume, Homelab: the publishing bullet enumerates GitHub Pages, PDF, DOCX, print-ready editions, validation, and planned release automation.
+  - Expanded resume and website, Homelab: the repository-automation and publishing bullets retain lower-level workflow mechanics that may distract from network-engineering outcomes.
+- [ ] Remove or compress those details unless targeting a role that values developer tooling, documentation systems, or publishing automation.
 - [ ] Replace "planned" automation with completed, demonstrable work where possible.
 
 ## Priority 2: Improve PDF and ATS Quality
 
 ### Readability and Page Flow
 
-- [ ] Increase full-PDF body text from approximately 9.3 points to 10-10.5 points if practical.
-- [ ] Review forced page breaks.
-- [ ] Reduce unnecessary blank space on pages 2-4.
-- [ ] Balance section transitions across pages.
-- [ ] Keep role headings with at least one following bullet.
-- [ ] Prevent isolated headings, orphaned bullets, clipping, and overlaps.
-- [ ] Retain page numbers and a restrained footer.
-- [ ] Keep three or four pages only when the content and page balance justify the length.
+- [x] Increase full-PDF body and bullet text to 10 points with readable 12.2-point leading.
+- [x] Review forced page breaks; remove both explicit markers and the redundant continued-experience heading.
+- [x] Reduce unnecessary blank space across pages 2-3 through natural pagination and tighter vertical rhythm.
+- [x] Balance section transitions so page 2 begins with the complete Akima role and page 3 begins with the complete U.S. Army section.
+- [x] Keep each employer, role heading, and its bullets together.
+- [x] Prevent isolated headings, orphaned bullets, clipping, and overlaps through grouped flowables and rendered-page review.
+- [x] Retain page numbers and the restrained rule-and-text footer.
+- [x] Keep the expanded resume at three pages because the larger text and balanced content justify the length.
 
 ### ATS and Accessibility
 

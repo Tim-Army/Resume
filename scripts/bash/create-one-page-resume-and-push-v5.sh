@@ -329,7 +329,7 @@ Foundational studies included information systems, computer networking, systems 
 ## HOMELAB
 
 - Operate a multi-vendor lab spanning Cisco routing and switching, Dell VxRail, virtualization, servers, and network security appliances.
-- Publish the Enterprise Infrastructure Handbook in Markdown, combining architecture, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
+- Publish the [Enterprise Infrastructure Encyclopedia](https://github.com/derg20/Enterprise-Infrastructure-Encyclopedia) in Markdown, combining architecture, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
 - Structure a seven-chapter foundation volume covering developer workstations, repository and automation architecture, GitHub workflows, documentation pipelines, enterprise infrastructure, and architecture fundamentals.
 - Automate repository bootstrapping, project and status configuration, issues, labels, milestones, chapter creation and migration, synchronization, and validation with Bash tools.
 - Apply Git and GitHub workflows to manage branching, commits, pull requests, review, changelogs, contribution standards, and project status tracking.
@@ -403,6 +403,14 @@ class InvariantCanvas(canvas.Canvas):
 
 
 def inline_markup(value: str) -> str:
+    links = []
+
+    def stash_link(match):
+        token = f"RESUMELINKTOKEN{len(links)}"
+        links.append((token, match.group(1), match.group(2)))
+        return token
+
+    value = re.sub(r"\[([^\]]+)\]\((https://[^)]+)\)", stash_link, value)
     value = value.replace("  ", " ")
     parts = re.split(r"(\*\*.*?\*\*)", value)
     rendered = []
@@ -417,7 +425,13 @@ def inline_markup(value: str) -> str:
                 escaped,
             )
             rendered.append(escaped)
-    return "".join(rendered)
+    result = "".join(rendered)
+    for token, label, url in links:
+        result = result.replace(
+            token,
+            f'<link href="{html.escape(url, quote=True)}" color="#1f4e79">{html.escape(label)}</link>',
+        )
+    return result
 
 styles = getSampleStyleSheet()
 styles.add(ParagraphStyle(
@@ -559,7 +573,7 @@ for required in [
     "PROFESSIONAL DEVELOPMENT",
     "HOMELAB",
     "Securities and Exchange Commission filings",
-    "Enterprise Infrastructure Handbook",
+    "Enterprise Infrastructure Encyclopedia",
     "seven-chapter foundation volume",
 ]:
     if required not in page_text:

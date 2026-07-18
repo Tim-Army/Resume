@@ -15,7 +15,7 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
 from reportlab.pdfgen.canvas import Canvas
-from reportlab.platypus import PageBreak, Paragraph, SimpleDocTemplate, Spacer
+from reportlab.platypus import KeepTogether, Paragraph, SimpleDocTemplate
 
 
 NAVY = colors.HexColor("#17365D")
@@ -23,7 +23,6 @@ DARK = colors.HexColor("#202832")
 MUTED = colors.HexColor("#566474")
 RULE = colors.HexColor("#B8C6D9")
 EXPECTED_PAGES = 3
-PAGE_BREAK_MARKER = "<!-- PAGE BREAK -->"
 
 
 def normalize_text(value: str) -> str:
@@ -43,7 +42,15 @@ def normalize_text(value: str) -> str:
 
 
 def inline_markup(value: str) -> str:
-    value = html.escape(normalize_text(value), quote=False)
+    links: list[tuple[str, str, str]] = []
+
+    def stash_link(match: re.Match[str]) -> str:
+        token = f"RESUMELINKTOKEN{len(links)}"
+        links.append((token, match.group(1), match.group(2)))
+        return token
+
+    value = re.sub(r"\[([^\]]+)\]\((https://[^)]+)\)", stash_link, normalize_text(value))
+    value = html.escape(value, quote=False)
     value = re.sub(r"`([^`]+)`", r'<font name="Courier">\1</font>', value)
     value = re.sub(r"\*\*([^*]+)\*\*", r"<b>\1</b>", value)
     value = re.sub(r"(?<!\*)\*([^*]+)\*(?!\*)", r"<i>\1</i>", value)
@@ -60,6 +67,11 @@ def inline_markup(value: str) -> str:
         value = value.replace(
             url,
             f'<link href="{url}" color="#17365D">{url}</link>',
+        )
+    for token, label, url in links:
+        value = value.replace(
+            token,
+            f'<link href="{html.escape(url, quote=True)}" color="#17365D">{html.escape(label)}</link>',
         )
     return value
 
@@ -116,8 +128,8 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=11.5,
             leading=14,
             textColor=NAVY,
-            spaceBefore=7,
-            spaceAfter=3,
+            spaceBefore=6,
+            spaceAfter=2.5,
             keepWithNext=True,
         ),
         "employer": ParagraphStyle(
@@ -127,8 +139,8 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=10.2,
             leading=12.5,
             textColor=DARK,
-            spaceBefore=5.5,
-            spaceAfter=1,
+            spaceBefore=5,
+            spaceAfter=0.8,
             keepWithNext=True,
         ),
         "role": ParagraphStyle(
@@ -138,40 +150,40 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=9.3,
             leading=11.4,
             textColor=MUTED,
-            spaceAfter=2.5,
+            spaceAfter=2.2,
             keepWithNext=True,
         ),
         "body": ParagraphStyle(
             "ResumeBody",
             parent=samples["BodyText"],
             fontName="Helvetica",
-            fontSize=9.4,
-            leading=12,
+            fontSize=10,
+            leading=12.2,
             textColor=DARK,
             alignment=TA_LEFT,
-            spaceAfter=3.5,
+            spaceAfter=3,
+            allowWidows=0,
+            allowOrphans=0,
         ),
         "bullet": ParagraphStyle(
             "ResumeBullet",
             parent=samples["BodyText"],
             fontName="Helvetica",
-            fontSize=9.3,
-            leading=11.9,
+            fontSize=10,
+            leading=12.2,
             textColor=DARK,
             leftIndent=13,
             firstLineIndent=-7,
             bulletIndent=2,
-            spaceAfter=2.2,
+            spaceAfter=1.8,
+            allowWidows=0,
+            allowOrphans=0,
         ),
     }
 
 
 def build_pdf(source: Path, destination: Path) -> None:
     source_text = source.read_text(encoding="utf-8")
-    if source_text.count(PAGE_BREAK_MARKER) != EXPECTED_PAGES - 1:
-        raise RuntimeError(
-            f"The master resume must contain exactly {EXPECTED_PAGES - 1} page-break markers."
-        )
 
     styles = build_styles()
     doc = SimpleDocTemplate(
@@ -189,17 +201,28 @@ def build_pdf(source: Path, destination: Path) -> None:
     )
 
     story = []
+    group_buffer = []
     paragraph_buffer: list[str] = []
     title_seen = False
     subtitle_seen = False
     contact_seen = False
+
+    def append_flowable(flowable) -> None:
+        target = group_buffer if group_buffer else story
+        target.append(flowable)
+
+    def flush_group() -> None:
+        nonlocal group_buffer
+        if group_buffer:
+            story.append(KeepTogether(group_buffer))
+            group_buffer = []
 
     def flush_paragraph() -> None:
         nonlocal paragraph_buffer
         if paragraph_buffer:
             paragraph = " ".join(normalize_text(part) for part in paragraph_buffer)
             if paragraph:
-                story.append(Paragraph(inline_markup(paragraph), styles["body"]))
+                append_flowable(Paragraph(inline_markup(paragraph), styles["body"]))
             paragraph_buffer = []
 
     for raw_line in source_text.splitlines():
@@ -207,44 +230,44 @@ def build_pdf(source: Path, destination: Path) -> None:
         if not line:
             flush_paragraph()
             continue
-        if line == PAGE_BREAK_MARKER:
-            flush_paragraph()
-            story.append(PageBreak())
-            continue
         if line.startswith("# "):
             flush_paragraph()
+            flush_group()
             story.append(Paragraph(inline_markup(line[2:]), styles["title"]))
             title_seen = True
             continue
         if line.startswith("## "):
             flush_paragraph()
+            flush_group()
             story.append(Paragraph(inline_markup(line[3:]), styles["section"]))
             continue
         if line.startswith("### "):
             flush_paragraph()
-            story.append(Paragraph(inline_markup(line[4:]), styles["employer"]))
+            flush_group()
+            group_buffer.append(Paragraph(inline_markup(line[4:]), styles["employer"]))
             continue
         if line.startswith("- "):
             flush_paragraph()
-            story.append(Paragraph(inline_markup(line[2:]), styles["bullet"], bulletText="•"))
+            append_flowable(Paragraph(inline_markup(line[2:]), styles["bullet"], bulletText="•"))
             continue
         if line.startswith("**") and line.endswith("**") and line.count("**") == 2:
             flush_paragraph()
             plain = line[2:-2]
             if title_seen and not subtitle_seen:
-                story.append(Paragraph(inline_markup(plain), styles["subtitle"]))
+                append_flowable(Paragraph(inline_markup(plain), styles["subtitle"]))
                 subtitle_seen = True
             else:
-                story.append(Paragraph(inline_markup(plain), styles["role"]))
+                append_flowable(Paragraph(inline_markup(plain), styles["role"]))
             continue
         if title_seen and subtitle_seen and not contact_seen and "timfox2025@tim.army" in line:
             flush_paragraph()
-            story.append(Paragraph(inline_markup(line), styles["contact"]))
+            append_flowable(Paragraph(inline_markup(line), styles["contact"]))
             contact_seen = True
             continue
         paragraph_buffer.append(line)
 
     flush_paragraph()
+    flush_group()
     destination.parent.mkdir(parents=True, exist_ok=True)
     doc.build(story, onFirstPage=draw_footer, onLaterPages=draw_footer)
 

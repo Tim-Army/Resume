@@ -87,7 +87,7 @@ Foundational studies included information systems, computer networking, systems 
 ## HOMELAB
 
 - Operate a multi-vendor lab spanning Cisco routing and switching, Dell VxRail, virtualization, servers, and network security appliances.
-- Publish the Enterprise Infrastructure Handbook in Markdown, combining architecture, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
+- Publish the [Enterprise Infrastructure Encyclopedia](https://github.com/derg20/Enterprise-Infrastructure-Encyclopedia) in Markdown, combining architecture, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
 - Structure a seven-chapter foundation volume covering developer workstations, repository and automation architecture, GitHub workflows, documentation pipelines, enterprise infrastructure, and architecture fundamentals.
 - Automate repository bootstrapping, project and status configuration, issues, labels, milestones, chapter creation and migration, synchronization, and validation with Bash tools.
 - Apply Git and GitHub workflows to manage branching, commits, pull requests, review, changelogs, contribution standards, and project status tracking.

@@ -39,10 +39,6 @@ Principal Network Engineer and people leader with more than 20 years of experien
 - Co-designed networks for Air Force executive aircraft, translating mission, security, availability, and interoperability requirements into deployable architectures.
 - Evaluated pre-release HAIPE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
 
-<!-- PAGE BREAK -->
-
-## PROFESSIONAL EXPERIENCE - CONTINUED
-
 ### AKIMA / TUNDRA LLC
 **Senior Deployment Network Engineer | April 2024-July 2025**
 
@@ -81,8 +77,6 @@ Principal Network Engineer and people leader with more than 20 years of experien
 **Senior Network Engineer Subject-Matter Expert | March 2016-July 2016**
 
 - Established the engineering foundation for the Joint Regional Security Stack assignment later transitioned to Leidos.
-
-<!-- PAGE BREAK -->
 
 ## EDUCATION AND TECHNICAL DEVELOPMENT
 
@@ -127,6 +121,6 @@ Foundational studies included information systems, computer networking, systems 
 ## HOMELAB
 
 - Operate a multi-vendor lab spanning Cisco routing and switching, Dell VxRail, virtualization, servers, and network security appliances.
-- Publish the Enterprise Infrastructure Handbook in Markdown, combining architecture, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
+- Publish the [Enterprise Infrastructure Encyclopedia](https://github.com/derg20/Enterprise-Infrastructure-Encyclopedia) in Markdown, combining architecture, configuration guidance, Bash automation, troubleshooting procedures, and hands-on labs.
 - Automate repository bootstrapping, project configuration, documentation pipelines, synchronization, and validation with Bash tools.
 - Design publishing workflows for GitHub Pages, PDF, DOCX, and print-ready editions.
