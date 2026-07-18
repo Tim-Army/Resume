@@ -322,7 +322,7 @@ write_master_resume() {
   cat > "$REPO_ROOT/resume/master/Tim-Fox-Resume.md" <<'RESUME'
 # TIM FOX
 
-**Principal Network Engineer | Network Infrastructure Leader**
+**Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks**
 
 United States | Open to Remote Roles | timfox2025@tim.army | tim.army
 

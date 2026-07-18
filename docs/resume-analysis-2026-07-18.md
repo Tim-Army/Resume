@@ -32,15 +32,16 @@
 ### Primary Career Positioning
 
 - [ ] Choose the primary target for each application:
-  - [ ] Principal Network Engineer
+  - [x] Principal Network Engineer
   - [ ] Network Architect
   - [ ] Infrastructure Engineering Supervisor
   - [ ] Engineering Manager
-- [ ] Align the headline, summary, competencies, and first-page accomplishments with the selected target.
-- [ ] Replace broad branding such as "Strategist, Innovator, and Coach" with job-searchable language.
-- [ ] Consider this headline as a starting point:
-  - [ ] `Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks`
-- [ ] Keep the Principal Network Engineer positioning as the default unless stronger management evidence is added.
+- [x] Align the default headline with the selected target.
+- [x] Replace broad branding such as "Strategist, Innovator, and Coach" with job-searchable language.
+- [x] Use this headline as the starting point:
+  - [x] `Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks`
+- [x] Keep the Principal Network Engineer positioning as the default unless stronger management evidence is added.
+- [ ] Align the summary, competencies, and first-page accomplishments with each selected application target.
 
 ## Priority 1: Build an Evidence-Based Accomplishment Record
 
@@ -231,8 +232,8 @@
 
 ### Public Website
 
-- [ ] Align the website headline with the primary target role.
-- [ ] Replace "Engineering Leader, Strategist, Innovator, and Coach" with more specific, searchable positioning.
+- [x] Align the website headline with the primary target role.
+- [x] Replace "Engineering Leader, Strategist, Innovator, and Coach" with more specific, searchable positioning.
 - [ ] Keep the website summary synchronized with the verified master.
 - [ ] Keep public content free of unapproved defense, customer, or pre-release-equipment details.
 - [ ] Verify download links point to the latest PDFs.

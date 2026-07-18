@@ -181,7 +181,7 @@ def build_pdf(source: Path, destination: Path) -> None:
         bottomMargin=0.61 * inch,
         title="Tim Fox Full Resume",
         author="Tim Fox",
-        subject="Principal Network Engineer and Network Infrastructure Leader",
+        subject="Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks",
         creator="Tim-Fox-Resume four-page PDF generator",
         invariant=1,
     )

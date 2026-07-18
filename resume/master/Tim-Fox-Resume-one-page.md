@@ -1,6 +1,6 @@
 # TIM FOX
 
-**Principal Network Engineer | Network Infrastructure Leader**
+**Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks**
 
 United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/derg20
 
