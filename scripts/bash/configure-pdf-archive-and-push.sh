@@ -368,8 +368,8 @@ if standardizer.exists():
     replacement = '  "$PDF_REL"\n  "$ARCHIVE_REL"\n  "$ZARCHIVE_REL"\n)'
     if 'readonly ARCHIVE_REL="pdf/zArchive"' not in text:
         text = text.replace(
-            'readonly PDF_REL="pdf/Tim-Fox-Resume.pdf"\n',
-            'readonly PDF_REL="pdf/Tim-Fox-Resume.pdf"\n'
+            'readonly PDF_REL="pdf/Tim-Fox-Expanded-Resume.pdf"\n',
+            'readonly PDF_REL="pdf/Tim-Fox-Expanded-Resume.pdf"\n'
             'readonly ARCHIVE_REL="pdf/zArchive"\n'
             'readonly ZARCHIVE_REL="pdf/zArchive"\n',
             1,

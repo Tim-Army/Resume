@@ -7,7 +7,7 @@
 #   https://github.com/derg20/Tim-Fox-Resume/blob/main/resume/master/Tim-Fox-Resume.md
 #
 # Default output:
-#   pdf/Tim-Fox-Resume.pdf
+#   pdf/Tim-Fox-Expanded-Resume.pdf
 #
 
 set -Eeuo pipefail
@@ -22,7 +22,7 @@ readonly DEFAULT_REMOTE_BRANCH="main"
 readonly REMOTE_RESUME_PATH="resume/master/Tim-Fox-Resume.md"
 readonly DEFAULT_SOURCE_URL="https://github.com/derg20/Tim-Fox-Resume/blob/main/resume/master/Tim-Fox-Resume.md"
 readonly DEFAULT_RAW_URL="https://raw.githubusercontent.com/derg20/Tim-Fox-Resume/main/resume/master/Tim-Fox-Resume.md"
-readonly OUTPUT_RELATIVE_PATH="pdf/Tim-Fox-Resume.pdf"
+readonly OUTPUT_RELATIVE_PATH="pdf/Tim-Fox-Expanded-Resume.pdf"
 readonly SCRIPT_RELATIVE_PATH="scripts/bash/${CANONICAL_SCRIPT_NAME}"
 
 REPO_ROOT=""
@@ -87,7 +87,7 @@ Options:
   -h, --help           Show this help text.
 
 Output:
-  pdf/Tim-Fox-Resume.pdf
+  pdf/Tim-Fox-Expanded-Resume.pdf
 
 Repository update:
   The script installs itself as:
@@ -651,7 +651,7 @@ convert_to_pdf() {
   "$REPO_ROOT/scripts/bash/archive-current-pdfs.sh" --repo "$REPO_ROOT"
   local markdown_file="$1"
   local output_file="$REPO_ROOT/$OUTPUT_RELATIVE_PATH"
-  local temporary_pdf="$TEMP_DIR/Tim-Fox-Resume.pdf"
+  local temporary_pdf="$TEMP_DIR/Tim-Fox-Expanded-Resume.pdf"
   local converter="$TEMP_DIR/markdown_resume_to_pdf.py"
 
   mkdir -p "$(dirname "$output_file")"

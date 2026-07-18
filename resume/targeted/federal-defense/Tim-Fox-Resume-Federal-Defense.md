@@ -6,12 +6,12 @@ United States | Open to Remote Roles | timfox2025@tim.army | tim.army
 
 ## PROFESSIONAL SUMMARY
 
-Principal Network Engineer and technical leader with military, federal-contractor, healthcare, and enterprise experience supporting mission-critical and secure network environments. Provides people leadership, architecture support, technical training, Tier 3 troubleshooting, implementation planning, and multi-vendor engineering across Cisco, Juniper, Palo Alto Networks, F5, Gigamon, Dell, VMware, Red Hat, and Linux. Experienced with classified and unclassified networks, encrypted communications, DISA JRSS, Air Force aircraft communications, routing protocols, IPv6 security controls, data center infrastructure, and customer technical documentation.
+Principal Network Engineer and technical leader with military, federal-contractor, healthcare, and enterprise experience supporting mission-critical and secure network environments. Provides people leadership, architecture support, technical training, Tier 3 troubleshooting, implementation planning, and multi-vendor engineering across Cisco, Juniper, Palo Alto Networks, F5, Gigamon, Dell, VMware, Red Hat, and Linux. Experienced with secure networks, encrypted communications, DISA JRSS, Air Force aircraft communications, routing protocols, IPv6 security controls, data center infrastructure, and customer technical documentation.
 
 ## TECHNICAL QUALIFICATIONS
 
 - **Routing and Switching:** BGP, OSPF, MPLS, static routing, IPv4, IPv6, VLANs, access control lists, Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, Cisco 1001-X, Cisco 8000v, and Juniper JUNOS.
-- **Security and Visibility:** Palo Alto Networks, F5, TACLANE, Gigamon, encrypted communications, firewall engineering, packet brokers, segmentation, and IPv6 security policies.
+- **Security and Visibility:** Palo Alto Networks, F5, HAIPE, Gigamon, encrypted communications, firewall engineering, packet brokers, segmentation, and IPv6 security policies.
 - **Data Center and Systems:** Cisco ACI and APIC, Dell servers and switches, Dell VxRail, VMware, Linux, Red Hat Enterprise Linux, load balancers, and virtualized platforms.
 - **Program Delivery:** Technical leadership, direct supervision, mentoring, training, architecture documentation, implementation plans, test procedures, technical reviews, stakeholder coordination, and Tier 3 escalation support.
 
@@ -41,8 +41,8 @@ Principal Network Engineer and technical leader with military, federal-contracto
 **Senior Network Engineer** | July 2025–March 2026
 
 - Restored mission-critical Executive Aircraft Communications Network connectivity by resolving routing, switching, firewall, and virtual-network issues while delivering Tier 3 support.
-- Co-designed classified and unclassified network architectures for Air Force aircraft communications by translating mission, security, availability, and interoperability requirements into deployable technical designs.
-- Conducted pre-release testing of TACLANE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
+- Co-designed network architectures for Air Force aircraft communications by translating mission, security, availability, and interoperability requirements into deployable technical designs.
+- Conducted pre-release testing of HAIPE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
 
 ### AKIMA / TUNDRA LLC
 **Senior Deployment Network Engineer** | April 2024–July 2025

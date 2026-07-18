@@ -278,7 +278,7 @@ def main() -> None:
         "destination",
         nargs="?",
         type=Path,
-        default=Path("pdf/Tim-Fox-Resume.pdf"),
+        default=Path("pdf/Tim-Fox-Expanded-Resume.pdf"),
     )
     args = parser.parse_args()
     build_pdf(args.source, args.destination)

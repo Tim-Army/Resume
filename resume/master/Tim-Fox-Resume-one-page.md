@@ -11,7 +11,7 @@ Principal Network Engineer and people leader with more than 20 years of experien
 ## CORE EXPERTISE
 
 **Networking:** BGP, OSPF, MPLS, IPv4/IPv6, VLANs, ACLs, Cisco IOS/IOS-XE/IOS-XR, ACI/APIC, and Juniper JUNOS.  
-**Security and Data Center:** Palo Alto, F5, Gigamon, TACLANE, Dell VxRail, VMware, Linux, and Red Hat Enterprise Linux.  
+**Security and Data Center:** Palo Alto, F5, Gigamon, HAIPE, Dell VxRail, VMware, Linux, and Red Hat Enterprise Linux.  
 **Leadership and Delivery:** People management, team development, architecture, deployment planning, documentation, stakeholder communication, and escalation management.
 
 ## CERTIFICATIONS
@@ -29,7 +29,7 @@ Principal Network Engineer and people leader with more than 20 years of experien
 
 ### FEDITC | Senior Network Engineer | July 2025-March 2026
 
-- Co-designed classified and unclassified networks for Air Force executive aircraft, evaluated pre-release TACLANE equipment, and delivered Tier 3 communications support.
+- Co-designed networks for Air Force executive aircraft, evaluated pre-release HAIPE equipment, and delivered Tier 3 communications support.
 - Restored mission-critical connectivity by resolving Cisco IOS-XE, Palo Alto, routing, switching, firewall, and virtual networking issues.
 
 ### AKIMA / TUNDRA LLC | Senior Deployment Network Engineer | April 2024-July 2025

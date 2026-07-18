@@ -18,7 +18,7 @@ readonly SCRIPT_VERSION="2026.07.17.1"
 readonly SCRIPT_NAME="condense-resume-to-three-pages-and-push.sh"
 readonly DEFAULT_REPO="$HOME/Documents/github/Tim-Fox-Resume"
 readonly MASTER_REL="resume/master/Tim-Fox-Resume.md"
-readonly PDF_REL="pdf/Tim-Fox-Resume.pdf"
+readonly PDF_REL="pdf/Tim-Fox-Expanded-Resume.pdf"
 readonly SCRIPT_REL="scripts/bash/$SCRIPT_NAME"
 readonly HEADER="United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/derg20"
 
@@ -70,7 +70,7 @@ Options:
 
 Files created or updated:
   resume/master/Tim-Fox-Resume.md
-  pdf/Tim-Fox-Resume.pdf
+  pdf/Tim-Fox-Expanded-Resume.pdf
   scripts/bash/condense-resume-to-three-pages-and-push.sh
 
 The script stages only these three files. It does not validate or modify unrelated
@@ -195,7 +195,7 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 
 **Network Engineering:** BGP, OSPF, MPLS, IPv4, IPv6, VLANs, access control lists, routing, switching, architecture, implementation, troubleshooting, and Tier 3 support.
 
-**Platforms:** Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, ACI, APIC, Cisco 1001-X, Cisco 8000v, Juniper JUNOS, Palo Alto Networks, F5, Gigamon, TACLANE, Dell, VMware, VxRail, Linux, and Red Hat Enterprise Linux.
+**Platforms:** Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, ACI, APIC, Cisco 1001-X, Cisco 8000v, Juniper JUNOS, Palo Alto Networks, F5, Gigamon, HAIPE, Dell, VMware, VxRail, Linux, and Red Hat Enterprise Linux.
 
 **Leadership and Delivery:** People management, mentoring, technical training, design reviews, implementation planning, documentation, stakeholder communication, escalation management, and operational support.
 
@@ -220,9 +220,9 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 ### FEDITC
 **Senior Network Engineer** | July 2025-March 2026
 
-- Co-designed classified and unclassified network architectures supporting Air Force aircraft communications.
+- Co-designed network architectures supporting Air Force aircraft communications.
 - Translated mission, security, availability, and interoperability requirements into deployable technical designs.
-- Conducted pre-release testing of TACLANE encryption equipment and documented operational findings and deployment considerations.
+- Conducted pre-release testing of HAIPE encryption equipment and documented operational findings and deployment considerations.
 - Delivered Tier 3 engineering support for the Executive Aircraft Communications Network.
 - Resolved complex routing, switching, firewall, and virtual-network issues in a mission-critical environment.
 - Supported Cisco 1001-X, Cisco 8000v, IOS-XE routing and switching platforms, Palo Alto firewalls, and virtual-network environments.

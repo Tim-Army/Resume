@@ -334,7 +334,7 @@ Principal Network Engineer and technical leader with more than 20 years of milit
 
 - **Network Engineering:** BGP, OSPF, MPLS, IPv4, IPv6, VLANs, access control lists, routing, switching, network architecture, implementation, troubleshooting, and Tier 3 support.
 - **Network Platforms:** Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, Cisco ACI, Cisco APIC, Cisco 1001-X, Cisco 8000v, and Juniper JUNOS.
-- **Security and Traffic Management:** Palo Alto Networks, F5, TACLANE, Gigamon, network segmentation, encrypted communications, IPv6 security policies, and firewall engineering.
+- **Security and Traffic Management:** Palo Alto Networks, F5, HAIPE, Gigamon, network segmentation, encrypted communications, IPv6 security policies, and firewall engineering.
 - **Data Center and Systems:** Dell servers and switches, Dell VxRail, VMware, virtualization, Linux, Red Hat Enterprise Linux, load balancers, and packet brokers.
 - **Leadership and Delivery:** People management, technical mentoring, team development, technical training, architecture documentation, design reviews, implementation planning, project leadership, stakeholder communication, and operational support.
 
@@ -376,9 +376,9 @@ Principal Network Engineer and technical leader with more than 20 years of milit
 
 **Senior Network Engineer** | July 2025–March 2026
 
-- Co-designed classified and unclassified network architectures supporting Air Force aircraft communications.
+- Co-designed network architectures supporting Air Force aircraft communications.
 - Translated mission, security, availability, and interoperability requirements into deployable technical designs.
-- Conducted pre-release testing of TACLANE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
+- Conducted pre-release testing of HAIPE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
 - Delivered Tier 3 engineering support for the Executive Aircraft Communications Network.
 - Resolved complex routing, switching, firewall, and virtual-network issues in a mission-critical environment.
 - Supported Cisco 1001-X, Cisco 8000v, additional IOS-XE routing and switching platforms, and Palo Alto Networks firewalls.
@@ -606,12 +606,12 @@ Remote, USA | timfox2025@tim.army | [tim.army](https://tim.army)
 
 ## PROFESSIONAL SUMMARY
 
-Principal Network Engineer and technical leader with military, federal-contractor, healthcare, and enterprise experience supporting mission-critical and secure network environments. Provides people leadership, architecture support, technical training, Tier 3 troubleshooting, implementation planning, and multi-vendor engineering across Cisco, Juniper, Palo Alto Networks, F5, Gigamon, Dell, VMware, Red Hat, and Linux. Experienced with classified and unclassified networks, encrypted communications, DISA JRSS, Air Force aircraft communications, routing protocols, IPv6 security controls, data center infrastructure, and customer technical documentation.
+Principal Network Engineer and technical leader with military, federal-contractor, healthcare, and enterprise experience supporting mission-critical and secure network environments. Provides people leadership, architecture support, technical training, Tier 3 troubleshooting, implementation planning, and multi-vendor engineering across Cisco, Juniper, Palo Alto Networks, F5, Gigamon, Dell, VMware, Red Hat, and Linux. Experienced with secure networks, encrypted communications, DISA JRSS, Air Force aircraft communications, routing protocols, IPv6 security controls, data center infrastructure, and customer technical documentation.
 
 ## TECHNICAL QUALIFICATIONS
 
 - **Routing and Switching:** BGP, OSPF, MPLS, static routing, IPv4, IPv6, VLANs, access control lists, Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, Cisco 1001-X, Cisco 8000v, and Juniper JUNOS.
-- **Security and Visibility:** Palo Alto Networks, F5, TACLANE, Gigamon, encrypted communications, firewall engineering, packet brokers, segmentation, and IPv6 security policies.
+- **Security and Visibility:** Palo Alto Networks, F5, HAIPE, Gigamon, encrypted communications, firewall engineering, packet brokers, segmentation, and IPv6 security policies.
 - **Data Center and Systems:** Cisco ACI and APIC, Dell servers and switches, Dell VxRail, VMware, Linux, Red Hat Enterprise Linux, load balancers, and virtualized platforms.
 - **Program Delivery:** Technical leadership, direct supervision, mentoring, training, architecture documentation, implementation plans, test procedures, technical reviews, stakeholder coordination, and Tier 3 escalation support.
 
@@ -642,9 +642,9 @@ Principal Network Engineer and technical leader with military, federal-contracto
 ### FEDITC
 **Senior Network Engineer** | July 2025–March 2026
 
-- Co-designed classified and unclassified network architectures supporting Air Force aircraft communications.
+- Co-designed network architectures supporting Air Force aircraft communications.
 - Translated mission, security, availability, and interoperability requirements into deployable technical designs.
-- Conducted pre-release testing of TACLANE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
+- Conducted pre-release testing of HAIPE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
 - Delivered Tier 3 engineering support for the Executive Aircraft Communications Network.
 - Resolved complex routing, switching, firewall, and virtual-network issues in a mission-critical environment.
 - Supported Cisco 1001-X, Cisco 8000v, additional IOS-XE routing and switching platforms, and Palo Alto Networks firewalls.

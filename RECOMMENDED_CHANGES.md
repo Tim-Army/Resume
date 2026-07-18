@@ -67,8 +67,8 @@ styles.css
 assets/
   flag-of-the-united-states.svg
 pdf/
-  Tim-Fox-Resume-one-page.pdf
-  Tim-Fox-Resume.pdf
+  Tim-Fox-Concise-Resume.pdf
+  Tim-Fox-Expanded-Resume.pdf
 README.md
 .nojekyll
 ```

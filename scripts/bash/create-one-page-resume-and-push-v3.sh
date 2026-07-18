@@ -7,7 +7,7 @@
 #
 # Outputs:
 #   resume/master/Tim-Fox-Resume-one-page.md
-#   pdf/Tim-Fox-Resume-one-page.pdf
+#   pdf/Tim-Fox-Concise-Resume.pdf
 #
 
 set -Eeuo pipefail
@@ -17,7 +17,7 @@ readonly SCRIPT_VERSION="2026.07.17.3"
 readonly SCRIPT_NAME="create-one-page-resume-and-push-v3.sh"
 readonly DEFAULT_REPO="$HOME/Documents/github/Tim-Fox-Resume"
 readonly MARKDOWN_REL="resume/master/Tim-Fox-Resume-one-page.md"
-readonly PDF_REL="pdf/Tim-Fox-Resume-one-page.pdf"
+readonly PDF_REL="pdf/Tim-Fox-Concise-Resume.pdf"
 readonly SCRIPT_REL="scripts/bash/$SCRIPT_NAME"
 readonly HEADER="United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/derg20"
 
@@ -69,7 +69,7 @@ Options:
 
 Files created or updated:
   resume/master/Tim-Fox-Resume-one-page.md
-  pdf/Tim-Fox-Resume-one-page.pdf
+  pdf/Tim-Fox-Concise-Resume.pdf
   scripts/bash/create-one-page-resume-and-push-v3.sh
 
 Before PDF generation, all current top-level files in pdf/ are backed up to:
@@ -253,7 +253,7 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 ## CORE EXPERTISE
 
 **Networking:** BGP, OSPF, MPLS, IPv4/IPv6, VLANs, ACLs, Cisco IOS/IOS-XE/IOS-XR, ACI/APIC, and Juniper JUNOS.  
-**Security and Data Center:** Palo Alto, F5, Gigamon, TACLANE, Dell VxRail, VMware, Linux, and Red Hat Enterprise Linux.  
+**Security and Data Center:** Palo Alto, F5, Gigamon, HAIPE, Dell VxRail, VMware, Linux, and Red Hat Enterprise Linux.  
 **Leadership and Delivery:** People management, team development, architecture, deployment planning, documentation, stakeholder communication, and escalation management.
 
 ## CERTIFICATIONS
@@ -271,7 +271,7 @@ Principal Network Engineer and technical leader with more than 20 years of exper
 
 ### FEDITC | Senior Network Engineer | July 2025-March 2026
 
-- Co-designed classified and unclassified Air Force aircraft networks, evaluated pre-release TACLANE equipment, and delivered Tier 3 support for executive aircraft communications.
+- Co-designed Air Force aircraft networks, evaluated pre-release HAIPE equipment, and delivered Tier 3 support for executive aircraft communications.
 - Resolved Cisco IOS-XE, Palo Alto, routing, switching, firewall, and virtual-network issues in mission-critical environments.
 
 ### AKIMA / TUNDRA LLC | Senior Deployment Network Engineer | April 2024-July 2025

@@ -120,9 +120,9 @@
 
 ### Defense and Customer Information
 
-- [ ] Review references to classified and unclassified networks.
+- [ ] Review references to secure networks.
 - [ ] Review references to Air Force executive aircraft.
-- [ ] Review references to pre-release TACLANE equipment.
+- [ ] Review references to pre-release HAIPE equipment.
 - [ ] Review references to the DISA Joint Regional Security Stack.
 - [ ] Review references to encrypted communications deployments.
 - [ ] Confirm each reference complies with employer, customer, nondisclosure, proprietary-information, and operational-security requirements.

@@ -15,7 +15,7 @@ readonly SCRIPT_VERSION="2026.07.17.1"
 readonly SCRIPT_NAME="format-dod-workforce-alignment-and-push.sh"
 readonly DEFAULT_REPO="$HOME/Documents/github/Tim-Fox-Resume"
 readonly MASTER_REL="resume/master/Tim-Fox-Resume.md"
-readonly PDF_REL="pdf/Tim-Fox-Resume.pdf"
+readonly PDF_REL="pdf/Tim-Fox-Expanded-Resume.pdf"
 readonly CONDENSE_REL="scripts/bash/condense-resume-to-three-pages-and-push.sh"
 readonly LEGACY_REL="scripts/bash/add-dod-workforce-alignment-and-push.sh"
 readonly SCRIPT_REL="scripts/bash/$SCRIPT_NAME"
@@ -72,7 +72,7 @@ The resulting resume line is:
 
 Files created or updated:
   resume/master/Tim-Fox-Resume.md
-  pdf/Tim-Fox-Resume.pdf
+  pdf/Tim-Fox-Expanded-Resume.pdf
   scripts/bash/condense-resume-to-three-pages-and-push.sh
   scripts/bash/add-dod-workforce-alignment-and-push.sh (when present)
   scripts/bash/format-dod-workforce-alignment-and-push.sh

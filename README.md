@@ -17,8 +17,8 @@ The site defaults to a dark theme with `#090` text. An upper-right theme link sw
 - `assets/college-favicons/` — Official college favicons displayed on transparent containers to the right of each school name in the webpage education section.
 - `assets/service-logos/` — U.S. Army employer mark displayed as a right-aligned business logo without surrounding padding, background, or border.
 - `assets/favicon/` — Browser and device icons.
-- `pdf/Tim-Fox-Resume-one-page.pdf` — Concise one-page resume.
-- `pdf/Tim-Fox-Resume.pdf` — Full three-page resume.
+- `pdf/Tim-Fox-Concise-Resume.pdf` — Concise one-page resume.
+- `pdf/Tim-Fox-Expanded-Resume.pdf` — Full three-page resume.
 - `resume/master/Tim-Fox-Resume.md` — Full resume source and webpage content reference.
 - `resume/master/Tim-Fox-Resume-one-page.md` — Concise resume source.
 - `scripts/python/create-full-resume-pdf.py` — Generates the three-page PDF from the full source.

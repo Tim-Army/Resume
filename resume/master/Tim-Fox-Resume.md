@@ -12,7 +12,7 @@ Principal Network Engineer and people leader with more than 20 years of experien
 
 **Network Engineering:** BGP, OSPF, MPLS, IPv4/IPv6, VLANs, access control lists, routing, switching, architecture, implementation, troubleshooting, and Tier 3 support.
 
-**Platforms:** Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, ACI, APIC, Cisco 1001-X, Cisco 8000v, Juniper JUNOS, Palo Alto Networks, F5, Gigamon, TACLANE, Dell, VMware, VxRail, Linux, and Red Hat Enterprise Linux.
+**Platforms:** Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, ACI, APIC, Cisco 1001-X, Cisco 8000v, Juniper JUNOS, Palo Alto Networks, F5, Gigamon, HAIPE, Dell, VMware, VxRail, Linux, and Red Hat Enterprise Linux.
 
 **Leadership and Delivery:** People management, mentoring, technical training, design reviews, implementation planning, documentation, stakeholder communication, escalation management, and operational support.
 
@@ -36,8 +36,8 @@ Principal Network Engineer and people leader with more than 20 years of experien
 **Senior Network Engineer | July 2025-March 2026**
 
 - Restored mission-critical connectivity by resolving routing, switching, firewall, and virtual-network issues while delivering Tier 3 support.
-- Co-designed classified and unclassified networks for Air Force executive aircraft, translating mission, security, availability, and interoperability requirements into deployable architectures.
-- Evaluated pre-release TACLANE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
+- Co-designed networks for Air Force executive aircraft, translating mission, security, availability, and interoperability requirements into deployable architectures.
+- Evaluated pre-release HAIPE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
 
 <!-- PAGE BREAK -->
 
