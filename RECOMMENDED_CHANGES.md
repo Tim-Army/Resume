@@ -18,7 +18,7 @@ Keep this repository intentionally small: a static HTML/CSS site with a download
 - [x] Style both PDF download links as matching primary buttons.
 - [x] Label the downloads as One-Page Resume PDF and Multi-Page Resume PDF.
 - [x] Give both PDFs professional filenames.
-- [x] Expand the webpage and full PDF to the reviewed four-page resume content.
+- [x] Expand the webpage and full PDF to the reviewed full-resume content.
 - [x] Add an American flag header while preserving readable text contrast.
 - [x] Reduce the professional summary body font by 10%.
 - [x] Present the professional headline as one title bullet.

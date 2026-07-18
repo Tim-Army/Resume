@@ -28,16 +28,16 @@ Principal Network Engineer and people leader with more than 20 years of experien
 ### LEIDOS INC.
 **Supervisor / Principal Network Engineer | March 2026-Present**
 
-- Lead and develop 2 direct reports on an approximately 12-person infrastructure engineering team, removing operational blockers and strengthening capability across Cisco, Juniper, Dell, and Red Hat technologies.
-- Deliver technical training and knowledge transfer across Dell servers, Red Hat Enterprise Linux, Juniper routers, and Cisco routing and switching platforms.
+- Remove technical and operational blockers for 2 direct reports within an approximately 12-person infrastructure engineering team by coordinating access, equipment, documentation, training, and cross-team support.
 - Direct complex multi-vendor network and infrastructure escalations through resolution.
+- Deliver technical training and knowledge transfer that strengthens team capability across enterprise infrastructure platforms.
 
 ### FEDITC
 **Senior Network Engineer | July 2025-March 2026**
 
+- Restored mission-critical connectivity by resolving routing, switching, firewall, and virtual-network issues while delivering Tier 3 support.
 - Co-designed classified and unclassified networks for Air Force executive aircraft, translating mission, security, availability, and interoperability requirements into deployable architectures.
-- Evaluated pre-release TACLANE encryption equipment and documented operational findings and deployment considerations.
-- Restored mission-critical connectivity by resolving Cisco IOS-XE, Palo Alto, routing, switching, firewall, and virtual networking issues while delivering Tier 3 support.
+- Evaluated pre-release TACLANE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
 
 <!-- PAGE BREAK -->
 
@@ -47,20 +47,20 @@ Principal Network Engineer and people leader with more than 20 years of experien
 **Senior Deployment Network Engineer | April 2024-July 2025**
 
 - Reduced deployment risk by authoring network designs, implementation plans, test procedures, and technical documentation aligned with customer acceptance requirements.
-- Planned, installed, configured, and validated Cisco, Dell, and VMware infrastructure across coordinated customer deployments.
+- Planned, installed, configured, and validated multi-vendor infrastructure across coordinated customer deployments.
 - Improved team deployment capability through technical mentoring, demonstrations, and reusable engineering documentation.
 
 ### MSM TECHNOLOGY INC.
 **Senior Data Center Network Engineer | November 2022-March 2024**
 
-- Strengthened data center security and IPv6 adoption by engineering Cisco ACI, Juniper, F5, Gigamon, routing, switching, and access control solutions.
-- Served as a technical consultant across Cisco APIC and IOS-XE, Juniper JUNOS, F5, and Gigamon platforms.
+- Strengthened data center security and IPv6 adoption by designing and implementing IPv6 access control lists.
+- Engineered and supported data center infrastructure spanning routing, switching, firewalls, load balancing, packet brokering, and fabric environments.
 - Improved troubleshooting readiness through multi-vendor documentation, demonstrations, technical training, and mentoring.
 
 ### LEIDOS INC.
 **Lead Infrastructure Network Engineer | November 2019-November 2022**
 
-- Led Tier 3 escalations across BGP, OSPF, MPLS, firewalls, load balancers, Linux, routers, switches, and servers to restore complex multi-vendor services.
+- Restored complex multi-vendor infrastructure services by leading Tier 3 escalations involving routing, traffic management, security, systems, and servers.
 - Advised engineering and operations teams on design decisions, configuration changes, troubleshooting strategies, and implementation risks.
 - Strengthened team readiness through technical documentation, demonstrations, and targeted training.
 
@@ -68,26 +68,21 @@ Principal Network Engineer and people leader with more than 20 years of experien
 **Senior Cisco Network Engineer Subject-Matter Expert | July 2017-January 2019**
 
 - Led engineering for a $9.7 million hospital network modernization serving 2 hospitals and more than 40 clinics.
-- Directed architecture, migration, implementation, validation, and technical coordination for highly available Cisco routing and switching infrastructure.
+- Directed architecture, migration, implementation, validation, and technical coordination for highly available network infrastructure.
 - Mentored engineers and project managers on technical dependencies, implementation risks, and network requirements.
-
-<!-- PAGE BREAK -->
-
-## PROFESSIONAL EXPERIENCE - CONTINUED
 
 ### LEIDOS INC.
 **Senior Network Engineer Subject-Matter Expert | July 2016-July 2017**
 
 - Maintained uninterrupted support for the Defense Information Systems Agency Joint Regional Security Stack after the contract transitioned from Lockheed Martin to Leidos.
-- Resolved Cisco, Juniper, Palo Alto, F5, Gigamon, Linux, BGP, OSPF, MPLS, and static-routing issues in a complex defense environment.
-- Delivered senior engineering guidance and technical training across multi-vendor routing, security, and traffic-management platforms.
+- Resolved complex routing, security, traffic-management, and Linux issues while delivering senior engineering guidance and technical training.
 
 ### LOCKHEED MARTIN
 **Senior Network Engineer Subject-Matter Expert | March 2016-July 2016**
 
 - Established the engineering foundation for the Joint Regional Security Stack assignment later transitioned to Leidos.
-- Supported Cisco IOS, IOS-XE, and IOS-XR routing and switching platforms in a complex defense environment.
-- Advised cross-functional teams on multi-vendor routing, security, traffic management, and Linux technologies.
+
+<!-- PAGE BREAK -->
 
 ## EDUCATION AND TECHNICAL DEVELOPMENT
 
@@ -101,11 +96,8 @@ Principal Network Engineer and people leader with more than 20 years of experien
 **Information Technology Specialist | April 1999-March 2006**
 
 - Sustained 100% service availability for 2 internet cafes supporting 50 computers.
-- Administered 2 Cisco routers, 1 Cisco switch, specialty fiber-optic cabling, and communications equipment.
-- Served as a Windows domain administrator and provided technical support for approximately 800 users.
+- Administered 2 routers, 1 switch, specialty fiber-optic cabling, and communications equipment while supporting approximately 800 users as a Windows domain administrator.
 - Earned formal recognition for deploying the encrypted Defense Messaging System in Germany.
-
-<!-- PAGE BREAK -->
 
 ## EDUCATION
 

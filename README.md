@@ -1,6 +1,6 @@
 # Tim Fox Resume
 
-A lightweight static website for presenting Tim Fox's full professional experience, technical expertise, education, and contact information. The site provides both a concise one-page PDF and an expanded four-page PDF resume.
+A lightweight static website for presenting Tim Fox's full professional experience, technical expertise, education, and contact information. The site provides both a concise one-page PDF and an expanded three-page PDF resume.
 
 The site defaults to a dark theme with `#090` text. An upper-right theme link switches between dark and light modes and remembers the visitor's choice. The header presents the professional title as one bullet. Contact, profile, and resume resource links open in a new tab, while the theme control, accessibility skip link, and footer's back-to-top link remain within the current page. Email links are masked in the static HTML and restored in the browser for visitors with JavaScript enabled.
 
@@ -18,10 +18,10 @@ The site defaults to a dark theme with `#090` text. An upper-right theme link sw
 - `assets/service-logos/` — U.S. Army employer mark displayed as a right-aligned business logo without surrounding padding, background, or border.
 - `assets/favicon/` — Browser and device icons.
 - `pdf/Tim-Fox-Resume-one-page.pdf` — Concise one-page resume.
-- `pdf/Tim-Fox-Resume.pdf` — Full four-page resume.
+- `pdf/Tim-Fox-Resume.pdf` — Full three-page resume.
 - `resume/master/Tim-Fox-Resume.md` — Full resume source and webpage content reference.
 - `resume/master/Tim-Fox-Resume-one-page.md` — Concise resume source.
-- `scripts/python/create-full-resume-pdf.py` — Generates the four-page PDF from the full source.
+- `scripts/python/create-full-resume-pdf.py` — Generates the three-page PDF from the full source.
 - `scripts/python/requirements.txt` — Pinned dependencies for generating the full PDF.
 
 ## Preview locally

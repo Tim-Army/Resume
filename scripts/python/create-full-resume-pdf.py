@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the four-page full resume PDF from the master Markdown source."""
+"""Generate the three-page full resume PDF from the master Markdown source."""
 
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ NAVY = colors.HexColor("#17365D")
 DARK = colors.HexColor("#202832")
 MUTED = colors.HexColor("#566474")
 RULE = colors.HexColor("#B8C6D9")
-EXPECTED_PAGES = 4
+EXPECTED_PAGES = 3
 PAGE_BREAK_MARKER = "<!-- PAGE BREAK -->"
 
 
@@ -169,7 +169,9 @@ def build_styles() -> dict[str, ParagraphStyle]:
 def build_pdf(source: Path, destination: Path) -> None:
     source_text = source.read_text(encoding="utf-8")
     if source_text.count(PAGE_BREAK_MARKER) != EXPECTED_PAGES - 1:
-        raise RuntimeError("The master resume must contain exactly three page-break markers.")
+        raise RuntimeError(
+            f"The master resume must contain exactly {EXPECTED_PAGES - 1} page-break markers."
+        )
 
     styles = build_styles()
     doc = SimpleDocTemplate(
@@ -182,7 +184,7 @@ def build_pdf(source: Path, destination: Path) -> None:
         title="Tim Fox Full Resume",
         author="Tim Fox",
         subject="Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks",
-        creator="Tim-Fox-Resume four-page PDF generator",
+        creator="Tim-Fox-Resume three-page PDF generator",
         invariant=1,
     )
 

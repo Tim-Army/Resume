@@ -30,60 +30,57 @@ Principal Network Engineer and people leader with extensive experience designing
 ### LEIDOS INC. — Supervisor / Principal Network Engineer
 **March 2026–Present**
 
-- Lead and develop 2 direct reports within an infrastructure engineering team of approximately 12 professionals.
-- Deliver technical training across Dell servers, Red Hat Enterprise Linux, Juniper routing, and Cisco routing and switching platforms.
-- Remove technical and operational blockers by coordinating access, equipment, documentation, training, and cross-team support.
-- Provide senior technical guidance for complex network and infrastructure issues across multi-vendor environments.
+- Remove technical and operational blockers for 2 direct reports within an approximately 12-person infrastructure engineering team by coordinating access, equipment, documentation, training, and cross-team support.
+- Direct complex multi-vendor network and infrastructure escalations through resolution.
+- Deliver technical training and knowledge transfer that strengthens team capability across enterprise infrastructure platforms.
 
 ### FEDITC — Senior Network Engineer
 **July 2025–March 2026**
 
-- Co-designed secure network architectures supporting mission-critical aircraft communications.
-- Translated security, availability, and interoperability requirements into deployable technical designs.
+- Restored mission-critical connectivity by resolving routing, switching, firewall, and virtual-network issues while delivering Tier 3 support.
+- Co-designed secure network architectures for aircraft communications by translating security, availability, and interoperability requirements into deployable technical designs.
 - Conducted pre-release testing of encryption equipment and documented interoperability risks and deployment considerations.
-- Delivered Tier 3 support across Cisco IOS-XE routing and switching, virtual routers, and Palo Alto Networks firewalls.
 
 ### AKIMA / TUNDRA LLC — Senior Deployment Network Engineer
 **April 2024–July 2025**
 
-- Authored and reviewed network designs, implementation plans, test procedures, and customer-facing technical documentation.
-- Planned, installed, configured, and validated Cisco, Dell, and VMware infrastructure.
-- Reduced deployment risk through technical mentoring, reusable documentation, demonstrations, and cross-team coordination.
+- Reduced deployment risk by authoring network designs, implementation plans, test procedures, and customer-facing technical documentation aligned with acceptance requirements.
+- Planned, installed, configured, and validated multi-vendor infrastructure across coordinated customer deployments.
+- Improved team deployment capability through technical mentoring, demonstrations, and reusable engineering documentation.
 
 ### MSM TECHNOLOGY INC. — Senior Data Center Network Engineer
 **November 2022–March 2024**
 
-- Engineered and supported routers, switches, firewalls, load balancers, packet brokers, and Cisco ACI environments.
-- Consulted across Cisco APIC and IOS-XE, Juniper JUNOS, F5, and Gigamon platforms.
 - Designed and implemented IPv6 access control lists to strengthen security enforcement and support IPv6 adoption.
+- Engineered and supported data center infrastructure spanning routing, switching, firewalls, load balancing, packet brokering, and fabric environments.
+- Improved troubleshooting readiness through multi-vendor documentation, demonstrations, technical training, and mentoring.
 
 ### LEIDOS INC. — Lead Infrastructure Network Engineer
 **November 2019–November 2022**
 
-- Led engineering support across Cisco IOS-XR and IOS-XE, Juniper, F5, Gigamon, Linux, firewalls, routers, switches, and servers.
-- Served as a senior escalation resource for BGP, OSPF, MPLS, static routing, traffic management, and network availability.
+- Restored complex multi-vendor infrastructure services by leading Tier 3 escalations involving routing, traffic management, security, systems, and servers.
 - Advised teams on design choices, configuration changes, troubleshooting strategies, and implementation risks.
+- Strengthened team readiness through technical documentation, demonstrations, and targeted training.
 
 ### BJC HEALTHCARE — Senior Cisco Network Engineer SME
 **July 2017–January 2019**
 
 - Served in a lead engineering role for a $9.7 million hospital network modernization initiative.
-- Engineered Cisco infrastructure serving 2 hospitals and more than 40 clinics.
-- Supported Cisco 2921 routers and Catalyst 9410 and 4510 switches in a highly available healthcare environment.
+- Directed architecture, migration, implementation, validation, and technical coordination for highly available network infrastructure serving 2 hospitals and more than 40 clinics.
+- Mentored engineers and project managers on technical dependencies, implementation risks, and network requirements.
 
 ### LOCKHEED MARTIN / LEIDOS — Senior Network Engineer SME
 **March 2016–July 2017**
 
 - Continued in the same role without interruption after the supporting contract transitioned from Lockheed Martin to Leidos.
-- Supported complex multi-vendor network engineering across Cisco, Juniper, Palo Alto Networks, F5, Gigamon, and Linux.
-- Engineered and troubleshot BGP, OSPF, MPLS, and static-routing configurations.
+- Resolved complex routing, security, traffic-management, and Linux issues while delivering senior engineering guidance and technical training.
 
 ### UNITED STATES ARMY — Information Technology Specialist
 **April 1999–March 2006**
 
 - Managed 2 Internet cafés supporting 50 total computers and sustained 100% service availability.
-- Served as a Windows domain administrator and supported approximately 800 users.
-- Contributed to the successful deployment of the Defense Messaging System in Germany.
+- Administered network and communications infrastructure while supporting approximately 800 users as a Windows domain administrator.
+- Earned formal recognition for deploying the encrypted Defense Messaging System in Germany.
 
 ## EDUCATION
 

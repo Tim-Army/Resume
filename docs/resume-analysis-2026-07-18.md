@@ -6,7 +6,7 @@
 
 ## Baseline Review
 
-- [x] Review the four-page master resume and source.
+- [x] Review the full master resume and source.
 - [x] Review the private-sector variant.
 - [x] Review the federal/defense variant.
 - [x] Render and visually inspect the full PDF.
@@ -86,11 +86,11 @@
 - [ ] Give every important bullet a clear action.
 - [ ] Add scope where available.
 - [ ] Add a verified result or mission/business effect where available.
-- [ ] Lead each recent role with its strongest accomplishment rather than a general responsibility.
+- [x] Lead each recent role with its strongest accomplishment rather than a general responsibility.
 - [ ] Replace unsupported claims such as "reduced risk," "strengthened security," and "improved readiness" with evidence.
-- [ ] Remove duplicated technology lists when the same keywords already appear in the competencies section.
-- [ ] Keep approximately 3-5 high-value bullets for recent roles.
-- [ ] Keep older roles concise unless directly relevant to the target vacancy.
+- [x] Remove duplicated technology lists when the same keywords already appear in the competencies section.
+- [x] Keep approximately 3-5 high-value bullets for recent roles.
+- [x] Keep older roles concise unless directly relevant to the target vacancy.
 
 ## Priority 1: Strengthen the Leadership Case
 

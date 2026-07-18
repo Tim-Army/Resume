@@ -33,54 +33,44 @@ Principal Network Engineer and technical leader with military, federal-contracto
 ### LEIDOS INC.
 **Supervisor / Principal Network Engineer** | March 2026–Present
 
-- Lead and develop 2 direct reports within a growing infrastructure engineering team of approximately 12 professionals.
-- Provide technical training and knowledge transfer covering Dell servers, Red Hat Enterprise Linux, Juniper routers, and Cisco routing and switching platforms.
-- Remove technical and operational blockers by coordinating equipment, access, documentation, training, and cross-team assistance.
-- Support employee development, team readiness, operational success, and positive team morale through hands-on leadership and mentoring.
-- Provide senior technical guidance for complex network and infrastructure issues across multi-vendor environments.
+- Remove technical and operational blockers for 2 direct reports within an approximately 12-person infrastructure engineering team by coordinating access, equipment, documentation, training, and cross-team support.
+- Direct complex multi-vendor network and infrastructure escalations through resolution.
+- Deliver technical training and knowledge transfer that strengthens team capability across enterprise infrastructure platforms.
 
 ### FEDITC
 **Senior Network Engineer** | July 2025–March 2026
 
-- Co-designed classified and unclassified network architectures supporting Air Force aircraft communications.
-- Translated mission, security, availability, and interoperability requirements into deployable technical designs.
+- Restored mission-critical Executive Aircraft Communications Network connectivity by resolving routing, switching, firewall, and virtual-network issues while delivering Tier 3 support.
+- Co-designed classified and unclassified network architectures for Air Force aircraft communications by translating mission, security, availability, and interoperability requirements into deployable technical designs.
 - Conducted pre-release testing of TACLANE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
-- Delivered Tier 3 engineering support for the Executive Aircraft Communications Network.
-- Resolved complex routing, switching, firewall, and virtual-network issues in a mission-critical environment.
-- Supported Cisco 1001-X, Cisco 8000v, additional IOS-XE routing and switching platforms, and Palo Alto Networks firewalls.
 
 ### AKIMA / TUNDRA LLC
 **Senior Deployment Network Engineer** | April 2024–July 2025
 
-- Authored, reviewed, and submitted network designs, implementation plans, test procedures, and technical documentation aligned with customer, engineering, security, and acceptance requirements.
-- Planned, installed, configured, and validated Cisco, Dell, and VMware infrastructure, including enterprise switches, servers, and virtualized platforms.
-- Improved team capability through technical mentoring, demonstrations, deployment guidance, and reusable engineering documentation.
-- Coordinated deployment activities across engineering teams, customer stakeholders, and onsite personnel to reduce implementation risk and support successful acceptance.
+- Reduced deployment risk by authoring network designs, implementation plans, test procedures, and technical documentation aligned with customer acceptance requirements.
+- Planned, installed, configured, and validated multi-vendor infrastructure across coordinated customer deployments.
+- Improved team deployment capability through technical mentoring, demonstrations, and reusable engineering documentation.
 
 ### MSM TECHNOLOGY INC.
 **Senior Data Center Network Engineer** | November 2022–March 2024
 
-- Engineered and supported data center infrastructure spanning routers, switches, firewalls, load balancers, packet brokers, and Cisco ACI environments.
-- Provided engineering support for complex configurations across multi-vendor enterprise and data center networks.
-- Served as a technical consultant across Cisco APIC, Cisco IOS-XE, Juniper JUNOS, F5, and Gigamon platforms.
 - Designed and implemented IPv6 access control lists to strengthen network security enforcement and support IPv6 adoption.
-- Developed technical documentation and training materials to improve knowledge transfer and team troubleshooting capability.
+- Engineered and supported data center infrastructure spanning routing, switching, firewalls, load balancing, packet brokering, and fabric environments.
+- Improved troubleshooting readiness through multi-vendor documentation, demonstrations, technical training, and mentoring.
 
 ### LEIDOS INC.
 **Lead Infrastructure Network Engineer** | November 2019–November 2022
 
-- Led engineering support for multi-vendor infrastructure incorporating Cisco IOS-XR, Cisco IOS-XE, Juniper, F5, Gigamon, Linux, firewalls, load balancers, routers, switches, and servers.
-- Served as a senior escalation resource for BGP, OSPF, MPLS, static routing, traffic management, and network availability issues.
+- Restored complex multi-vendor infrastructure services by leading Tier 3 escalations involving routing, traffic management, security, systems, and servers.
 - Advised engineering and operational teams on design decisions, configuration changes, troubleshooting strategies, and implementation risks.
-- Produced technical documentation and delivered informal training that strengthened team readiness and knowledge transfer.
+- Strengthened team readiness through technical documentation, demonstrations, and targeted training.
 
 ### BJC HEALTHCARE
 **Senior Cisco Network Engineer Subject-Matter Expert** | July 2017–January 2019
 
 - Served in a lead engineering role for a $9.7 million hospital network modernization initiative.
-- Supported network architecture, implementation, migration, validation, and technical coordination for the hospital upgrade.
-- Engineered and supported Cisco routing and switching infrastructure serving 2 hospitals and more than 40 clinics.
-- Supported Cisco 2921 routers and Cisco Catalyst 9410 and 4510 switches across a highly available healthcare environment.
+- Directed architecture, migration, implementation, validation, and technical coordination for highly available network infrastructure serving 2 hospitals and more than 40 clinics.
+- Mentored engineers and project managers on technical dependencies, implementation risks, and network requirements.
 
 ### LEIDOS INC.
 **Senior Network Engineer Subject-Matter Expert** | July 2016–July 2017
@@ -91,25 +81,19 @@ Principal Network Engineer and technical leader with military, federal-contracto
 *Position continued without interruption after the supporting contract transitioned from Lockheed Martin to Leidos.*
 
 - Supported Defense Information Systems Agency Joint Regional Security Stack engineering and operations as a senior network subject-matter expert.
-- Advised cross-functional teams on Cisco, Juniper, Palo Alto Networks, F5, Gigamon, and Linux technologies.
-- Engineered and troubleshot BGP, OSPF, MPLS, and static-routing configurations across mission-critical infrastructure.
-- Supported Cisco IOS, IOS-XE, and IOS-XR routing and switching platforms.
-- Delivered technical training and senior-level troubleshooting support to engineering and operations teams.
+- Resolved complex routing, security, traffic-management, and Linux issues while delivering senior engineering guidance and technical training.
 
 ### EDUCATION AND TECHNICAL DEVELOPMENT
 **Full-Time Education and Career Development** | 2006–2016
 
 - Pursued higher education and technical development while transitioning from military service to civilian network engineering.
-- Earned associate and bachelor's degrees focused on information systems, networking, systems administration, cybersecurity, and enterprise infrastructure.
-- Developed hands-on routing, switching, systems administration, and network security skills through formal education and technical lab work.
+- Earned associate and bachelor's degrees focused on information systems, networking, systems administration, and cybersecurity while developing hands-on skills through technical lab work.
 
 ### UNITED STATES ARMY
 **Information Technology Specialist** | April 1999–March 2006
 
 - Managed 2 Internet cafés supporting 25 computers each and sustained 100% service availability.
-- Administered 2 Cisco routers, 1 Cisco switch, specialty fiber-optic cabling, and communications equipment for 2 years.
-- Served as a Windows domain administrator and provided technical support for approximately 800 users in a team environment.
-- Contributed to the successful deployment of the Defense Messaging System, an encrypted email capability, in Germany.
+- Administered 2 routers, 1 switch, specialty fiber-optic cabling, and communications equipment while supporting approximately 800 users as a Windows domain administrator.
 - Earned formal recognition for successful completion of the Defense Messaging System deployment project.
 
 ## EDUCATION
