@@ -1,213 +1,297 @@
-# Resume Analysis and Recommendations
+# Resume Improvement Checklist
 
-**Reviewed:** July 18, 2026  
+**Created:** July 18, 2026  
 **Repository:** `derg20/Tim-Fox-Resume`  
-**Scope:** Four-page master resume, master source, private-sector variant, federal/defense variant, PDF layout, and ATS-oriented text extraction. The one-page constraint was intentionally excluded from this analysis.
+**Scope:** Master resume, private-sector variant, federal/defense variant, public website, PDF layout, ATS extraction, and application readiness. The one-page constraint is intentionally excluded.
 
-## Overall Assessment
+## Baseline Review
 
-The resume presents a credible Principal Network Engineer and infrastructure leader with strong technical breadth across defense, healthcare, data center, enterprise, and Army environments. Its strongest differentiators are multi-vendor engineering depth, mission-critical infrastructure experience, leadership responsibility, an MBA, and a substantial certification portfolio.
+- [x] Review the four-page master resume and source.
+- [x] Review the private-sector variant.
+- [x] Review the federal/defense variant.
+- [x] Render and visually inspect the full PDF.
+- [x] Confirm that the PDF uses a clean, single-column layout.
+- [x] Confirm that the PDF text is selectable and generally machine-readable.
+- [x] Confirm strong keyword coverage across networking, security, data center, virtualization, and leadership.
+- [x] Exclude the one-page constraint from the recommendations.
 
-The primary weakness is that the resume documents responsibilities and technologies more convincingly than measurable business or mission outcomes. It is strongest for principal or lead individual-contributor roles. The case for broader engineering-management roles is developing but needs additional evidence of organizational scope and management outcomes.
+## Priority 0: Resolve Before the Next Application
 
-## Strongest Elements
+### Experience-Duration Claim
 
-- Clear principal-level specialization in mission-critical, multi-vendor networking.
-- Distinctive experience across federal defense, healthcare, data center, enterprise, and military environments.
-- Strong keyword coverage across Cisco, Juniper, Palo Alto Networks, ACI/APIC, BGP, OSPF, MPLS, IPv6, F5, Gigamon, VMware, VxRail, Linux, and Red Hat Enterprise Linux.
-- Strong certification portfolio, MBA, and recent supervisory responsibility.
-- The BJC Healthcare achievement is the strongest civilian accomplishment: engineering leadership for a $9.7 million modernization serving 2 hospitals and more than 40 clinics.
-- The Army experience provides credible scale through 100% service availability and support for approximately 800 users.
-- The PDF is clean, single-column, selectable, and generally machine-readable.
+- [ ] Verify the total number of years of professional IT and network-engineering experience.
+- [ ] Identify any professional employment omitted from the current 2006-2016 education and development period.
+- [ ] If omitted professional experience exists, add it to the master resume with accurate dates and scope.
+- [ ] If the chronology is complete, replace the current "more than 20 years of experience" claim with accurate wording.
+- [ ] Choose and use one verified formulation consistently:
+  - [ ] "Technology experience spanning more than 20 years."
+  - [ ] "17+ years of professional IT and network-engineering experience."
+  - [ ] Another factually supported duration statement.
+- [ ] Apply the verified wording consistently across the master resume, targeted variants, PDFs, website metadata, and website summary.
 
-## Highest-Priority Recommendations
+### Primary Career Positioning
 
-### 1. Reconcile the Experience-Duration Claim
+- [ ] Choose the primary target for each application:
+  - [ ] Principal Network Engineer
+  - [ ] Network Architect
+  - [ ] Infrastructure Engineering Supervisor
+  - [ ] Engineering Manager
+- [ ] Align the headline, summary, competencies, and first-page accomplishments with the selected target.
+- [ ] Replace broad branding such as "Strategist, Innovator, and Coach" with job-searchable language.
+- [ ] Consider this headline as a starting point:
+  - [ ] `Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks`
+- [ ] Keep the Principal Network Engineer positioning as the default unless stronger management evidence is added.
 
-The summary claims more than 20 years of experience designing, deploying, securing, and restoring networks. The chronology currently shows professional employment from 1999-2006 and 2016-present, which is approximately 17 years. The intervening period is described as full-time education and career development.
+## Priority 1: Build an Evidence-Based Accomplishment Record
 
-Choose one of the following:
+### Complete the Metrics Inventory
 
-- Add any omitted professional experience that supports the 20-plus-year claim.
-- Change the wording to "technology experience spanning more than 20 years."
-- Use "17+ years of professional IT and network-engineering experience" if that accurately reflects the record.
+- [ ] Populate `docs/accomplishment-metrics.md` with verified accomplishments.
+- [ ] Record the evidence or source for every metric.
+- [ ] Mark each metric as approved or not approved for resume use.
+- [ ] Do not add estimated figures unless they are clearly labeled and defensible.
 
-This should be resolved before submitting the resume because the current wording may invite questions about credibility.
+### Metrics to Collect
 
-### 2. Choose the Primary Positioning for Each Application
+- [ ] Number of deployments completed.
+- [ ] Number of sites, networks, devices, or environments supported.
+- [ ] Number of users or customers affected.
+- [ ] Availability or uptime achieved.
+- [ ] Outage duration or restoration time.
+- [ ] Mean time to resolution or comparable incident metric.
+- [ ] Number and severity of escalations resolved.
+- [ ] Engineers mentored or trained.
+- [ ] Training sessions or hours delivered.
+- [ ] Designs, implementation plans, procedures, or documents produced.
+- [ ] Acceptance-test pass rate or customer acceptance results.
+- [ ] Schedule improvement or avoided rework.
+- [ ] Program or project value.
+- [ ] Cost, labor, or time savings.
+- [ ] Security, reliability, or operational-risk improvement with supporting evidence.
 
-The resume combines two brands:
+### Employer-Specific Metric Review
 
-- Principal or lead network engineer
-- Engineering people manager
+- [ ] Leidos, 2026-present: capture team, supervisory, training, escalation, and delivery outcomes.
+- [ ] FEDITC: capture architecture scope, testing results, incidents restored, and mission impact that may be disclosed.
+- [ ] Akima / Tundra: capture deployment count, acceptance results, documentation volume, and avoided rework.
+- [ ] MSM Technology: capture IPv6 scope, ACL volume, environments supported, and security or readiness outcomes.
+- [ ] Leidos, 2019-2022: capture escalation volume, restoration results, service scope, and training impact.
+- [ ] BJC Healthcare: preserve the verified $9.7 million, 2-hospital, and 40-plus-clinic scope; add devices, migrations, availability, or schedule results if verified.
+- [ ] Lockheed Martin / Leidos, 2016-2017: capture supported infrastructure scale, escalation volume, and training outcomes that may be disclosed.
+- [ ] U.S. Army: preserve the verified 100% availability and approximately 800-user support scope; verify the timeframe and source.
 
-The evidence currently supports the principal-level individual-contributor position most strongly. The management case is newer and presently includes 2 direct reports within a team of approximately 12.
+### Rewrite Bullets Around Evidence
 
-For management applications, add verified evidence covering:
+- [ ] Give every important bullet a clear action.
+- [ ] Add scope where available.
+- [ ] Add a verified result or mission/business effect where available.
+- [ ] Lead each recent role with its strongest accomplishment rather than a general responsibility.
+- [ ] Replace unsupported claims such as "reduced risk," "strengthened security," and "improved readiness" with evidence.
+- [ ] Remove duplicated technology lists when the same keywords already appear in the competencies section.
+- [ ] Keep approximately 3-5 high-value bullets for recent roles.
+- [ ] Keep older roles concise unless directly relevant to the target vacancy.
 
-- Performance management and employee development
-- Hiring or interview participation
-- Work planning and prioritization
-- Staffing or capacity decisions
-- Delivery accountability
-- Roadmap or budget ownership
-- Cross-functional organizational influence
+## Priority 1: Strengthen the Leadership Case
 
-A more precise headline could be:
+- [ ] Quantify current supervisory responsibility: 2 direct reports within an approximately 12-person team.
+- [ ] Add verified employee-development outcomes.
+- [ ] Add performance-management responsibility if applicable.
+- [ ] Add hiring, interviewing, or onboarding responsibility if applicable.
+- [ ] Add work-planning and prioritization responsibility if applicable.
+- [ ] Add staffing or capacity decisions if applicable.
+- [ ] Add delivery accountability if applicable.
+- [ ] Add roadmap, budget, or resource ownership if applicable.
+- [ ] Add cross-functional organizational influence if applicable.
+- [ ] Avoid implying broader management authority than the position actually carries.
 
-> Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks
+## Priority 1: Explain Career Chronology
 
-### 3. Add Verified Impact Metrics
+- [ ] Verify all employers, titles, and month/year dates.
+- [ ] Identify which recent roles were contract assignments.
+- [ ] Identify which roles ended because of program completion, contract transition, recompete, or customer decision.
+- [ ] Add concise context where it reduces the appearance of voluntary job-hopping.
+- [ ] Preserve the Lockheed Martin-to-Leidos continuity explanation.
+- [ ] Decide whether the 2006-2016 education and career-development period should remain a separate experience entry.
+- [ ] If retained, explain the period concisely and factually.
+- [ ] If removed from a commercial version, ensure the education dates still explain the chronology sufficiently.
 
-The accomplishment-metrics inventory is currently empty. Complete it before rewriting more bullets.
+## Priority 1: Review Public Disclosure and Privacy
 
-Capture verified figures such as:
+### Defense and Customer Information
 
-- Number of deployments, sites, devices, users, or environments supported
-- Availability, outage duration, restoration time, or mean time to resolution
-- Number and severity of incidents or escalations resolved
-- Engineers trained, training sessions delivered, or documentation adopted
-- Acceptance-test success, schedule improvement, or avoided rework
-- Program or project value
-- Cost savings, labor savings, or operational risk reduced
-- Number of network designs, implementation plans, or test procedures delivered
+- [ ] Review references to classified and unclassified networks.
+- [ ] Review references to Air Force executive aircraft.
+- [ ] Review references to pre-release TACLANE equipment.
+- [ ] Review references to the DISA Joint Regional Security Stack.
+- [ ] Review references to encrypted communications deployments.
+- [ ] Confirm each reference complies with employer, customer, nondisclosure, proprietary-information, and operational-security requirements.
+- [ ] Replace uncertain public details with approved generalized language.
+- [ ] Keep controlled or sensitive specifics out of the public website and public repository.
 
-Avoid unsupported outcome language. Claims such as "reduced deployment risk," "strengthened security," and "improved readiness" are more persuasive when the resume explains what changed and how the improvement was verified.
+### Contact Information
 
-### 4. Explain Recent Short Tenures
+- [ ] Create a private application version that includes a phone number.
+- [ ] Add city/state or another useful regional location to the application version.
+- [ ] Include email, LinkedIn, and portfolio/GitHub links in application versions.
+- [ ] Decide which contact details are appropriate for the public website.
+- [ ] Remember that the email remains visible in public Markdown even if the webpage masks it.
+- [ ] Remove or replace the public Markdown email if reducing scraping exposure is a goal.
 
-Several recent positions lasted approximately 8-16 months. If these were contract assignments, program completions, recompetes, or contract transitions, identify that context concisely.
+## Priority 2: Improve Content Allocation
 
-Examples:
+### Education and Professional Development
 
-- Contract assignment
-- Program completed
-- Position continued through contract transition
-- Customer contract ended
-- Recompete or organizational transition
+- [ ] Remove or condense MBA coursework unless a vacancy makes it relevant.
+- [ ] Remove or condense bachelor's-degree coursework.
+- [ ] Remove or condense associate-degree foundational studies.
+- [ ] Remove the 2006 leadership workshop unless directly relevant.
+- [ ] Remove or condense the 2017 CCIE training entry unless directly relevant.
+- [ ] Keep recent professional development that supports the target job.
+- [ ] Use the recovered space for recent accomplishments and leadership outcomes.
 
-This will reduce the risk that recruiters interpret the pattern as voluntary job-hopping.
+### Certifications and Qualifications
 
-### 5. Prioritize Recent Accomplishments Over Coursework
+- [ ] Verify that every listed certification is current or clearly labeled if expired.
+- [ ] Verify the exact names of all certifications.
+- [ ] Verify the wording of DoD 8570 IAT II and IAT III qualification claims.
+- [ ] Replace vague "DoD 8140-aligned qualifications" wording with a specific, verified work-role or qualification statement when possible.
+- [ ] Prioritize advanced and role-relevant credentials.
+- [ ] Consider omitting entry-level or redundant credentials when space or focus matters.
+- [ ] Keep certifications requested by the target vacancy even when they are otherwise redundant.
 
-For a principal-level professional, degree coursework contributes less than recent results. Consider removing or condensing:
+### Technical Lab and Portfolio
 
-- MBA coursework
-- Undergraduate coursework
-- Associate-degree foundational studies
-- The 2006 leadership workshop
-- The 2017 CCIE training entry
-- Detailed GitHub administrative workflow descriptions
+- [ ] Rename "Technical Lab" to "Selected Projects" when appropriate.
+- [ ] Reduce the section to 1-2 high-value projects.
+- [ ] Describe the architecture or infrastructure created.
+- [ ] Identify the technologies integrated.
+- [ ] Describe useful automation developed.
+- [ ] Explain who benefits from the project.
+- [ ] Add a direct link to the Enterprise Infrastructure Handbook or relevant repository.
+- [ ] Remove low-value detail about labels, milestones, contribution workflows, and publishing mechanics unless targeting a role that values those skills.
+- [ ] Replace "planned" automation with completed, demonstrable work where possible.
 
-Use the recovered space for recent technical and leadership achievements.
+## Priority 2: Improve PDF and ATS Quality
 
-### 6. Convert the Technical Lab Into a Selected-Projects Section
+### Readability and Page Flow
 
-The technical lab is useful because it demonstrates continued hands-on practice. However, the current version devotes too much attention to repository administration and publishing mechanics.
+- [ ] Increase full-PDF body text from approximately 9.3 points to 10-10.5 points if practical.
+- [ ] Review forced page breaks.
+- [ ] Reduce unnecessary blank space on pages 2-4.
+- [ ] Balance section transitions across pages.
+- [ ] Keep role headings with at least one following bullet.
+- [ ] Prevent isolated headings, orphaned bullets, clipping, and overlaps.
+- [ ] Retain page numbers and a restrained footer.
+- [ ] Keep three or four pages only when the content and page balance justify the length.
 
-Retain one or two high-value entries that show:
+### ATS and Accessibility
 
-- The architecture or infrastructure created
-- The technologies integrated
-- Automation developed
-- Documentation or labs published
-- Who benefits from the work
-- A direct link to the Enterprise Infrastructure Handbook or relevant repository
+- [ ] Replace PDF bullet characters that extract as control characters with standard bullets or simple hyphens.
+- [ ] Re-extract PDF text and verify the reading order.
+- [ ] Adjust PDF generation order so the footer does not precede the main header in extracted text, if practical.
+- [ ] Add PDF tagging or provide an accessible alternative document.
+- [ ] Verify conventional section headings remain intact.
+- [ ] Verify employer, title, date, and bullet text extract correctly.
+- [ ] Verify no important content depends on logos, color, or images.
+- [ ] Verify all email, LinkedIn, GitHub, and portfolio links are active.
+- [ ] Verify the PDF opens correctly in multiple viewers.
 
-### 7. Review Public-Disclosure Language
-
-The public resume refers to:
-
-- Classified and unclassified networks
-- Air Force executive aircraft
-- Pre-release TACLANE equipment
-- DISA Joint Regional Security Stack
-- Encrypted communications deployments
-
-Verify that each reference is appropriate for public disclosure and consistent with employer, customer, nondisclosure, and operational-security requirements. If uncertain, use generalized language in the public version and reserve approved specifics for controlled applications or interviews.
-
-### 8. Separate Public and Application Contact Information
-
-The submitted application resume should normally include:
-
-- Phone number
-- City and state or a useful regional location
-- Email address
-- LinkedIn profile
-- Portfolio or GitHub link when relevant
-
-The public website may omit a phone number and precise location for privacy. Note that masking the email in the webpage does not prevent scraping because the address remains visible in public Markdown source files.
-
-## ATS and PDF Findings
-
-### What Works
-
-- Single-column structure
-- Conventional section headings
-- Selectable text
-- Strong job-related keywords
-- Employer, title, and date information is easy to identify
-- Logos and decorative images are excluded from the PDFs
-
-### What Should Be Improved
-
-- The full PDF body text is approximately 9.3 points. A 10-10.5-point body font would improve readability.
-- Forced page breaks leave substantial unused space on several pages. A three-page master could preserve the same meaningful content while appearing more intentional.
-- One PDF parser extracted the bullet glyphs as control characters. Use standard bullets or simple hyphens and test extraction again.
-- The footer text is extracted before the main header on each page in one parser. Adjust the PDF generation order if practical.
-- The PDF is untagged, reducing accessibility for screen-reader users.
-- Verify that email, LinkedIn, GitHub, and portfolio links are active in every application version.
-
-## Version Strategy
-
-Maintain distinct versions rather than forcing one document to serve every audience.
+## Version-Specific Checklists
 
 ### Master Resume
 
-Keep a comprehensive source containing all verified accomplishments. Three or four pages are acceptable if the content is purposeful and the page flow is balanced.
+- [ ] Keep the master as the complete, verified source of truth.
+- [ ] Preserve all approved accomplishments and metrics.
+- [ ] Remove unsupported claims.
+- [ ] Keep comprehensive technical keywords without excessive duplication.
+- [ ] Maintain purposeful page flow across three or four pages.
+- [ ] Regenerate and inspect the PDF after every meaningful content change.
 
-### Private-Sector Resume
+### Private-Sector Variant
 
-Tailor the opening, keywords, and accomplishments to the specific role. Emphasize commercial outcomes, scale, reliability, delivery, leadership, and business value. Two or three pages are reasonable for this experience level.
+- [ ] Tailor the headline and summary to the specific job.
+- [ ] Match the job description's terminology where accurate.
+- [ ] Emphasize scale, reliability, delivery, leadership, and business value.
+- [ ] Generalize defense details that are unnecessary for the commercial role.
+- [ ] Keep the strongest recent accomplishments on the first page.
+- [ ] Use two or three pages when needed; do not optimize for a one-page requirement.
+- [ ] Include application contact information.
 
-### Federal Resume
+### Federal/Defense Variant
 
-Current USAJOBS guidance generally limits resumes to two pages. The federal version should also include information requested by the announcement, such as month/year dates and hours worked per week for relevant positions.
-
-Official guidance:
-
-- [OPM applicant guidance on the two-page resume limit](https://www.opm.gov/policy-data-oversight/hiring-information/merit-hiring-plan-resources/applicant-guidance-on-the-two-page-resume-limit/)
-- [USAJOBS resume requirements](https://help.usajobs.gov/faq/application/documents/resume/what-to-include)
-
-Always follow the specific vacancy announcement.
+- [ ] Keep the resume at two pages when required by USAJOBS or the vacancy announcement.
+- [ ] Add hours worked per week for relevant positions when required.
+- [ ] Use month/year dates.
+- [ ] Address the announcement's specialized-experience requirements directly.
+- [ ] Include series and grade for any federal positions, if applicable.
+- [ ] Include only approved, publicly releasable program information.
+- [ ] Follow the specific announcement when it differs from general guidance.
+- [ ] Review [OPM applicant guidance](https://www.opm.gov/policy-data-oversight/hiring-information/merit-hiring-plan-resources/applicant-guidance-on-the-two-page-resume-limit/).
+- [ ] Review [USAJOBS resume requirements](https://help.usajobs.gov/faq/application/documents/resume/what-to-include).
 
 ### Public Website
 
-Use the website as a professional profile and portfolio. Align its headline with the target role instead of the broader phrase "Engineering Leader, Strategist, Innovator, and Coach." The PDF headline, "Principal Network Engineer | Network Infrastructure Leader," is more searchable and better supported by the resume.
+- [ ] Align the website headline with the primary target role.
+- [ ] Replace "Engineering Leader, Strategist, Innovator, and Coach" with more specific, searchable positioning.
+- [ ] Keep the website summary synchronized with the verified master.
+- [ ] Keep public content free of unapproved defense, customer, or pre-release-equipment details.
+- [ ] Verify download links point to the latest PDFs.
+- [ ] Verify the email, LinkedIn, GitHub, and portfolio links.
+- [ ] Test desktop, mobile, print, light mode, and dark mode.
+- [ ] Confirm the canonical URL represents the intended professional profile.
 
-## Recommended Work Order
+## Summary Rewrite Checklist
 
-1. Verify the total years-of-experience claim.
-2. Complete the accomplishment-metrics inventory.
-3. Decide whether the primary target is principal engineer, architect, supervisor, or engineering manager.
-4. Rewrite the current and recent roles around scope, action, and verified outcome.
-5. Explain contract or program-driven short tenures.
-6. Condense coursework, older training, and lower-value technical-lab details.
-7. Review defense and pre-release-equipment language for public disclosure.
-8. Improve PDF font size, page flow, bullet extraction, and accessibility.
-9. Build job-specific private-sector and federal variants from the verified master.
+Before rewriting the summary:
 
-## Suggested Summary Direction
+- [ ] Verify the years-of-experience figure.
+- [ ] Select the target role.
+- [ ] Select 1-2 quantified accomplishments.
+- [ ] Select the most relevant advanced certifications.
+- [ ] Decide whether current supervision should appear in the first sentence.
+- [ ] Keep the summary to approximately 3-4 concise lines.
+- [ ] Avoid unsupported adjectives such as "innovative," "strategic," or "results-driven."
+- [ ] Avoid repeating the complete skills inventory.
 
-Once the years-of-experience figure is verified, the opening should communicate:
+Confirm that the final summary communicates:
 
-- Principal-level network engineering
-- Current supervisory responsibility
-- Mission-critical multi-vendor infrastructure
-- Defense, healthcare, enterprise, and data-center experience
-- CCNP Enterprise, security credentials, and MBA
-- One or two quantified accomplishments
+- [ ] Principal-level network engineering.
+- [ ] Current supervisory responsibility.
+- [ ] Mission-critical multi-vendor infrastructure.
+- [ ] Defense, healthcare, enterprise, and data-center experience.
+- [ ] Advanced networking and security credentials.
+- [ ] MBA or business perspective.
+- [ ] At least one verified example of scale or impact.
 
-A strong positioning statement is:
+Candidate positioning statement to revise after verification:
 
 > Principal Network Engineer and infrastructure supervisor who leads engineers and delivers mission-critical, multi-vendor networks across defense, healthcare, enterprise, and data-center environments. Combines hands-on Cisco, Juniper, Palo Alto Networks, F5, Gigamon, Dell, VMware, and Red Hat expertise with an MBA, advanced networking and security credentials, and engineering leadership for a $9.7 million modernization serving 2 hospitals and more than 40 clinics.
+
+## Final Quality Assurance
+
+- [ ] Proofread spelling, grammar, capitalization, and punctuation.
+- [ ] Verify every date and job title.
+- [ ] Verify every number and outcome against a reliable source.
+- [ ] Verify all certification names and statuses.
+- [ ] Verify all links.
+- [ ] Compare each generated PDF with its source file.
+- [ ] Extract the final PDF text and inspect the reading order.
+- [ ] Inspect every rendered page visually.
+- [ ] Confirm the resume remains legible when printed.
+- [ ] Confirm the public and private versions contain the intended contact information.
+- [ ] Confirm the resume is tailored to the target vacancy.
+- [ ] Have a trusted technical peer review technical accuracy.
+- [ ] Have a hiring manager or recruiter review the opening and first-page impact.
+
+## Definition of Done
+
+- [ ] The experience-duration claim matches the documented chronology.
+- [ ] The target role is unmistakable within the first five seconds.
+- [ ] Recent roles lead with verified accomplishments.
+- [ ] Short tenures have appropriate context.
+- [ ] The leadership scope is accurate and supported.
+- [ ] Public defense information has been reviewed for disclosure.
+- [ ] The application version contains complete contact information.
+- [ ] The PDF is readable, balanced, accessible, and machine-extractable.
+- [ ] The private-sector and federal versions meet their respective application requirements.
+- [ ] All generated documents are synchronized with the verified master.
