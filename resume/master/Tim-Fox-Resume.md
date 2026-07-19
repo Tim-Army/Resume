@@ -74,6 +74,8 @@ Principal Network Engineer and people leader with more than 20 years of experien
 - Established the engineering foundation for the Defense Information Systems Agency Joint Regional Security Stack, then sustained uninterrupted support after the contract transitioned from Lockheed Martin to Leidos.
 - Resolved complex routing, security, traffic-management, and Linux issues while delivering senior engineering guidance and technical training.
 
+Attended college full time from 2007 to 2014 while transitioning from military service to civilian network engineering.
+
 ## UNITED STATES ARMY
 
 **Information Technology Specialist | April 1999-March 2006 (Honorable Discharge)**
@@ -83,8 +85,6 @@ Principal Network Engineer and people leader with more than 20 years of experien
 - Earned formal recognition for deploying the encrypted Defense Messaging System in Germany.
 
 ## EDUCATION
-
-Attended college full time from 2007 to 2014 while transitioning from military service to civilian network engineering.
 
 ### WEBSTER UNIVERSITY - St. Louis, Missouri
 **Master of Business Administration | March 2025**
