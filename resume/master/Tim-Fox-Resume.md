@@ -88,7 +88,7 @@ Principal Network Engineer and people leader with more than 20 years of experien
 
 ## UNITED STATES ARMY
 
-**Information Technology Specialist | April 1999-March 2006**
+**Information Technology Specialist | April 1999-March 2006 (honorable discharge)**
 
 - Sustained 100% service availability for 2 internet cafes supporting 50 computers.
 - Administered 2 routers, 1 switch, specialty fiber-optic cabling, and communications equipment while supporting approximately 800 users as a Windows domain administrator.
