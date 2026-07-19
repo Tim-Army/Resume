@@ -68,8 +68,8 @@ Principal Network Engineer and people leader with more than 20 years of experien
 - Directed architecture, migration, implementation, validation, and technical coordination for highly available network infrastructure.
 - Mentored engineers and project managers on technical dependencies, implementation risks, and network requirements.
 
-### DISA JOINT REGIONAL SECURITY STACK - LOCKHEED MARTIN, THEN LEIDOS
-**Senior Network Engineer Subject-Matter Expert | March 2016-July 2017 (contract transitioned to Leidos)**
+### LEIDOS INC.
+**Senior Network Engineer Subject-Matter Expert | March 2016-July 2017 (began at Lockheed Martin; contract transitioned to Leidos)**
 
 - Established the engineering foundation for the Defense Information Systems Agency Joint Regional Security Stack, then sustained uninterrupted support after the contract transitioned from Lockheed Martin to Leidos.
 - Resolved complex routing, security, traffic-management, and Linux issues while delivering senior engineering guidance and technical training.
