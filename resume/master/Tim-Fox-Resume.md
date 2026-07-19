@@ -19,6 +19,7 @@ Principal Network Engineer and people leader with more than 20 years of experien
 ## CERTIFICATIONS
 
 - **Advanced Networking:** Cisco CCNP Enterprise, Cisco CCNA, and Juniper JNCIA-Junos.
+- **In Progress:** Cisco CCIE Enterprise Infrastructure.
 - **Cybersecurity:** GIAC GCED, CompTIA Security+ CE, and Fortinet Certified Associate in Cybersecurity.
 - **Cloud, Virtualization, and Data Center:** AWS Certified Cloud Practitioner, Dell VxRail Deploy Version 2, and VMware VCA-DCV.
 - **DoD Workforce Qualification Alignment:** DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications.
