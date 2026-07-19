@@ -29,9 +29,9 @@ Principal Network Engineer and people leader with more than 20 years of experien
 ### LEIDOS INC.
 **Supervisor / Principal Network Engineer | March 2026-Present (third tenure)**
 
-- Remove technical and operational blockers for 2 direct reports within an approximately 12-person infrastructure engineering team by coordinating access, equipment, documentation, training, and cross-team support.
-- Direct complex multi-vendor network and infrastructure escalations through resolution.
-- Deliver technical training and knowledge transfer that strengthens team capability across enterprise infrastructure platforms.
+- Removes technical and operational blockers for 2 direct reports within an approximately 12-person infrastructure engineering team by coordinating access, equipment, documentation, training, and cross-team support.
+- Directs complex multi-vendor network and infrastructure escalations through resolution.
+- Delivers technical training and knowledge transfer that strengthens team capability across enterprise infrastructure platforms.
 
 ### FEDITC
 **Senior Network Engineer | July 2025-March 2026 (contract recompeted)**
