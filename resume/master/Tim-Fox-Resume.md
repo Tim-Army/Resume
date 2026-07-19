@@ -103,7 +103,7 @@ Foundational studies included information systems, computer networking, systems 
 
 ## PROFESSIONAL DEVELOPMENT
 
-- CCIE Advanced Training, Micronics Training | 2019-2026.
+- CCIE Training, Micronics Training | 2019-2026.
 - AWS Certified Cloud Practitioner Essentials, Amazon Web Services | May 2025.
 - Dell VxRail Installation and Implementation Training | October 2024.
 - Completed the Developing the Leader Within Workshop, Atlanta, Georgia | August 2006; studied the five-level leadership framework for organizational development.
