@@ -299,6 +299,13 @@ h3 {
   border-top: 0;
 }
 
+/* Standalone timeline note, separated like a role entry. */
+.role-note {
+  padding: 1.25rem 0 1.4rem;
+  border-top: 1px solid var(--line);
+  color: var(--detail-text);
+}
+
 .role-heading {
   display: flex;
   align-items: flex-start;
@@ -748,6 +755,7 @@ li + li {
   }
 
   .role,
+  .role-note,
   .education-item,
   .expertise-group {
     break-inside: avoid;
