@@ -2,7 +2,9 @@
 
 **Created:** July 18, 2026  
 **Repository:** `derg20/Tim-Fox-Resume`  
-**Scope:** Master resume, private-sector variant, federal/defense variant, public website, PDF layout, ATS extraction, and application readiness. The one-page constraint is intentionally excluded.
+**Scope:** Master resume, ~~private-sector variant, federal/defense variant,~~ public website, PDF layout, ATS extraction, and application readiness. The one-page constraint is intentionally excluded.
+
+> **Update, July 19, 2026.** Struck items no longer apply. The concise one-page resume and both targeted variants were deleted that day, leaving `resume/master/Tim-Fox-Resume.md` as the only resume source, and several chronology, homelab, and professional-development items were completed. See `docs/resume-build-manifest.md`.
 
 ## Baseline Review
 
@@ -27,7 +29,7 @@
   - [ ] "Technology experience spanning more than 20 years."
   - [ ] "17+ years of professional IT and network-engineering experience."
   - [ ] Another factually supported duration statement.
-- [ ] Apply the verified wording consistently across the master resume, targeted variants, PDFs, website metadata, and website summary.
+- [ ] Apply the verified wording consistently across the master resume, ~~targeted variants,~~ PDFs, website metadata, and website summary.
 
 ### Primary Career Positioning
 
@@ -109,12 +111,12 @@
 
 - [ ] Verify all employers, titles, and month/year dates.
 - [ ] Identify which recent roles were contract assignments.
-- [ ] Identify which roles ended because of program completion, contract transition, recompete, or customer decision.
-- [ ] Add concise context where it reduces the appearance of voluntary job-hopping.
-- [ ] Preserve the Lockheed Martin-to-Leidos continuity explanation.
-- [ ] Decide whether the 2006-2016 education and career-development period should remain a separate experience entry.
-- [ ] If retained, explain the period concisely and factually.
-- [ ] If removed from a commercial version, ensure the education dates still explain the chronology sufficiently.
+- [x] ~~Identify which roles ended because of program completion, contract transition, recompete, or customer decision.~~
+- [x] ~~Add concise context where it reduces the appearance of voluntary job-hopping.~~
+- [x] ~~Preserve the Lockheed Martin-to-Leidos continuity explanation.~~
+- [x] ~~Decide whether the 2006-2016 education and career-development period should remain a separate experience entry.~~
+- [ ] ~~If retained, explain the period concisely and factually.~~
+- [x] ~~If removed from a commercial version, ensure the education dates still explain the chronology sufficiently.~~
 
 ## Priority 1: Review Public Disclosure and Privacy
 
@@ -146,7 +148,7 @@
 - [ ] Remove or condense bachelor's-degree coursework.
 - [ ] Remove or condense associate-degree foundational studies.
 - [ ] Remove the 2006 leadership workshop unless directly relevant.
-- [ ] Remove or condense the 2017 CCIE training entry unless directly relevant.
+- [x] ~~Remove or condense the 2017 CCIE training entry unless directly relevant.~~
 - [ ] Keep recent professional development that supports the target job.
 - [ ] Use the recovered space for recent accomplishments and leadership outcomes.
 
@@ -162,7 +164,7 @@
 
 ### Homelab and Portfolio
 
-- [ ] Rename "Technical Lab" to "Selected Projects" when appropriate.
+- [ ] ~~Rename "Technical Lab" to "Selected Projects" when appropriate.~~ Renamed to Homelab.
 - [ ] Reduce the section to 1-2 high-value projects.
 - [ ] Describe the architecture or infrastructure created.
 - [ ] Identify the technologies integrated.
@@ -170,12 +172,12 @@
 - [ ] Explain who benefits from the project.
 - [x] Add a direct link to the Enterprise Infrastructure Encyclopedia repository.
 - [x] Identify where low-value implementation detail is concentrated:
-  - Concise resume, Homelab: the automation bullet enumerates issues, labels, milestones, chapter migration, status configuration, synchronization, and validation.
-  - Concise resume, Homelab: the Git/GitHub bullet enumerates branching, commits, pull requests, review, changelogs, contribution standards, and project tracking.
-  - Concise resume, Homelab: the publishing bullet enumerates GitHub Pages, PDF, DOCX, print-ready editions, validation, and planned release automation.
-  - Expanded resume and website, Homelab: the repository-automation and publishing bullets retain lower-level workflow mechanics that may distract from network-engineering outcomes.
-- [ ] Remove or compress those details unless targeting a role that values developer tooling, documentation systems, or publishing automation.
-- [ ] Replace "planned" automation with completed, demonstrable work where possible.
+  - ~~Concise resume, Homelab: the automation bullet enumerates issues, labels, milestones, chapter migration, status configuration, synchronization, and validation.~~
+  - ~~Concise resume, Homelab: the Git/GitHub bullet enumerates branching, commits, pull requests, review, changelogs, contribution standards, and project tracking.~~
+  - ~~Concise resume, Homelab: the publishing bullet enumerates GitHub Pages, PDF, DOCX, print-ready editions, validation, and planned release automation.~~
+  - ~~Expanded resume and website, Homelab: the repository-automation and publishing bullets retain lower-level workflow mechanics that may distract from network-engineering outcomes.~~
+- [x] ~~Remove or compress those details unless targeting a role that values developer tooling, documentation systems, or publishing automation.~~
+- [x] ~~Replace "planned" automation with completed, demonstrable work where possible.~~
 
 ## Priority 2: Improve PDF and ATS Quality
 
@@ -213,27 +215,27 @@
 - [ ] Maintain purposeful page flow across three or four pages.
 - [ ] Regenerate and inspect the PDF after every meaningful content change.
 
-### Private-Sector Variant
+### ~~Private-Sector Variant~~ (variant deleted 2026-07-19)
 
-- [ ] Tailor the headline and summary to the specific job.
-- [ ] Match the job description's terminology where accurate.
-- [ ] Emphasize scale, reliability, delivery, leadership, and business value.
-- [ ] Generalize defense details that are unnecessary for the commercial role.
-- [ ] Keep the strongest recent accomplishments on the first page.
-- [ ] Use two or three pages when needed; do not optimize for a one-page requirement.
-- [ ] Include application contact information.
+- [ ] ~~Tailor the headline and summary to the specific job.~~
+- [ ] ~~Match the job description's terminology where accurate.~~
+- [ ] ~~Emphasize scale, reliability, delivery, leadership, and business value.~~
+- [ ] ~~Generalize defense details that are unnecessary for the commercial role.~~
+- [ ] ~~Keep the strongest recent accomplishments on the first page.~~
+- [ ] ~~Use two or three pages when needed; do not optimize for a one-page requirement.~~
+- [ ] ~~Include application contact information.~~
 
-### Federal/Defense Variant
+### ~~Federal/Defense Variant~~ (variant deleted 2026-07-19)
 
-- [ ] Keep the resume at two pages when required by USAJOBS or the vacancy announcement.
-- [ ] Add hours worked per week for relevant positions when required.
-- [ ] Use month/year dates.
-- [ ] Address the announcement's specialized-experience requirements directly.
-- [ ] Include series and grade for any federal positions, if applicable.
-- [ ] Include only approved, publicly releasable program information.
-- [ ] Follow the specific announcement when it differs from general guidance.
-- [ ] Review [OPM applicant guidance](https://www.opm.gov/policy-data-oversight/hiring-information/merit-hiring-plan-resources/applicant-guidance-on-the-two-page-resume-limit/).
-- [ ] Review [USAJOBS resume requirements](https://help.usajobs.gov/faq/application/documents/resume/what-to-include).
+- [ ] ~~Keep the resume at two pages when required by USAJOBS or the vacancy announcement.~~
+- [ ] ~~Add hours worked per week for relevant positions when required.~~
+- [ ] ~~Use month/year dates.~~
+- [ ] ~~Address the announcement's specialized-experience requirements directly.~~
+- [ ] ~~Include series and grade for any federal positions, if applicable.~~
+- [ ] ~~Include only approved, publicly releasable program information.~~
+- [ ] ~~Follow the specific announcement when it differs from general guidance.~~
+- [ ] ~~Review [OPM applicant guidance](https://www.opm.gov/policy-data-oversight/hiring-information/merit-hiring-plan-resources/applicant-guidance-on-the-two-page-resume-limit/).~~
+- [ ] ~~Review [USAJOBS resume requirements](https://help.usajobs.gov/faq/application/documents/resume/what-to-include).~~
 
 ### Public Website
 
@@ -299,5 +301,5 @@ Candidate positioning statement to revise after verification:
 - [ ] Public defense information has been reviewed for disclosure.
 - [ ] The application version contains complete contact information.
 - [ ] The PDF is readable, balanced, accessible, and machine-extractable.
-- [ ] The private-sector and federal versions meet their respective application requirements.
+- [ ] ~~The private-sector and federal versions meet their respective application requirements.~~
 - [ ] All generated documents are synchronized with the verified master.
