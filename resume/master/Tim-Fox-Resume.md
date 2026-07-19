@@ -34,14 +34,14 @@ Principal Network Engineer and people leader with more than 20 years of experien
 - Deliver technical training and knowledge transfer that strengthens team capability across enterprise infrastructure platforms.
 
 ### FEDITC
-**Senior Network Engineer | July 2025-March 2026**
+**Senior Network Engineer | July 2025-March 2026 (contract recompeted)**
 
 - Restored mission-critical connectivity by resolving routing, switching, firewall, and virtual-network issues while delivering Tier 3 support.
 - Co-designed networks for Air Force executive aircraft, translating mission, security, availability, and interoperability requirements into deployable architectures.
 - Evaluated pre-release HAIPE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
 
 ### AKIMA / TUNDRA LLC
-**Senior Deployment Network Engineer | April 2024-July 2025**
+**Senior Deployment Network Engineer | April 2024-July 2025 (contract recompeted)**
 
 - Reduced deployment risk by authoring network designs, implementation plans, test procedures, and technical documentation aligned with customer acceptance requirements.
 - Planned, installed, configured, and validated multi-vendor infrastructure across coordinated customer deployments.
@@ -55,14 +55,14 @@ Principal Network Engineer and people leader with more than 20 years of experien
 - Improved troubleshooting readiness through multi-vendor documentation, demonstrations, technical training, and mentoring.
 
 ### LEIDOS INC.
-**Lead Infrastructure Network Engineer | November 2019-November 2022**
+**Lead Infrastructure Network Engineer | November 2019-November 2022 (program sunset)**
 
 - Restored complex multi-vendor infrastructure services by leading Tier 3 escalations involving routing, traffic management, security, systems, and servers.
 - Advised engineering and operations teams on design decisions, configuration changes, troubleshooting strategies, and implementation risks.
 - Strengthened team readiness through technical documentation, demonstrations, and targeted training.
 
 ### BJC HEALTHCARE
-**Senior Cisco Network Engineer Subject-Matter Expert | July 2017-January 2019**
+**Senior Cisco Network Engineer Subject-Matter Expert | July 2017-January 2019 (role outsourced)**
 
 - Led engineering for a $9.7 million hospital network modernization serving 2 hospitals and more than 40 clinics.
 - Directed architecture, migration, implementation, validation, and technical coordination for highly available network infrastructure.
@@ -113,10 +113,9 @@ Foundational studies included information systems, computer networking, systems 
 
 ## PROFESSIONAL DEVELOPMENT
 
-- CCIE Enterprise Infrastructure Advanced Training, Micronics Training | December 2025.
+- CCIE Advanced Training, Micronics Training | 2019-2026.
 - AWS Certified Cloud Practitioner Essentials, Amazon Web Services | May 2025.
 - Dell VxRail Installation and Implementation Training | October 2024.
-- CCIE Routing and Switching Advanced Training, Micronics Training | February 2017.
 - Completed the Developing the Leader Within Workshop, Atlanta, Georgia | August 2006; studied the five-level leadership framework for organizational development.
 
 ## HOMELAB
