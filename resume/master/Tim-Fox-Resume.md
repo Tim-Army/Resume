@@ -6,7 +6,7 @@ United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://
 
 ## PROFESSIONAL SUMMARY
 
-Principal Network Engineer and people leader with more than 20 years of experience designing, deploying, securing, and restoring mission-critical networks across enterprise, data center, healthcare, and federal environments. Brings hands-on multi-vendor expertise, an MBA, and a record of developing engineers through complex deployments and high-stakes operational challenges.
+Principal Network Engineer and people leader with more than 20 years of experience designing, deploying, securing, and restoring mission-critical networks across enterprise, data center, healthcare, and federal environments. Brings hands-on multi-vendor expertise, an MBA, and a record of developing engineers through complex deployments and high-stakes operational challenges. Returned to Leidos across three separate tenures, each into a role of greater scope.
 
 ## CORE COMPETENCIES
 
@@ -27,7 +27,7 @@ Principal Network Engineer and people leader with more than 20 years of experien
 ## PROFESSIONAL EXPERIENCE
 
 ### LEIDOS INC.
-**Supervisor / Principal Network Engineer | March 2026-Present**
+**Supervisor / Principal Network Engineer | March 2026-Present (third tenure)**
 
 - Remove technical and operational blockers for 2 direct reports within an approximately 12-person infrastructure engineering team by coordinating access, equipment, documentation, training, and cross-team support.
 - Direct complex multi-vendor network and infrastructure escalations through resolution.
@@ -55,7 +55,7 @@ Principal Network Engineer and people leader with more than 20 years of experien
 - Improved troubleshooting readiness through multi-vendor documentation, demonstrations, technical training, and mentoring.
 
 ### LEIDOS INC.
-**Lead Infrastructure Network Engineer | November 2019-November 2022 (program sunset)**
+**Lead Infrastructure Network Engineer | November 2019-November 2022 (second tenure; program sunset)**
 
 - Restored complex multi-vendor infrastructure services by leading Tier 3 escalations involving routing, traffic management, security, systems, and servers.
 - Advised engineering and operations teams on design decisions, configuration changes, troubleshooting strategies, and implementation risks.
