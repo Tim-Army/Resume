@@ -6,4 +6,6 @@ Recommended filename:
 
 - `Tim-Fox-Resume.md`
 
-Create targeted variants from the master; do not tailor the master directly for a single vacancy.
+This is the only resume source. The private-sector and federal-defense variants were deleted on 2026-07-19 and remain recoverable from Git history.
+
+The website and the expanded PDF are both derived from this file, so content changes must be applied here first.

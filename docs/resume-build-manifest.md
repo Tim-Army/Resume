@@ -20,14 +20,6 @@ missing from the extracted text.
 
 Dependencies are pinned in `scripts/python/requirements.txt`.
 
-## Sources not currently built
-
-- `resume/targeted/private-sector/Tim-Fox-Resume-Private-Sector.md`.
-- `resume/targeted/federal-defense/Tim-Fox-Resume-Federal-Defense.md`.
-
-These are maintained as Markdown for tailoring against specific vacancies. No
-PDF is generated from them and they are not published to the website.
-
 ## Website
 
 The site (`index.html`) is hand-maintained and mirrors the content of
@@ -60,3 +52,7 @@ repository — notably the `website/` link inventory — legitimately breaks rul
 - **Concise one-page resume**, retired 2026-07-19. Its Markdown source, PDFs,
   and generator scripts were deleted the same day; earlier versions remain
   recoverable from Git history.
+- **Targeted variants**, private-sector and federal-defense, deleted
+  2026-07-19. `resume/master/Tim-Fox-Resume.md` is now the only resume source.
+  Both remain recoverable from Git history if a tailored variant is wanted
+  again.
