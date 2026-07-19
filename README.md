@@ -72,7 +72,6 @@ scripts/bash/lint-resume.sh
 
 ## Retired variants
 
-The concise one-page resume was retired on 2026-07-19. Its source is
-`archive/Tim-Fox-Resume-one-page.md` and its last published PDF is
-`pdf/zArchive/Tim-Fox-Concise-Resume-20260719.pdf`. The site now offers the full
-resume only.
+The concise one-page resume was retired on 2026-07-19, and its source, PDFs, and
+generator scripts were removed on the same date. The site now offers the full
+resume only. Earlier versions remain recoverable from Git history.

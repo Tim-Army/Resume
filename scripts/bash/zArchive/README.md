@@ -23,7 +23,6 @@ right-aligned page footer.
 
 | Scripts | Note |
 |---|---|
-| `create-one-page-resume-and-push{,-v2..-v5}.sh` | Generated the concise resume, retired 2026-07-19. No live output. |
 | `download-resume-to-pdf-and-push.sh` | Ancestor of `scripts/python/create-full-resume-pdf.py`. |
 | `condense-resume-to-three-pages-and-push*.sh` | A separate, denser layout using `BaseDocTemplate`. Not the ancestor. |
 | `create-tim-fox-resume-repo.sh`, `-v2.sh` | Byte-identical duplicates. |

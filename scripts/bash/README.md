@@ -20,7 +20,7 @@ current build, and the repository [README](../../README.md) for the command.
 
 ## Historical
 
-The 30 superseded one-shot scripts live in [zArchive/](zArchive/README.md).
+The 25 superseded one-shot scripts live in [zArchive/](zArchive/README.md).
 They are retained for reference and must not be run.
 
 ## Policy

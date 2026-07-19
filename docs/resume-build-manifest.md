@@ -39,7 +39,7 @@ content changes must be applied to both.
 - `scripts/python/` — The current build path.
 - `scripts/bash/lint-resume.sh` — Editorial linter, run locally and in CI by
   `.github/workflows/lint-resume.yml`.
-- `scripts/bash/zArchive/` — 30 superseded one-shot scripts, retained for
+- `scripts/bash/zArchive/` — 25 superseded one-shot scripts, retained for
   reference only. See
   [scripts/bash/zArchive/README.md](../scripts/bash/zArchive/README.md); they
   must not be run.
@@ -57,6 +57,6 @@ repository — notably the `website/` link inventory — legitimately breaks rul
 
 ## Retired
 
-- **Concise one-page resume**, retired 2026-07-19. Source is
-  `archive/Tim-Fox-Resume-one-page.md`; last published PDF is
-  `pdf/zArchive/Tim-Fox-Concise-Resume-20260719.pdf`.
+- **Concise one-page resume**, retired 2026-07-19. Its Markdown source, PDFs,
+  and generator scripts were deleted the same day; earlier versions remain
+  recoverable from Git history.
