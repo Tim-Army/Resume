@@ -39,8 +39,9 @@ content changes must be applied to both.
 - `scripts/python/` — The current build path.
 - `scripts/bash/lint-resume.sh` — Editorial linter, run locally and in CI by
   `.github/workflows/lint-resume.yml`.
-- `scripts/bash/` (everything else) — Historical one-shot scripts, retained for
-  reference only. See [scripts/bash/README.md](../scripts/bash/README.md); they
+- `scripts/bash/zArchive/` — 30 superseded one-shot scripts, retained for
+  reference only. See
+  [scripts/bash/zArchive/README.md](../scripts/bash/zArchive/README.md); they
   must not be run.
 
 ## Editorial rules
