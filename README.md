@@ -63,6 +63,13 @@ python3 -m pip install -r scripts/python/requirements.txt
 python3 scripts/python/create-full-resume-pdf.py
 ```
 
+Check the editorial rules before committing. CI runs the same check on every
+push that touches a resume source:
+
+```sh
+scripts/bash/lint-resume.sh
+```
+
 ## Retired variants
 
 The concise one-page resume was retired on 2026-07-19. Its source is

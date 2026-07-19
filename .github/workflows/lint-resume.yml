@@ -1,0 +1,28 @@
+name: Lint resume sources
+
+on:
+  push:
+    paths:
+      - 'resume/**/*.md'
+      - 'scripts/bash/lint-resume.sh'
+      - '.github/workflows/lint-resume.yml'
+  pull_request:
+    paths:
+      - 'resume/**/*.md'
+      - 'scripts/bash/lint-resume.sh'
+      - '.github/workflows/lint-resume.yml'
+  workflow_dispatch:
+
+jobs:
+  lint:
+    name: Editorial rules
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+
+      - name: Check Bash syntax
+        run: bash -n scripts/bash/lint-resume.sh
+
+      - name: Enforce resume editorial rules
+        run: ./scripts/bash/lint-resume.sh

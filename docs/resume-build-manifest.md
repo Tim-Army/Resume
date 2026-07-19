@@ -37,8 +37,22 @@ content changes must be applied to both.
 ## Automation
 
 - `scripts/python/` — The current build path.
-- `scripts/bash/` — Historical one-shot scripts, retained for reference only.
-  See [scripts/bash/README.md](../scripts/bash/README.md); they must not be run.
+- `scripts/bash/lint-resume.sh` — Editorial linter, run locally and in CI by
+  `.github/workflows/lint-resume.yml`.
+- `scripts/bash/` (everything else) — Historical one-shot scripts, retained for
+  reference only. See [scripts/bash/README.md](../scripts/bash/README.md); they
+  must not be run.
+
+## Editorial rules
+
+Two mechanical rules are enforced across `resume/**/*.md`:
+
+1. Every bullet ends with a period.
+2. Every Markdown heading is preceded by a blank line, so that strict
+   CommonMark renderers do not absorb it into the preceding block.
+
+The linter is scoped to `resume/` deliberately. Other Markdown in the
+repository — notably the `website/` link inventory — legitimately breaks rule 1.
 
 ## Retired
 
