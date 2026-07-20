@@ -37,7 +37,7 @@
     const isLight = theme === "light";
     root.dataset.theme = isLight ? "light" : "dark";
     if (themeColor) {
-      themeColor.content = isLight ? "#eaf0f4" : "#000000";
+      themeColor.content = isLight ? "#ffffff" : "#1e1e1e";
     }
   };
 
