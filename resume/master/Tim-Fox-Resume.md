@@ -51,7 +51,7 @@ Principal Network Engineer and people leader with more than 20 years designing, 
 **Senior Data Center Network Engineer | November 2022-March 2024**
 
 - Strengthened data center security and IPv6 adoption by designing and implementing IPv6 access control lists.
-- Engineered and supported data center infrastructure spanning routing, switching, firewalls, load balancing, packet brokering, and fabric environments.
+- Engineered and supported data center infrastructure spanning routing, switching, firewalls, load balancing, packet brokering, and Cisco ACI fabric environments.
 - Improved troubleshooting readiness through multi-vendor documentation, demonstrations, technical training, and mentoring.
 
 ### LEIDOS INC.
