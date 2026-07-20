@@ -12,7 +12,7 @@ Principal Network Engineer and people leader with more than 20 years of experien
 
 **Network Engineering:** BGP, OSPF, MPLS, IPv4/IPv6, VLANs, access control lists, routing, switching, architecture, implementation, troubleshooting, and Tier 3 support.
 
-**Platforms:** Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, ACI, APIC, Cisco 1001-X, Cisco 8000v, Juniper JUNOS, Palo Alto Networks, F5, Gigamon, HAIPE, Dell, VMware, VxRail, Linux, and Red Hat Enterprise Linux.
+**Platforms:** Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, Cisco 1001-X, Cisco 8000v, Juniper JUNOS, Palo Alto Networks, F5, Gigamon, Dell, VMware, VxRail, Linux, and Red Hat Enterprise Linux.
 
 **Leadership and Delivery:** People management, mentoring, technical training, design reviews, implementation planning, documentation, stakeholder communication, escalation management, and operational support.
 
