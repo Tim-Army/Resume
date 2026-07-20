@@ -111,5 +111,5 @@ Foundational studies included information systems, computer networking, systems 
 ## HOMELAB
 
 - Operates a multi-vendor lab spanning Cisco routing and switching, Dell VxRail, virtualization, servers, and network security appliances.
-- Published the [Enterprise Infrastructure Encyclopedia](https://github.com/derg20/Enterprise-Infrastructure-Encyclopedia) combining architecture, configuration guidance, troubleshooting procedures, and hands-on labs in GitHub, HTML, and EPUB formats.
+- Maintains the [Enterprise Infrastructure Encyclopedia](https://github.com/derg20/Enterprise-Infrastructure-Encyclopedia) combining architecture, configuration guidance, troubleshooting procedures, and hands-on labs in GitHub, HTML, and EPUB formats.
 - Automates build, validation, and publishing workflows with Bash.
