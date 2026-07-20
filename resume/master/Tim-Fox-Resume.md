@@ -6,15 +6,15 @@ United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://
 
 ## PROFESSIONAL SUMMARY
 
-Principal Network Engineer and people leader with more than 20 years of experience designing, deploying, securing, and restoring mission-critical networks across enterprise, data center, healthcare, and federal environments. Brings hands-on multi-vendor expertise, an MBA, and a record of developing engineers through complex deployments and high-stakes operational challenges. Returned to Leidos across three separate tenures, each into a role of greater scope.
+Principal Network Engineer and people leader with more than 20 years designing, deploying, securing, and restoring mission-critical networks across enterprise, data center, healthcare, and federal environments. Multi-vendor hands-on expertise, an MBA, and a record of developing engineers through complex deployments and high-stakes operational challenges. Returned to Leidos across three separate tenures, each into a role of greater scope.
 
 ## CORE COMPETENCIES
+
+**Leadership and Delivery:** People management, mentoring, technical training, design reviews, implementation planning, documentation, stakeholder communication, escalation management, and operational support.
 
 **Network Engineering:** BGP, OSPF, MPLS, IPv4/IPv6, VLANs, access control lists, routing, switching, architecture, implementation, troubleshooting, and Tier 3 support.
 
 **Platforms:** Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, Cisco 1001-X, Cisco 8000v, Juniper JUNOS, Palo Alto Networks, F5, Gigamon, Dell, VMware, VxRail, Linux, and Red Hat Enterprise Linux.
-
-**Leadership and Delivery:** People management, mentoring, technical training, design reviews, implementation planning, documentation, stakeholder communication, escalation management, and operational support.
 
 ## CERTIFICATIONS
 
