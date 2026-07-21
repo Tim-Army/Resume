@@ -113,7 +113,7 @@ a:focus-visible {
 }
 
 .page-width {
-  width: min(calc(100% - 2rem), var(--max-width));
+  width: 80%;
   margin-inline: auto;
 }
 
