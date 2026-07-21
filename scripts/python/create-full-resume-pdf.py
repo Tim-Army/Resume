@@ -83,7 +83,12 @@ def draw_footer(canvas: Canvas, doc: SimpleDocTemplate) -> None:
     canvas.line(doc.leftMargin, 0.47 * inch, letter[0] - doc.rightMargin, 0.47 * inch)
     canvas.setFillColor(MUTED)
     canvas.setFont("Helvetica", 8)
-    canvas.drawString(doc.leftMargin, 0.29 * inch, "Tim Fox - Principal Network Engineer")
+    canvas.drawString(
+        doc.leftMargin,
+        0.29 * inch,
+        "Tim Fox - CCNP | Hands-On Principal Network Engineer & People Leader"
+        " | Enterprise, Data Center & Defense Infrastructure",
+    )
     canvas.drawRightString(letter[0] - doc.rightMargin, 0.29 * inch, f"Page {doc.page} of {EXPECTED_PAGES}")
     canvas.restoreState()
 
@@ -99,7 +104,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             leading=24,
             textColor=NAVY,
             alignment=TA_CENTER,
-            spaceAfter=3,
+            spaceAfter=1.8,
         ),
         "subtitle": ParagraphStyle(
             "ResumeSubtitle",
@@ -119,7 +124,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             leading=10,
             textColor=MUTED,
             alignment=TA_CENTER,
-            spaceAfter=7,
+            spaceAfter=4.5,
         ),
         "section": ParagraphStyle(
             "ResumeSection",
@@ -128,8 +133,8 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=11.5,
             leading=14,
             textColor=NAVY,
-            spaceBefore=6,
-            spaceAfter=2.5,
+            spaceBefore=3.2,
+            spaceAfter=1.4,
             keepWithNext=True,
         ),
         "employer": ParagraphStyle(
@@ -139,7 +144,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=10.2,
             leading=12.5,
             textColor=DARK,
-            spaceBefore=5,
+            spaceBefore=2.6,
             spaceAfter=0.8,
             keepWithNext=True,
         ),
@@ -150,7 +155,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=9.3,
             leading=11.4,
             textColor=MUTED,
-            spaceAfter=2.2,
+            spaceAfter=0.9,
             keepWithNext=True,
         ),
         "body": ParagraphStyle(
@@ -158,10 +163,10 @@ def build_styles() -> dict[str, ParagraphStyle]:
             parent=samples["BodyText"],
             fontName="Helvetica",
             fontSize=10,
-            leading=12.2,
+            leading=11.4,
             textColor=DARK,
             alignment=TA_LEFT,
-            spaceAfter=3,
+            spaceAfter=1.8,
             allowWidows=0,
             allowOrphans=0,
         ),
@@ -170,12 +175,12 @@ def build_styles() -> dict[str, ParagraphStyle]:
             parent=samples["BodyText"],
             fontName="Helvetica",
             fontSize=10,
-            leading=12.2,
+            leading=11.4,
             textColor=DARK,
             leftIndent=13,
             firstLineIndent=-7,
             bulletIndent=2,
-            spaceAfter=1.8,
+            spaceAfter=0.7,
             allowWidows=0,
             allowOrphans=0,
         ),
@@ -191,8 +196,8 @@ def build_pdf(source: Path, destination: Path) -> None:
         pagesize=letter,
         leftMargin=0.58 * inch,
         rightMargin=0.58 * inch,
-        topMargin=0.48 * inch,
-        bottomMargin=0.61 * inch,
+        topMargin=0.40 * inch,
+        bottomMargin=0.50 * inch,
         title="Tim Fox Full Resume",
         author="Tim Fox",
         subject="Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks",
