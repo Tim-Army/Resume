@@ -6,7 +6,7 @@ United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://
 
 ## PROFESSIONAL SUMMARY
 
-Principal Network Engineer and supervisor with more than 20 years across defense, healthcare, and enterprise networks, including the DISA Joint Regional Security Stack and Air Force networks. Led engineering for a $9.7 million hospital modernization serving 2 hospitals and more than 40 clinics. Combines multi-vendor depth with an MBA and a record of resolving high-stakes escalations and developing engineers.
+Principal Network Engineer and supervisor with more than 20 years across defense, healthcare, and enterprise networks, including the DISA Joint Regional Security Stack and Air Force executive aircraft communications. Led engineering for a $9.7 million hospital modernization serving 2 hospitals and more than 40 clinics. Supervises engineers within a 12-person infrastructure team and serves as senior escalation for multi-vendor incidents.
 
 ## CORE COMPETENCIES
 
