@@ -96,11 +96,6 @@ Coursework included business and financial analysis, accounting, business strate
 
 Coursework included project management, Cisco enterprise networking, network security engineering, Linux administration, and Windows Server administration.
 
-### JEFFERSON COMMUNITY COLLEGE - Watertown, New York
-**Associate of Applied Science, Computer Information Systems | 2007-2010**
-
-Foundational studies included information systems, computer networking, systems administration, and technical support.
-
 ## PROFESSIONAL DEVELOPMENT
 
 - CCIE Training, Micronics Training | 2019-2026.

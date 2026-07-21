@@ -16,7 +16,7 @@ The site follows the visitor's operating-system colour-scheme preference, fallin
 - `assets/flag-of-the-united-states.svg` — Public-domain American flag used in the site header.
 - `assets/business-logos/` — Employer logos displayed as the rightmost element of each business heading, aligned consistently on transparent, borderless containers.
 - `assets/certification-badges/` — Eight earned certification badges displayed in a circular, webpage-only row.
-- `assets/college-favicons/` — Official college favicons displayed on transparent containers to the right of each school name in the webpage education section.
+- `assets/college-favicons/` — Official college favicons displayed on transparent containers to the right of each school name in the webpage education section. The Jefferson Community College mark is retained but no longer displayed.
 - `assets/service-logos/` — U.S. Army employer mark displayed as a right-aligned business logo without surrounding padding, background, or border.
 - `assets/favicon/` — Browser and device icons.
 - `pdf/Tim-Fox-Expanded-Resume.pdf` — Full three-page resume.
@@ -46,7 +46,7 @@ To use another static host, publish `index.html`, `styles.css`, `assets/`, and `
 
 The header uses the public-domain [Flag of the United States](https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg) from Wikimedia Commons.
 
-The webpage education section uses the official favicon or touch-icon artwork published by [Webster University](https://www.webster.edu/), [Michigan Technological University](https://www.mtu.edu/), and [Jefferson Community College](https://sunyjefferson.edu/). These institutional marks remain the property of their respective owners and are used only to identify Tim's alma maters.
+The webpage education section uses the official favicon or touch-icon artwork published by [Webster University](https://www.webster.edu/) and [Michigan Technological University](https://www.mtu.edu/). These institutional marks remain the property of their respective owners and are used only to identify Tim's alma maters.
 
 The webpage experience section treats the U.S. Army as an employer/business alongside the civilian organizations. It uses employer marks from the official [FEDITC](https://feditc.com/), [Akima](https://www.akima.com/), [MSM Technology](https://www.msmtechinc.com/), and [BJC](https://www.bjc.org/) sites, plus the [Leidos](https://commons.wikimedia.org/wiki/File:Leidos_logo_2013.svg) text logo published on Wikimedia Commons. The [Lockheed Martin](<https://commons.wikimedia.org/wiki/File:Lockheed_Martin_logo_(2).svg>) mark is retained in `assets/business-logos/` but is no longer displayed, since the Lockheed Martin and Leidos entries were merged into a single Joint Regional Security Stack engagement. The Army entry uses the stacked [U.S. Army logo provided by MWR Brand Central](https://www.mwrbrandcentral.com/assets/26). Every employer logo is the rightmost element in its heading, while the name, title, and dates remain grouped on the left. The Army mark has no surrounding padding, background, or border.
 
