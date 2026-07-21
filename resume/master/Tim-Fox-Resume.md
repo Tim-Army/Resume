@@ -36,7 +36,6 @@ Principal Network Engineer and supervisor with more than 20 years across defense
 ### FEDITC
 **Senior Network Engineer | July 2025-March 2026 (contract recompeted)**
 
-- Restored mission-critical connectivity by resolving routing, switching, firewall, and virtual-network issues while delivering Tier 3 support.
 - Co-designed networks for Air Force executive aircraft, translating mission, security, availability, and interoperability requirements into deployable architectures.
 - Evaluated pre-release HAIPE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
 

@@ -19,9 +19,9 @@ The site follows the visitor's operating-system colour-scheme preference, fallin
 - `assets/college-favicons/` — Official college favicons displayed on transparent containers to the right of each school name in the webpage education section. The Jefferson Community College mark is retained but no longer displayed.
 - `assets/service-logos/` — U.S. Army employer mark displayed as a right-aligned business logo without surrounding padding, background, or border.
 - `assets/favicon/` — Browser and device icons.
-- `pdf/Tim-Fox-Expanded-Resume.pdf` — Full three-page resume.
+- `pdf/Tim-Fox-Expanded-Resume.pdf` — Full two-page resume.
 - `resume/master/Tim-Fox-Resume.md` — Full resume source and webpage content reference.
-- `scripts/python/create-full-resume-pdf.py` — Generates the three-page PDF from the full source.
+- `scripts/python/create-full-resume-pdf.py` — Generates the PDF from the full source.
 - `scripts/python/requirements.txt` — Pinned dependencies for generating the full PDF.
 
 ## Preview locally

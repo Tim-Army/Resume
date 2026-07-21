@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the three-page full resume PDF from the master Markdown source."""
+"""Generate the full resume PDF from the master Markdown source."""
 
 from __future__ import annotations
 
@@ -22,7 +22,7 @@ NAVY = colors.HexColor("#17365D")
 DARK = colors.HexColor("#202832")
 MUTED = colors.HexColor("#566474")
 RULE = colors.HexColor("#B8C6D9")
-EXPECTED_PAGES = 3
+EXPECTED_PAGES = 2
 
 
 def normalize_text(value: str) -> str:
@@ -196,7 +196,7 @@ def build_pdf(source: Path, destination: Path) -> None:
         title="Tim Fox Full Resume",
         author="Tim Fox",
         subject="Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks",
-        creator="Tim-Fox-Resume three-page PDF generator",
+        creator="Tim-Fox-Resume PDF generator",
         invariant=1,
     )
 

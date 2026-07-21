@@ -7,7 +7,7 @@ changes — not on every build.
 
 | Source | Output | Pages | Built by |
 |---|---|---|---|
-| `resume/master/Tim-Fox-Resume.md` | `pdf/Tim-Fox-Expanded-Resume.pdf` | 3 (enforced) | `scripts/python/create-full-resume-pdf.py` |
+| `resume/master/Tim-Fox-Resume.md` | `pdf/Tim-Fox-Expanded-Resume.pdf` | 2 (enforced) | `scripts/python/create-full-resume-pdf.py` |
 
 ```sh
 python3 -m pip install -r scripts/python/requirements.txt
@@ -15,7 +15,7 @@ python3 scripts/python/create-full-resume-pdf.py
 ```
 
 Both arguments are optional and default to the source and output above. The
-script fails if the result is not exactly three pages, or if expected content is
+script fails if the result is not exactly two pages, or if expected content is
 missing from the extracted text.
 
 Dependencies are pinned in `scripts/python/requirements.txt`.
