@@ -280,7 +280,7 @@ h3 {
 
 .resume-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.8fr) minmax(16rem, 0.85fr);
+  grid-template-columns: minmax(0, 1.55fr) minmax(18rem, 1fr);
   gap: clamp(2rem, 5vw, 4rem);
   margin-top: 3.6rem;
 }
@@ -404,6 +404,24 @@ li + li {
    needs its own scale to stay on a single line. */
 .sidebar h2 {
   font-size: clamp(1.3rem, 1.75vw, 1.9rem);
+}
+
+/* Certifications sits in the narrow column, so its badge grid and list
+   both reflow. Below the two-column breakpoint the sidebar is full
+   width and the defaults apply again. */
+@media (min-width: 821px) {
+  .sidebar .cert-badge-row {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    overflow-x: visible;
+  }
+
+  .sidebar .certification-list {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar .certifications-section {
+    margin-top: 2.8rem;
+  }
 }
 
 .expertise-group {
