@@ -44,28 +44,24 @@ Principal Network Engineer and people leader with more than 20 years designing, 
 **Senior Deployment Network Engineer | April 2024-July 2025 (contract recompeted)**
 
 - Reduced deployment risk by authoring network designs, implementation plans, test procedures, and technical documentation aligned with customer acceptance requirements.
-- Planned, installed, configured, and validated multi-vendor infrastructure across coordinated customer deployments.
-- Improved team deployment capability through technical mentoring, demonstrations, and reusable engineering documentation.
+- Delivered 2 customer development environments by planning, installing, configuring, and validating multi-vendor infrastructure.
 
 ### MSM TECHNOLOGY INC.
 **Senior Data Center Network Engineer | November 2022-March 2024**
 
 - Strengthened data center security and IPv6 adoption by designing and implementing IPv6 access control lists.
 - Engineered and supported data center infrastructure spanning routing, switching, firewalls, load balancing, packet brokering, and Cisco ACI fabric environments.
-- Improved troubleshooting readiness through multi-vendor documentation, demonstrations, technical training, and mentoring.
 
 ### LEIDOS INC.
 **Lead Infrastructure Network Engineer | November 2019-November 2022 (second tenure; program sunset)**
 
 - Restored complex multi-vendor infrastructure services by leading Tier 3 escalations involving routing, traffic management, security, systems, and servers.
 - Advised engineering and operations teams on design decisions, configuration changes, troubleshooting strategies, and implementation risks.
-- Strengthened team readiness through technical documentation, demonstrations, and targeted training.
 
 ### BJC HEALTHCARE
 **Senior Cisco Network Engineer Subject-Matter Expert | July 2017-January 2019 (role outsourced)**
 
-- Led engineering for a $9.7 million hospital network modernization serving 2 hospitals and more than 40 clinics.
-- Directed architecture, migration, implementation, validation, and technical coordination for highly available network infrastructure.
+- Led engineering for a $9.7 million hospital network modernization across 2 hospitals and more than 40 clinics, directing architecture, migration, and validation.
 - Mentored engineers and project managers on technical dependencies, implementation risks, and network requirements.
 
 ### LEIDOS INC.
@@ -100,7 +96,6 @@ Coursework included project management, Cisco enterprise networking, network sec
 - CCIE Training, Micronics Training | 2019-2026.
 - AWS Certified Cloud Practitioner Essentials, Amazon Web Services | May 2025.
 - Dell VxRail Installation and Implementation Training | October 2024.
-- Completed the Developing the Leader Within Workshop, Atlanta, Georgia | August 2006; studied the five-level leadership framework for organizational development.
 
 ## HOMELAB
 
