@@ -83,12 +83,7 @@ def draw_footer(canvas: Canvas, doc: SimpleDocTemplate) -> None:
     canvas.line(doc.leftMargin, 0.47 * inch, letter[0] - doc.rightMargin, 0.47 * inch)
     canvas.setFillColor(MUTED)
     canvas.setFont("Helvetica", 8)
-    canvas.drawString(
-        doc.leftMargin,
-        0.29 * inch,
-        "Tim Fox - CCNP | Hands-On Principal Network Engineer & People Leader"
-        " | Enterprise, Data Center & Defense Infrastructure",
-    )
+    canvas.drawString(doc.leftMargin, 0.29 * inch, "Tim Fox")
     canvas.drawRightString(letter[0] - doc.rightMargin, 0.29 * inch, f"Page {doc.page} of {EXPECTED_PAGES}")
     canvas.restoreState()
 
