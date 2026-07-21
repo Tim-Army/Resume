@@ -76,7 +76,8 @@ Attended college full time from 2007 to 2014 while transitioning from military s
 **Information Technology Specialist | April 1999-March 2006 (Honorable Discharge)**
 
 - Earned formal recognition for deploying a DoD encrypted email capability at U.S. Army installations in Germany.
-- Administered routing, switching, fiber-optic communications, and Windows domain services across two duty stations, supporting a 300-person battalion and approximately 800 users at 100% availability.
+- Served as Windows domain administrator for approximately 800 users across Europe, sustaining 100% service availability.
+- Administered routing, switching, and fiber-optic communications for a 300-person battalion in Texas.
 
 ## EDUCATION
 
