@@ -175,7 +175,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             leftIndent=13,
             firstLineIndent=-7,
             bulletIndent=2,
-            spaceAfter=0.7,
+            spaceAfter=0.63,
             allowWidows=0,
             allowOrphans=0,
         ),
