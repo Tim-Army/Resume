@@ -29,7 +29,7 @@
   --detail-text: #76d40b;
   --education-text: #76d40b;
   --surface-shadow: rgba(118, 212, 11, 0.16);
-  --max-width: 1120px;
+  --max-width: 1400px;
   font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-synthesis: none;
   line-height: 1.55;
@@ -113,7 +113,7 @@ a:focus-visible {
 }
 
 .page-width {
-  width: 80%;
+  width: min(80%, var(--max-width));
   margin-inline: auto;
 }
 
