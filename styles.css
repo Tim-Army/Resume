@@ -270,7 +270,7 @@ h3 {
 }
 
 .summary {
-  max-width: 78ch;
+  max-width: 58ch;
   margin-bottom: 0;
   color: var(--summary-text);
   font-family: Georgia, "Times New Roman", serif;
