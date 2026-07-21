@@ -1,6 +1,6 @@
 # TIM FOX
 
-**CCNP | Hands-On Principal Network Engineer & People Leader | Enterprise, Data Center & Defense Infrastructure | DoD, DoW, DISA & Air Force | Cisco, Juniper, Palo Alto | BGP, MPLS | Security+ CE, IAT Level III, GCED, MBA**
+**CCNP | Hands-On Principal Network Engineer & People Leader | Enterprise, Data Center & Defense Infrastructure | DoD, DoW, DISA & Air Force**
 
 United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/derg20 | https://www.linkedin.com/in/timarmy
 
