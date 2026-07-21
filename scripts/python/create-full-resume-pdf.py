@@ -21,8 +21,9 @@ from reportlab.platypus import KeepTogether, Paragraph, SimpleDocTemplate
 NAVY = colors.HexColor("#17365D")
 DARK = colors.HexColor("#202832")
 MUTED = colors.HexColor("#566474")
+MARGIN_LEFT = 0.58 * inch
+MARGIN_RIGHT = 0.58 * inch
 RULE = colors.HexColor("#B8C6D9")
-EXPECTED_PAGES = 2
 
 
 def normalize_text(value: str) -> str:
@@ -76,16 +77,41 @@ def inline_markup(value: str) -> str:
     return value
 
 
-def draw_footer(canvas: Canvas, doc: SimpleDocTemplate) -> None:
-    canvas.saveState()
-    canvas.setStrokeColor(RULE)
-    canvas.setLineWidth(0.45)
-    canvas.line(doc.leftMargin, 0.47 * inch, letter[0] - doc.rightMargin, 0.47 * inch)
-    canvas.setFillColor(MUTED)
-    canvas.setFont("Helvetica", 8)
-    canvas.drawString(doc.leftMargin, 0.29 * inch, "Tim Fox")
-    canvas.drawRightString(letter[0] - doc.rightMargin, 0.29 * inch, f"Page {doc.page} of {EXPECTED_PAGES}")
-    canvas.restoreState()
+class NumberedCanvas(Canvas):
+    """Stamps "Page N of M" once the real page total is known.
+
+    The total is only available after the whole story is laid out, so pages
+    are buffered and the footer is drawn during save().
+    """
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self._saved_pages: list[dict] = []
+
+    def showPage(self) -> None:
+        self._saved_pages.append(dict(self.__dict__))
+        self._startPage()
+
+    def save(self) -> None:
+        total = len(self._saved_pages)
+        for state in self._saved_pages:
+            self.__dict__.update(state)
+            self._draw_footer(total)
+            super().showPage()
+        super().save()
+
+    def _draw_footer(self, total: int) -> None:
+        self.saveState()
+        self.setStrokeColor(RULE)
+        self.setLineWidth(0.45)
+        self.line(MARGIN_LEFT, 0.47 * inch, letter[0] - MARGIN_RIGHT, 0.47 * inch)
+        self.setFillColor(MUTED)
+        self.setFont("Helvetica", 8)
+        self.drawString(MARGIN_LEFT, 0.29 * inch, "Tim Fox")
+        self.drawRightString(
+            letter[0] - MARGIN_RIGHT, 0.29 * inch, f"Page {self._pageNumber} of {total}"
+        )
+        self.restoreState()
 
 
 def build_styles() -> dict[str, ParagraphStyle]:
@@ -189,8 +215,8 @@ def build_pdf(source: Path, destination: Path) -> None:
     doc = SimpleDocTemplate(
         str(destination),
         pagesize=letter,
-        leftMargin=0.58 * inch,
-        rightMargin=0.58 * inch,
+        leftMargin=MARGIN_LEFT,
+        rightMargin=MARGIN_RIGHT,
         topMargin=0.40 * inch,
         bottomMargin=0.50 * inch,
         title="Tim Fox Full Resume",
@@ -269,11 +295,9 @@ def build_pdf(source: Path, destination: Path) -> None:
     flush_paragraph()
     flush_group()
     destination.parent.mkdir(parents=True, exist_ok=True)
-    doc.build(story, onFirstPage=draw_footer, onLaterPages=draw_footer)
+    doc.build(story, canvasmaker=NumberedCanvas)
 
     reader = PdfReader(str(destination))
-    if len(reader.pages) != EXPECTED_PAGES:
-        raise RuntimeError(f"Expected {EXPECTED_PAGES} pages, generated {len(reader.pages)} pages.")
     extracted = "\n".join((page.extract_text() or "") for page in reader.pages)
     required = (
         "TIM FOX",
