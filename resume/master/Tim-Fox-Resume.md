@@ -66,7 +66,7 @@ Principal Network Engineer and supervisor with more than 20 years across defense
 ### LEIDOS INC.
 **Senior Network Engineer Subject-Matter Expert | March 2016-July 2017 (began at Lockheed Martin; contract transitioned to Leidos)**
 
-- Established the engineering foundation at NetOps for the Joint Regional Security Stack (JRSS) at the Defense Information Systems Agency (DISA), then sustained uninterrupted support after the contract transitioned from Lockheed Martin to Leidos.
+- Established the engineering foundation at NetOps for the Joint Regional Security Stack (JRSS) at the Defense Information Systems Agency (DISA).
 - Resolved complex routing, security, traffic-management, and Linux issues while delivering senior engineering guidance and technical training.
 
 Attended college full time from 2007 to 2014 while transitioning from military service to civilian network engineering.
