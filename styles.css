@@ -179,12 +179,6 @@ a:focus-visible {
   align-items: baseline;
 }
 
-.hero-titles li::before {
-  margin-right: 0.45rem;
-  color: var(--header-text);
-  content: "•";
-}
-
 h1,
 h2,
 h3,
@@ -705,7 +699,6 @@ li + li {
   }
 
   .site-header .eyebrow,
-  .hero-titles li::before,
   .availability,
   .section-kicker {
     color: #333333;

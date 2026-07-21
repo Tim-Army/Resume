@@ -4,7 +4,7 @@
 
 A lightweight static website for presenting Tim Fox's full professional experience, technical expertise, education, and contact information. The site provides the full resume as a downloadable PDF.
 
-The site follows the visitor's operating-system colour-scheme preference, falling back to a dark theme with `#090` text where that preference is unavailable. An upper-right theme link switches between dark and light modes and remembers the visitor's choice; once chosen, that choice overrides the system setting. Visitors without JavaScript always receive the dark theme. The header presents the professional title as one bullet. Contact, profile, and resume resource links open in a new tab, while the theme control, accessibility skip link, and footer's back-to-top link remain within the current page. Email links are masked in the static HTML and restored in the browser for visitors with JavaScript enabled.
+The site follows the visitor's operating-system colour-scheme preference, falling back to a dark theme with `#090` text where that preference is unavailable. An upper-right theme link switches between dark and light modes and remembers the visitor's choice; once chosen, that choice overrides the system setting. Visitors without JavaScript always receive the dark theme. Contact, profile, and resume resource links open in a new tab, while the theme control, accessibility skip link, and footer's back-to-top link remain within the current page. Email links are masked in the static HTML and restored in the browser for visitors with JavaScript enabled.
 
 ## Site files
 
