@@ -80,9 +80,8 @@ Attended college full time from 2007 to 2014 while transitioning from military s
 
 **Information Technology Specialist | April 1999-March 2006 (Honorable Discharge)**
 
-- Sustained 100% service availability for 2 internet cafes supporting 50 computers.
-- Administered 2 routers, 1 switch, specialty fiber-optic cabling, and communications equipment while supporting approximately 800 users as a Windows domain administrator.
-- Earned formal recognition for deploying the encrypted Defense Messaging System in Germany.
+- Earned formal recognition for deploying a DoD encrypted email capability at U.S. Army installations in Germany.
+- Administered routing, switching, fiber-optic communications, and Windows domain services supporting approximately 800 users at 100% availability.
 
 ## EDUCATION
 
