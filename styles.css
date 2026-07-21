@@ -392,6 +392,7 @@ li + li {
 }
 
 .sidebar {
+  align-self: start;
   padding-left: clamp(1.4rem, 3vw, 2.4rem);
   border-left: 1px solid var(--line);
 }
