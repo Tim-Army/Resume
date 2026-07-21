@@ -170,7 +170,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             parent=samples["BodyText"],
             fontName="Helvetica",
             fontSize=10,
-            leading=10.26,
+            leading=11.4,
             textColor=DARK,
             leftIndent=13,
             firstLineIndent=-7,
