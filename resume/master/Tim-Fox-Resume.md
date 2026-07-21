@@ -6,7 +6,7 @@ United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://
 
 ## PROFESSIONAL SUMMARY
 
-Principal Network Engineer and people leader with more than 20 years designing, deploying, securing, and restoring mission-critical networks across enterprise, data center, healthcare, and federal environments. Multi-vendor hands-on expertise, an MBA, and a record of developing engineers through complex deployments and high-stakes operational challenges. Returned to Leidos across three separate tenures, each into a role of greater scope.
+Principal Network Engineer and supervisor with more than 20 years across defense, healthcare, and enterprise networks, including the DISA Joint Regional Security Stack and Air Force networks. Led engineering for a $9.7 million hospital modernization serving 2 hospitals and more than 40 clinics. Combines multi-vendor depth with an MBA and a record of resolving high-stakes escalations and developing engineers.
 
 ## CORE COMPETENCIES
 
