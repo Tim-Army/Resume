@@ -400,6 +400,12 @@ li + li {
   margin-top: 2.8rem;
 }
 
+/* The sidebar column is far narrower than the main one, so its heading
+   needs its own scale to stay on a single line. */
+.sidebar h2 {
+  font-size: clamp(1.3rem, 1.75vw, 1.9rem);
+}
+
 .expertise-group {
   padding: 1rem 0;
   border-top: 1px solid var(--line);
