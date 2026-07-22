@@ -1,7 +1,7 @@
 # Resume Improvement Checklist
 
 **Created:** July 18, 2026  
-**Repository:** `Tim-Army/Tim-Fox-Resume`  
+**Repository:** `Tim-Army/Resume`  
 **Scope:** Master resume, ~~private-sector variant, federal/defense variant,~~ public website, PDF layout, ATS extraction, and application readiness. The one-page constraint is intentionally excluded.
 
 > **Update, July 19, 2026.** Struck items no longer apply. The concise one-page resume and both targeted variants were deleted that day, leaving `resume/master/Tim-Fox-Resume.md` as the only resume source, and several chronology, homelab, and professional-development items were completed. See `docs/resume-build-manifest.md`.

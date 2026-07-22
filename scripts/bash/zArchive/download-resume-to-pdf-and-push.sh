@@ -4,7 +4,7 @@
 # PDF in the repository's pdf/ directory, then commit and push the update.
 #
 # Default source:
-#   https://github.com/Tim-Army/Tim-Fox-Resume/blob/main/resume/master/Tim-Fox-Resume.md
+#   https://github.com/Tim-Army/Resume/blob/main/resume/master/Tim-Fox-Resume.md
 #
 # Default output:
 #   pdf/Tim-Fox-Expanded-Resume.pdf
@@ -20,8 +20,8 @@ readonly GITHUB_OWNER="Tim-Army"
 readonly GITHUB_REPOSITORY="Tim-Fox-Resume"
 readonly DEFAULT_REMOTE_BRANCH="main"
 readonly REMOTE_RESUME_PATH="resume/master/Tim-Fox-Resume.md"
-readonly DEFAULT_SOURCE_URL="https://github.com/Tim-Army/Tim-Fox-Resume/blob/main/resume/master/Tim-Fox-Resume.md"
-readonly DEFAULT_RAW_URL="https://raw.githubusercontent.com/Tim-Army/Tim-Fox-Resume/main/resume/master/Tim-Fox-Resume.md"
+readonly DEFAULT_SOURCE_URL="https://github.com/Tim-Army/Resume/blob/main/resume/master/Tim-Fox-Resume.md"
+readonly DEFAULT_RAW_URL="https://raw.githubusercontent.com/Tim-Army/Resume/main/resume/master/Tim-Fox-Resume.md"
 readonly OUTPUT_RELATIVE_PATH="pdf/Tim-Fox-Expanded-Resume.pdf"
 readonly SCRIPT_RELATIVE_PATH="scripts/bash/${CANONICAL_SCRIPT_NAME}"
 
