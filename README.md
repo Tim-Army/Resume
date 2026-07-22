@@ -1,6 +1,6 @@
 # Tim Fox Resume
 
-[Resume webpage](https://derg20.github.io/Tim-Fox-Resume/) | [LinkedIn profile alignment checklist](docs/linkedin-profile-alignment-checklist.md)
+[Resume webpage](https://tim-army.github.io/Tim-Fox-Resume/) | [LinkedIn profile alignment checklist](docs/linkedin-profile-alignment-checklist.md)
 
 A lightweight static website for presenting Tim Fox's full professional experience, technical expertise, education, and contact information. The site provides the full resume as a downloadable PDF.
 
@@ -36,7 +36,7 @@ Then visit `http://localhost:8000`.
 
 ## Deployment
 
-The site is published at [derg20.github.io/Tim-Fox-Resume](https://derg20.github.io/Tim-Fox-Resume/) with HTTPS enforced.
+The site is published at [tim-army.github.io/Tim-Fox-Resume](https://tim-army.github.io/Tim-Fox-Resume/) with HTTPS enforced.
 
 GitHub Pages publishes the `main` branch from the repository root. The repository includes `.nojekyll`, so Pages serves the static files without applying Jekyll transformations. Future pushes to `main` automatically republish the site. See GitHub's [publishing-source guide](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) for configuration and troubleshooting details.
 

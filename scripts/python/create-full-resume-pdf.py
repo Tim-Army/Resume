@@ -62,7 +62,7 @@ def inline_markup(value: str) -> str:
         f'<link href="mailto:{email}" color="#17365D">{email}</link>',
     )
     for url in (
-        "https://github.com/derg20",
+        "https://github.com/Tim-Army",
         "https://www.linkedin.com/in/timarmy",
     ):
         value = value.replace(

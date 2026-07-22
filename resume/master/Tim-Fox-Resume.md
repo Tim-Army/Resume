@@ -2,7 +2,7 @@
 
 **CCNP | Hands-On Principal Network Engineer & People Leader | DoD, DoW, DISA & Air Force**
 
-United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/derg20 | https://www.linkedin.com/in/timarmy
+United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/Tim-Army | https://www.linkedin.com/in/timarmy
 
 ## PROFESSIONAL SUMMARY
 
@@ -100,5 +100,5 @@ Coursework included project management, Cisco enterprise networking, network sec
 ## HOMELAB
 
 - Operates a multi-vendor lab spanning Cisco routing and switching, Dell VxRail, virtualization, servers, and network security appliances.
-- Maintains the [Enterprise Infrastructure Encyclopedia](https://github.com/derg20/Enterprise-Infrastructure-Encyclopedia) combining architecture, configuration guidance, troubleshooting procedures, and hands-on labs in GitHub, HTML, and EPUB formats.
+- Maintains the [Enterprise Infrastructure Encyclopedia](https://github.com/Tim-Army/Enterprise-Infrastructure-Encyclopedia) combining architecture, configuration guidance, troubleshooting procedures, and hands-on labs in GitHub, HTML, and EPUB formats.
 - Automates build, validation, and publishing workflows with Bash.
