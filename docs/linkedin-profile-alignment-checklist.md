@@ -7,7 +7,7 @@ Use this checklist to keep the LinkedIn profile aligned with the current master 
 - [x] Replace the current headline with: `Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks`.
 - [ ] Keep **Principal Network Engineer** as the default positioning; use the supervisory scope as supporting evidence, not as a replacement for the engineering focus.
 - [x] Add an About section that mirrors the resume summary: 20-plus years of network engineering experience, multi-vendor enterprise/healthcare/defense work, hands-on technical depth, and people leadership.
-- [ ] Use outcomes and operating scope in the About section rather than a long technology inventory.
+- [x] Use outcomes and operating scope in the About section rather than a long technology inventory.
 
 ## Experience
 
@@ -51,8 +51,8 @@ Use this checklist to keep the LinkedIn profile aligned with the current master 
 
 ## Final review
 
-- [ ] Verify the headline fits LinkedIn's headline field and appears exactly as written above.
-- [ ] Verify the About section opens with Principal Network Engineer positioning and is readable in the first two lines.
+- [x] Verify the headline fits LinkedIn's headline field and appears exactly as written above.
+- [x] Verify the About section opens with Principal Network Engineer positioning and is readable in the first two lines.
 - [ ] Confirm the five most recent positions are achievement-led and free of duplicate technology lists.
 - [ ] Confirm no unsupported performance claims, confidential details, or outdated terminology were introduced.
 - [ ] Re-export the LinkedIn profile and compare it with `resume/master/Tim-Fox-Resume.md` after making updates.
