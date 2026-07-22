@@ -33,9 +33,9 @@ Use this checklist to keep the LinkedIn profile aligned with the current master 
 
 ## Skills, certifications, and portfolio
 
-- [ ] Replace the current top skills (Fortinet, IDS, IPS) with skills that support the default positioning: Network Engineering, Network Architecture, and Enterprise Network Infrastructure.
-- [ ] Add or prioritize resume-supported skills: Network Troubleshooting, Routing and Switching, BGP, OSPF, MPLS, IPv6, Cisco, Juniper, Palo Alto, Cisco ACI, Infrastructure Leadership, Technical Leadership, and Team Management.
-- [ ] Retain certifications only as currently earned; do not imply that DoD qualification labels are active credentials unless verified.
+- [x] Replace the current top skills (Fortinet, IDS, IPS) with skills that support the default positioning: Network Engineering, Network Architecture, and Enterprise Network Infrastructure.
+- [x] Add or prioritize resume-supported skills: Network Troubleshooting, Routing and Switching, BGP, OSPF, MPLS, IPv6, Cisco, Juniper, Palo Alto, Cisco ACI, Infrastructure Leadership, Technical Leadership, and Team Management.
+- [x] Retain certifications only as currently earned; do not imply that DoD qualification labels are active credentials unless verified.
 - [x] Add the Enterprise Infrastructure Encyclopedia to LinkedIn's Featured section: <https://github.com/Tim-Army/Enterprise-Infrastructure-Encyclopedia>.
 - [x] Add the resume website to LinkedIn's Featured section: <https://tim-army.github.io/Resume/>.
 - [ ] Add the portfolio only when it reinforces the Principal Network Engineer narrative; avoid low-value process detail about labels, milestones, contribution workflows, and publishing mechanics.
