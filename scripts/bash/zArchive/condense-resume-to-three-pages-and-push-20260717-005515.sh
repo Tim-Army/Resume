@@ -20,7 +20,7 @@ readonly DEFAULT_REPO="$HOME/Documents/github/Tim-Fox-Resume"
 readonly MASTER_REL="resume/master/Tim-Fox-Resume.md"
 readonly PDF_REL="pdf/Tim-Fox-Expanded-Resume.pdf"
 readonly SCRIPT_REL="scripts/bash/$SCRIPT_NAME"
-readonly HEADER="United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/derg20"
+readonly HEADER="United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/Tim-Army"
 
 REPO_ROOT="$DEFAULT_REPO"
 COMMIT_CHANGES=true
@@ -184,7 +184,7 @@ write_resume() {
 
 **Principal Network Engineer | Network Infrastructure Leader**
 
-United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/derg20
+United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/Tim-Army
 
 ## PROFESSIONAL SUMMARY
 

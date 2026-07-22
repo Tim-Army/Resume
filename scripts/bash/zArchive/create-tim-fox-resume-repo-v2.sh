@@ -17,7 +17,7 @@
 #
 # Typical usage:
 #   ./scripts/bash/create-tim-fox-resume-repo.sh --open
-#   ./scripts/bash/create-tim-fox-resume-repo.sh --owner derg20 --open
+#   ./scripts/bash/create-tim-fox-resume-repo.sh --owner Tim-Army --open
 #   ./scripts/bash/create-tim-fox-resume-repo.sh \
 #     --directory "$HOME/Documents/github/Tim-Fox-Resume" --open
 #
@@ -105,7 +105,7 @@ Examples:
   ./scripts/bash/create-tim-fox-resume-repo.sh --open
 
   ./scripts/bash/create-tim-fox-resume-repo.sh \
-    --owner derg20 \
+    --owner Tim-Army \
     --directory "$HOME/Documents/github/Tim-Fox-Resume" \
     --open
 

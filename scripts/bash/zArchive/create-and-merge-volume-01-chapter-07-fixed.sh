@@ -22,7 +22,7 @@ SCRIPT_ABS="$(cd "$(dirname "$0")" 2>/dev/null && pwd)/$(basename "$0")"
 
 REMOTE="origin"
 BASE_BRANCH="main"
-EXPECTED_REPO="derg20/Enterprise-Infrastructure-Series"
+EXPECTED_REPO="Tim-Army/Enterprise-Infrastructure-Series"
 
 VOLUME_DIR="volumes/volume-01-enterprise-engineering-foundations"
 CHAPTER_DIR="$VOLUME_DIR/chapters"

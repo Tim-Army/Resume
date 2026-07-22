@@ -4,7 +4,7 @@
 # PDF in the repository's pdf/ directory, then commit and push the update.
 #
 # Default source:
-#   https://github.com/derg20/Tim-Fox-Resume/blob/main/resume/master/Tim-Fox-Resume.md
+#   https://github.com/Tim-Army/Tim-Fox-Resume/blob/main/resume/master/Tim-Fox-Resume.md
 #
 # Default output:
 #   pdf/Tim-Fox-Expanded-Resume.pdf
@@ -16,12 +16,12 @@ IFS=$'\n\t'
 readonly SCRIPT_VERSION="2026.07.17.1"
 readonly EXPECTED_REPO_NAME="Tim-Fox-Resume"
 readonly CANONICAL_SCRIPT_NAME="download-resume-to-pdf-and-push.sh"
-readonly GITHUB_OWNER="derg20"
+readonly GITHUB_OWNER="Tim-Army"
 readonly GITHUB_REPOSITORY="Tim-Fox-Resume"
 readonly DEFAULT_REMOTE_BRANCH="main"
 readonly REMOTE_RESUME_PATH="resume/master/Tim-Fox-Resume.md"
-readonly DEFAULT_SOURCE_URL="https://github.com/derg20/Tim-Fox-Resume/blob/main/resume/master/Tim-Fox-Resume.md"
-readonly DEFAULT_RAW_URL="https://raw.githubusercontent.com/derg20/Tim-Fox-Resume/main/resume/master/Tim-Fox-Resume.md"
+readonly DEFAULT_SOURCE_URL="https://github.com/Tim-Army/Tim-Fox-Resume/blob/main/resume/master/Tim-Fox-Resume.md"
+readonly DEFAULT_RAW_URL="https://raw.githubusercontent.com/Tim-Army/Tim-Fox-Resume/main/resume/master/Tim-Fox-Resume.md"
 readonly OUTPUT_RELATIVE_PATH="pdf/Tim-Fox-Expanded-Resume.pdf"
 readonly SCRIPT_RELATIVE_PATH="scripts/bash/${CANONICAL_SCRIPT_NAME}"
 

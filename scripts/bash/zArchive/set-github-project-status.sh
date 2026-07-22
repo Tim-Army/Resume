@@ -75,7 +75,7 @@ Examples:
   $SCRIPT_NAME \\
     --project-owner @me \\
     --project-title "Enterprise Infrastructure Series" \\
-    --issue-url "https://github.com/derg20/Enterprise-Infrastructure-Series/issues/2" \\
+    --issue-url "https://github.com/Tim-Army/Enterprise-Infrastructure-Series/issues/2" \\
     --status "In Progress"
 
   $SCRIPT_NAME \\
