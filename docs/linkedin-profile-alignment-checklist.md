@@ -37,6 +37,7 @@ Use this checklist to keep the LinkedIn profile aligned with the current master 
 - [ ] Add or prioritize resume-supported skills: Network Troubleshooting, Routing and Switching, BGP, OSPF, MPLS, IPv6, Cisco, Juniper, Palo Alto, Cisco ACI, Infrastructure Leadership, Technical Leadership, and Team Management.
 - [ ] Retain certifications only as currently earned; do not imply that DoD qualification labels are active credentials unless verified.
 - [ ] Add the Enterprise Infrastructure Encyclopedia to LinkedIn's Featured section: <https://github.com/Tim-Army/Enterprise-Infrastructure-Encyclopedia>.
+- [ ] Add the resume website to LinkedIn's Featured section: <https://tim-army.github.io/Resume/>.
 - [ ] Add the portfolio only when it reinforces the Principal Network Engineer narrative; avoid low-value process detail about labels, milestones, contribution workflows, and publishing mechanics.
 
 ## Public-profile quality and privacy
