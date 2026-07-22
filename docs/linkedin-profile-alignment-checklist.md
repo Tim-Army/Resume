@@ -4,9 +4,9 @@ Use this checklist to keep the LinkedIn profile aligned with the current master 
 
 ## Positioning
 
-- [ ] Replace the current headline with: `Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks`.
+- [x] Replace the current headline with: `Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks`.
 - [ ] Keep **Principal Network Engineer** as the default positioning; use the supervisory scope as supporting evidence, not as a replacement for the engineering focus.
-- [ ] Add an About section that mirrors the resume summary: 20-plus years of network engineering experience, multi-vendor enterprise/healthcare/defense work, hands-on technical depth, and people leadership.
+- [x] Add an About section that mirrors the resume summary: 20-plus years of network engineering experience, multi-vendor enterprise/healthcare/defense work, hands-on technical depth, and people leadership.
 - [ ] Use outcomes and operating scope in the About section rather than a long technology inventory.
 
 ## Experience
