@@ -1,12 +1,12 @@
 # TIM FOX
 
-**CCNP | Hands-On Principal Network Engineer & People Leader | DoD, DoW, DISA & Air Force**
+**CCNP | Hands-On Principal Network Engineer | DoD, DoW, DISA & Air Force**
 
 United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/Tim-Army | https://www.linkedin.com/in/timarmy
 
 ## PROFESSIONAL SUMMARY
 
-Principal Network Engineer and supervisor with more than 20 years across defense, healthcare, and enterprise networks, including the DISA Joint Regional Security Stack and Air Force executive aircraft communications. Led engineering for a $9.7 million hospital modernization serving 2 hospitals and more than 40 clinics. Supervises engineers within a 12-person infrastructure team and serves as senior escalation for multi-vendor incidents.
+Principal Network Engineer with more than 20 years across defense, healthcare, and enterprise networks, including the DISA Joint Regional Security Stack and Air Force executive aircraft communications. Led engineering for a $9.7 million hospital modernization serving 2 hospitals and more than 40 clinics.
 
 ## CORE COMPETENCIES
 
@@ -26,12 +26,18 @@ Principal Network Engineer and supervisor with more than 20 years across defense
 
 ## PROFESSIONAL EXPERIENCE
 
-### LEIDOS INC.
-**Supervisor / Principal Network Engineer | March 2026-Present (third tenure)**
+### GRAY LINK TECHNOLOGIES LLC
+**Principal Network Engineer | July 2026-Present**
 
-- Removes technical and operational blockers for 2 direct reports within an approximately 12-person infrastructure engineering team by coordinating access, equipment, documentation, training, and cross-team support.
-- Directs complex multi-vendor network and infrastructure escalations through resolution.
-- Delivers technical training and knowledge transfer that strengthens team capability across enterprise infrastructure platforms.
+- Built FortiGate platform expertise by authoring implementation and troubleshooting documentation covering firewall policy, VPN, and HA, validating every procedure in hands-on labs.
+- Authored and published a bake-off of 31 zero-trust capable vendors, scoring each against enterprise capability, deployment, and operational risk criteria to guide platform selection.
+
+### LEIDOS INC.
+**Supervisor / Principal Network Engineer | March 2026-July 2026 (third tenure)**
+
+- Removed technical and operational blockers for 2 direct reports within an approximately 12-person infrastructure engineering team by coordinating access, equipment, documentation, training, and cross-team support.
+- Directed complex multi-vendor network and infrastructure escalations through resolution.
+- Delivered technical training and knowledge transfer that strengthened team capability across enterprise infrastructure platforms.
 
 ### FEDITC
 **Senior Network Engineer | July 2025-March 2026 (contract recompeted)**
