@@ -133,14 +133,21 @@ a:focus-visible {
   position: relative;
 }
 
-.eyebrow,
-.section-kicker {
+.eyebrow {
   margin: 0 0 0.45rem;
   color: var(--accent);
   font-size: 0.76rem;
   font-weight: 800;
   letter-spacing: 0.14em;
   text-transform: uppercase;
+}
+
+.section-kicker {
+  margin: 0 0 0.45rem;
+  color: var(--accent);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
 }
 
 .site-header .eyebrow {
