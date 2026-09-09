@@ -154,7 +154,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             fontSize=11.5,
             leading=13,
             textColor=NAVY,
-            spaceBefore=2.6,
+            spaceBefore=8,
             spaceAfter=2.0,
             keepWithNext=True,
         ),
