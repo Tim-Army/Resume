@@ -1,4 +1,4 @@
-# TIM FOX
+# Tim Fox
 
 **CCNP | Hands-On Principal Network Engineer | DoD, DoW, DISA & Air Force**
 
