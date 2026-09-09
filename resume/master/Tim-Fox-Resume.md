@@ -30,7 +30,7 @@ Principal Network Engineer with more than 20 years across defense, healthcare, a
 **Principal Network Engineer | July 2026-Present**
 
 - Built FortiGate platform expertise by authoring implementation and troubleshooting documentation covering firewall policy, VPN, and HA, validating every procedure in hands-on labs.
-- Authored and published a bake-off of 31 zero-trust capable vendors, scoring each against enterprise capability, deployment, and operational risk criteria to guide platform selection.
+- Authored and published a comparative analysis of 31 zero-trust capable vendors, scoring each against enterprise capability, deployment, and operational risk criteria to guide platform selection.
 
 ### LEIDOS INC.
 **Supervisor / Principal Network Engineer | March 2026-July 2026 (third tenure)**
