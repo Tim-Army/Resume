@@ -33,7 +33,7 @@ Principal Network Engineer with more than 20 years across defense, healthcare, a
 
 - Evaluated zero-trust vendor capabilities against NIST SP 800-207 and DoD Zero Trust Reference Architecture pillars, mapping platform features to identity, device, network, and data protection requirements.
 - Authored and published a comparative analysis of 31 zero-trust capable vendors, scoring each against enterprise capability, deployment, and operational risk criteria to guide platform selection.
-- Built FortiGate platform expertise by authoring implementation and troubleshooting documentation covering firewall policy, VPN, and HA, validating every procedure in hands-on labs.
+- Built Fortinet FortiGate platform expertise by authoring implementation and troubleshooting documentation covering firewall policy, VPN, and HA, validating every procedure in hands-on labs.
 
 ### LEIDOS INC.
 **Supervisor / Principal Network Engineer | March 2026-July 2026 (third tenure)**
