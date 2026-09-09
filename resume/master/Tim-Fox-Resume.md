@@ -2,7 +2,7 @@
 
 **CCNP | Hands-On Principal Network Engineer | DoD, DoW, DISA & Air Force**
 
-United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/Tim-Army | https://www.linkedin.com/in/timarmy
+United States | timfox2025@tim.army | https://github.com/Tim-Army | https://www.linkedin.com/in/timarmy
 
 ## Professional Summary
 
