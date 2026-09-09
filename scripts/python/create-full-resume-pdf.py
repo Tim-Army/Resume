@@ -155,7 +155,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             leading=13,
             textColor=NAVY,
             spaceBefore=2.6,
-            spaceAfter=1.0,
+            spaceAfter=2.0,
             keepWithNext=True,
         ),
         "employer": ParagraphStyle(
@@ -196,7 +196,7 @@ def build_styles() -> dict[str, ParagraphStyle]:
             parent=samples["BodyText"],
             fontName="Helvetica",
             fontSize=10,
-            leading=11,
+            leading=10.5,
             textColor=DARK,
             leftIndent=13,
             firstLineIndent=-7,
