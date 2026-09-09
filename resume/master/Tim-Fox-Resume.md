@@ -28,14 +28,14 @@ Principal Network Engineer with more than 20 years across defense, healthcare, a
 
 ## PROFESSIONAL EXPERIENCE
 
-### GRAY LINK TECHNOLOGIES LLC
+### Gray Link Technologies LLC
 **Principal Network Engineer | July 2026-Present**
 
 - Evaluated zero-trust vendor capabilities against NIST SP 800-207 and DoD Zero Trust Reference Architecture pillars, mapping platform features to NIST SP 800-53 Rev. 5 control families including Access Control (AC), Identification and Authentication (IA), and System and Communications Protection (SC).
 - Authored and published a comparative analysis of 31 zero-trust capable vendors, scoring each against enterprise capability, deployment, and operational risk criteria to guide platform selection.
 - Developed Fortinet FortiGate expertise by configuring and validating firewall policy, IPsec and SSL VPN, HA, NAT, and routing in lab environments, authoring implementation, hardening, and troubleshooting documentation from validated configurations.
 
-### LEIDOS INC.
+### Leidos Inc.
 **Supervisor / Principal Network Engineer | March 2026-July 2026 (third tenure)**
 
 - Removed technical and operational blockers for 2 direct reports within an approximately 12-person infrastructure engineering team by coordinating access, equipment, documentation, training, and cross-team support.
@@ -48,31 +48,31 @@ Principal Network Engineer with more than 20 years across defense, healthcare, a
 - Co-designed networks for Air Force executive aircraft, translating mission, security, availability, and interoperability requirements into deployable architectures.
 - Evaluated pre-release HAIPE encryption equipment and documented operational findings, interoperability risks, and deployment considerations.
 
-### AKIMA / TUNDRA LLC
+### Akima / Tundra LLC
 **Senior Deployment Network Engineer | April 2024-July 2025 (contract recompeted)**
 
 - Reduced deployment risk by authoring network designs, implementation plans, test procedures, and technical documentation aligned with customer acceptance requirements.
 - Delivered 2 customer development environments by planning, installing, configuring, and validating multi-vendor infrastructure.
 
-### MSM TECHNOLOGY INC.
+### MSM Technology Inc.
 **Senior Data Center Network Engineer | November 2022-March 2024**
 
 - Strengthened data center security and IPv6 adoption by designing and implementing IPv6 access control lists.
 - Engineered and supported data center infrastructure spanning routing, switching, firewalls, load balancing, packet brokering, and Cisco ACI fabric environments.
 
-### LEIDOS INC.
+### Leidos Inc.
 **Lead Infrastructure Network Engineer | November 2019-November 2022 (second tenure; program sunset)**
 
 - Restored complex multi-vendor infrastructure services by leading Tier 3 escalations involving routing, traffic management, security, systems, and servers.
 - Advised engineering and operations teams on design decisions, configuration changes, troubleshooting strategies, and implementation risks.
 
-### BJC HEALTHCARE
+### BJC Healthcare
 **Senior Cisco Network Engineer Subject-Matter Expert | July 2017-January 2019 (role outsourced)**
 
 - Led engineering for a $9.7 million hospital network modernization across 2 hospitals and more than 40 clinics, directing architecture, migration, and validation.
 - Mentored engineers and project managers on technical dependencies, implementation risks, and network requirements.
 
-### LEIDOS INC.
+### Leidos Inc.
 **Senior Network Engineer Subject-Matter Expert | March 2016-July 2017 (began at Lockheed Martin; contract transitioned to Leidos)**
 
 - Established the engineering foundation at NetOps for the Joint Regional Security Stack (JRSS) at the Defense Information Systems Agency (DISA).
