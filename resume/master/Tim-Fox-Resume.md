@@ -14,6 +14,8 @@ Principal Network Engineer with more than 20 years across defense, healthcare, a
 
 **Network Engineering:** BGP, OSPF, MPLS, IPv4/IPv6, VLANs, access control lists, routing, switching, architecture, implementation, troubleshooting, and Tier 3 support.
 
+**Frameworks and Security:** NIST SP 800-207 Zero Trust Architecture, DoD Zero Trust Reference Architecture, zero-trust capability evaluation, security requirements analysis, and DoD 8570 IAT II/III and 8140 workforce alignment.
+
 **Platforms:** Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, Cisco 1001-X, Cisco 8000v, Juniper JUNOS, Palo Alto Networks, F5, Gigamon, Dell, VMware, VxRail, Linux, and Red Hat Enterprise Linux.
 
 ## CERTIFICATIONS
