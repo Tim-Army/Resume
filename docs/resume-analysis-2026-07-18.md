@@ -6,6 +6,14 @@
 
 > **Update, July 19, 2026.** Struck items no longer apply. The concise one-page resume and both targeted variants were deleted that day, leaving `resume/master/Tim-Fox-Resume.md` as the only resume source, and several chronology, homelab, and professional-development items were completed. See `docs/resume-build-manifest.md`.
 
+> **Update, September 9, 2026.** Tim joined Gray Link Technologies LLC as
+> Principal Network Engineer in July 2026, closing the third Leidos tenure at
+> March-July 2026. Supervisory positioning was retired from the resume: the
+> professional summary, headline, page titles, meta descriptions, and JSON-LD
+> `jobTitle` no longer carry "People Leader" or "Infrastructure Engineering
+> Supervisor". Items below that assume a current supervisory role are therefore
+> historical; the leadership evidence still stands as past experience.
+
 ## Baseline Review
 
 - [x] Review the full master resume and source.
@@ -36,12 +44,12 @@
 - [ ] Choose the primary target for each application:
   - [x] Principal Network Engineer
   - [ ] Network Architect
-  - [ ] Infrastructure Engineering Supervisor
+  - [ ] ~~Infrastructure Engineering Supervisor~~ Retired September 2026.
   - [ ] Engineering Manager
 - [x] Align the default headline with the selected target.
 - [x] Replace broad branding such as "Strategist, Innovator, and Coach" with job-searchable language.
 - [x] Use this headline as the starting point:
-  - [x] `Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks`
+  - [x] ~~`Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks`~~ Superseded September 2026; the supervisor segment was removed.
 - [x] Keep the Principal Network Engineer positioning as the default unless stronger management evidence is added.
 - [ ] Align the summary, competencies, and first-page accomplishments with each selected application target.
 
@@ -74,7 +82,8 @@
 
 ### Employer-Specific Metric Review
 
-- [ ] Leidos, 2026-present: capture team, supervisory, training, escalation, and delivery outcomes.
+- [ ] Gray Link Technologies, 2026-present: capture zero-trust evaluation scope, control-mapping coverage, and platform-selection outcomes.
+- [ ] Leidos, March-July 2026: capture team, supervisory, training, escalation, and delivery outcomes.
 - [ ] FEDITC: capture architecture scope, testing results, incidents restored, and mission impact that may be disclosed.
 - [ ] Akima / Tundra: capture deployment count, acceptance results, documentation volume, and avoided rework.
 - [ ] MSM Technology: capture IPv6 scope, ACL volume, environments supported, and security or readiness outcomes.
@@ -96,7 +105,7 @@
 
 ## Priority 1: Strengthen the Leadership Case
 
-- [ ] Quantify current supervisory responsibility: 2 direct reports within an approximately 12-person team.
+- [ ] ~~Quantify current supervisory responsibility: 2 direct reports within an approximately 12-person team.~~ Historical as of September 2026; retained as past experience at Leidos.
 - [ ] Add verified employee-development outcomes.
 - [ ] Add performance-management responsibility if applicable.
 - [ ] Add hiring, interviewing, or onboarding responsibility if applicable.
@@ -264,7 +273,7 @@ Before rewriting the summary:
 Confirm that the final summary communicates:
 
 - [ ] Principal-level network engineering.
-- [ ] Current supervisory responsibility.
+- [ ] ~~Current supervisory responsibility.~~ Retired September 2026.
 - [ ] Mission-critical multi-vendor infrastructure.
 - [ ] Defense, healthcare, enterprise, and data-center experience.
 - [ ] Advanced networking and security credentials.

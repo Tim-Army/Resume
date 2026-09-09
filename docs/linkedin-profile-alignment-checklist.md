@@ -2,20 +2,25 @@
 
 Use this checklist to keep the LinkedIn profile aligned with the current master resume at `resume/master/Tim-Fox-Resume.md`.
 
+> **Update, September 9, 2026.** Reopened after the master resume added Gray Link
+> Technologies LLC, closed the Leidos tenure, and retired the supervisor framing.
+
 ## Positioning
 
-- [x] Replace the current headline with: `Principal Network Engineer | Infrastructure Engineering Supervisor | Multi-Vendor Enterprise and Defense Networks`.
-- [ ] Keep **Principal Network Engineer** as the default positioning; use the supervisory scope as supporting evidence, not as a replacement for the engineering focus.
-- [x] Add an About section that mirrors the resume summary: 20-plus years of network engineering experience, multi-vendor enterprise/healthcare/defense work, hands-on technical depth, and people leadership.
+- [ ] Replace the current headline with: `Principal Network Engineer | Multi-Vendor Enterprise and Defense Networks`. The supervisor framing was retired from the resume in September 2026, so a LinkedIn headline still carrying it now conflicts with the master resume.
+- [ ] Keep **Principal Network Engineer** as the default positioning; treat past supervisory scope as supporting evidence, not as current responsibility.
+- [ ] Update the About section to mirror the current resume summary: 20-plus years of network engineering experience across defense, healthcare, and enterprise networks, the DISA Joint Regional Security Stack, Air Force executive aircraft communications, and the $9.7 million hospital modernization. The summary no longer claims people leadership.
 - [x] Use outcomes and operating scope in the About section rather than a long technology inventory.
 
 ## Experience
 
 ### Recent roles
 
-- [ ] Keep three to five high-value bullets for the current Leidos, FEDITC, Akima/Tundra, MSM Technology, and 2019-2022 Leidos roles.
+- [ ] Add the current role: Gray Link Technologies LLC, Principal Network Engineer, July 2026-present, with the zero-trust evaluation, 31-vendor comparative analysis, and Fortinet FortiGate bullets from the master resume.
+- [ ] Close the third Leidos tenure at March-July 2026 and convert its bullets to past tense.
+- [ ] Keep three to five high-value bullets for the Gray Link, Leidos, FEDITC, Akima/Tundra, MSM Technology, and 2019-2022 Leidos roles.
 - [ ] Lead each recent role with its strongest accomplishment or operational outcome, not a general responsibility.
-- [ ] Align the current Leidos role with the resume: two direct reports, technical and operational blocker removal, complex multivendor escalations, and technical training/knowledge transfer.
+- [ ] Align the March-July 2026 Leidos role with the resume: two direct reports, technical and operational blocker removal, complex multivendor escalations, and technical training/knowledge transfer, all in past tense.
 - [ ] Replace `TACLANE` with `HAIPE` in the FEDITC entry.
 - [ ] Describe FEDITC HAIPE work as pre-release evaluation, documented operational findings, deployment considerations, and risks; do not add unverified technical detail.
 - [ ] Preserve BJC HealthCare's verified scope: `$9.7M` modernization, two hospitals, and 40-plus clinics.
@@ -45,7 +50,7 @@ Use this checklist to keep the LinkedIn profile aligned with the current master 
 
 ## Final review
 
-- [x] Verify the headline fits LinkedIn's headline field and appears exactly as written above.
-- [x] Verify the About section opens with Principal Network Engineer positioning and is readable in the first two lines.
+- [ ] Verify the headline fits LinkedIn's headline field and appears exactly as written above.
+- [ ] Verify the About section opens with Principal Network Engineer positioning and is readable in the first two lines.
 - [ ] Confirm the five most recent positions are achievement-led and free of duplicate technology lists.
 - [ ] Confirm no unsupported performance claims, confidential details, or outdated terminology were introduced.
