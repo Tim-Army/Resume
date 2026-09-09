@@ -80,7 +80,7 @@ Principal Network Engineer with more than 20 years across defense, healthcare, a
 
 Attended college full time from 2007 to 2014 while transitioning from military service to civilian network engineering.
 
-## UNITED STATES ARMY
+## United States Army
 
 **Information Technology Specialist | April 1999-March 2006 (Honorable Discharge)**
 
