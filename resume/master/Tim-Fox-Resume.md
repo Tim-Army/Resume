@@ -90,12 +90,12 @@ Attended college full time from 2007 to 2014 while transitioning from military s
 
 ## EDUCATION
 
-### WEBSTER UNIVERSITY - St. Louis, Missouri
+### Webster University - St. Louis, Missouri
 **Master of Business Administration | March 2025**
 
 Coursework included business and financial analysis, accounting, business strategy, and Securities and Exchange Commission filings.
 
-### MICHIGAN TECHNOLOGICAL UNIVERSITY - Houghton, Michigan
+### Michigan Technological University - Houghton, Michigan
 **Bachelor of Science, Computer Networking and Systems Administration | 2011-2014**
 
 Coursework included project management, Cisco enterprise networking, network security engineering, Linux administration, and Windows Server administration.
