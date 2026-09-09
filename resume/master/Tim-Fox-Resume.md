@@ -4,11 +4,11 @@
 
 United States | Open to Remote and Onsite Roles | timfox2025@tim.army | https://github.com/Tim-Army | https://www.linkedin.com/in/timarmy
 
-## PROFESSIONAL SUMMARY
+## Professional Summary
 
 Principal Network Engineer with more than 20 years across defense, healthcare, and enterprise networks, including the DISA Joint Regional Security Stack and Air Force executive aircraft communications. Led engineering for a $9.7 million hospital modernization serving 2 hospitals and more than 40 clinics.
 
-## CORE COMPETENCIES
+## Core Competencies
 
 **Leadership and Delivery:** People management, mentoring, technical training, design reviews, implementation planning, documentation, stakeholder communication, escalation management, and operational support.
 
@@ -18,7 +18,7 @@ Principal Network Engineer with more than 20 years across defense, healthcare, a
 
 **Platforms:** Cisco IOS, IOS-XE, IOS-XR, Catalyst, ASR, Cisco 1001-X, Cisco 8000v, Juniper JUNOS, Palo Alto Networks, F5, Gigamon, Dell, VMware, VxRail, Linux, and Red Hat Enterprise Linux.
 
-## CERTIFICATIONS
+## Certifications
 
 - **Advanced Networking:** Cisco CCNP Enterprise, Cisco CCNA, and Juniper JNCIA-Junos.
 - **In Progress:** Cisco CCIE Enterprise Infrastructure.
@@ -26,7 +26,7 @@ Principal Network Engineer with more than 20 years across defense, healthcare, a
 - **Cloud and Data Center:** AWS Certified Cloud Practitioner, Dell VxRail Deploy Version 2, and VMware VCA-DCV.
 - **DoD Workforce Qualification Alignment:** DoD 8570 IAT II and IAT III; DoD 8140-aligned qualifications.
 
-## PROFESSIONAL EXPERIENCE
+## Professional Experience
 
 ### Gray Link Technologies LLC
 **Principal Network Engineer | July 2026-Present**
@@ -88,7 +88,7 @@ Attended college full time from 2007 to 2014 while transitioning from military s
 - Served as Windows domain administrator for approximately 800 users across Europe, sustaining 100% service availability.
 - Administered routing, switching, and fiber-optic communications for a 300-person battalion in Texas.
 
-## EDUCATION
+## Education
 
 ### Webster University - St. Louis, Missouri
 **Master of Business Administration | March 2025**
@@ -100,13 +100,13 @@ Coursework included business and financial analysis, accounting, business strate
 
 Coursework included project management, Cisco enterprise networking, network security engineering, Linux administration, and Windows Server administration.
 
-## PROFESSIONAL DEVELOPMENT
+## Professional Development
 
 - CCIE Training, Micronics Training | 2019-2026.
 - AWS Certified Cloud Practitioner Essentials, Amazon Web Services | May 2025.
 - Dell VxRail Installation and Implementation Training | October 2024.
 
-## HOMELAB
+## Homelab
 
 - Operates a multi-vendor lab spanning Cisco routing and switching, Dell VxRail, virtualization, servers, and network security appliances.
 - Maintains the [Enterprise Infrastructure Encyclopedia](https://github.com/Tim-Army/Enterprise-Infrastructure-Encyclopedia) combining architecture, configuration guidance, troubleshooting procedures, and hands-on labs in GitHub, HTML, and EPUB formats.
